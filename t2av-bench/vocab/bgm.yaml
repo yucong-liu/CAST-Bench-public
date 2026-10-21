@@ -1,0 +1,10 @@
+# BGM 桶专属属性
+version: 0.1
+field: bgm_attributes
+applies_to_l1: bgm
+
+# ─── 音乐种类 ──────────────────────────────────────────────
+music_kind:
+  - song                 # 歌曲（有人声 vocal）
+  - instrumental         # 纯音乐（无人声）
+  - rhythmic_beat        # 节奏律动（电子/Loop 类）

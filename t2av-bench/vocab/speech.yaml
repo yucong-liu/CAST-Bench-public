@@ -1,0 +1,47 @@
+# Speech 桶专属属性
+# 注意：voice_timbre 当前混合了年龄/性别/风格三类，后续可能需细分三个独立轴
+version: 0.1
+field: speech_attributes
+applies_to_l1: speech
+
+# ─── 声线 ──────────────────────────────────────────────────
+voice_timbre:
+  - child_voice          # 儿童声
+  - middle_aged_voice    # 中年声
+  - elderly_voice        # 老年声
+  - broadcast_tone       # 播音腔
+  - male_voice           # 男声
+  - female_voice         # 女声
+  - robotic_voice        # 机器人声（合成/电子嗓音）
+
+# ─── 语种 ──────────────────────────────────────────────────
+language:
+  - chinese              # 汉语
+  - english              # 英语
+  - japanese             # 日语
+  - french               # 法语
+  - russian              # 俄语
+  - german               # 德语
+  - korean               # 韩语
+  - spanish              # 西班牙语
+  - arabic               # 阿拉伯语
+
+# ─── 情感 ──────────────────────────────────────────────────
+emotion:
+  - angry                # 愤怒
+  - joyful               # 欢快
+  - sad                  # 悲伤
+  - surprised            # 惊讶
+  - confused             # 疑惑
+  - neutral              # 无情感
+  - panicked             # 惊慌
+
+# ─── 情感是否变化（v0.6 新增）─────────────────────────────
+# 约 40% 的 speech 样本在视频内呈现一次情绪转折（由 emotion_from → emotion_to）
+# 60% 的样本保持单一情绪（emotion_change=false）
+# 当 emotion_change=true 时：
+#   - emotion_from / emotion_to 必填且不相等，二者均来自上面的 emotion 枚举
+#   - speech_attributes.emotion 取 emotion_to（终态情绪），便于下游评测兼容
+emotion_change:
+  - true                 # 情绪有变化：由 emotion_from 转 emotion_to
+  - false                # 情绪不变：全片保持 emotion 单一情绪

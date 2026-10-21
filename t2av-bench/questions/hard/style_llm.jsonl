@@ -1,0 +1,47 @@
+{"spec_id": "style_0001", "question": "Is the foreground young woman rendered in a photorealistic style consistently throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0001", "question": "Does the background maintain a thick-impasto Impressionist oil-painting brushstroke style consistently throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0001", "question": "Are the two styles of the photorealistic foreground and the Impressionist background always clearly distinguishable and never assimilated into each other throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0001", "question": "Is the style boundary along the woman's silhouette clean, without visible outlines, ghosting, or style bleeding between foreground and background?", "associated_subject_id": null}
+{"spec_id": "style_0001", "question": "Do the painterly brushstrokes of the background remain stable during the camera movement, without secretly becoming sharper or more photorealistic?", "associated_subject_id": null}
+{"spec_id": "style_0002", "question": "Is the video strictly black-and-white everywhere except on the red-dressed girl and her red balloon, with no color leakage in any other region?", "associated_subject_id": null}
+{"spec_id": "style_0002", "question": "Does the colored region precisely conform to the outline of the girl and her balloon while she runs, without color spillover or color loss along the edges?", "associated_subject_id": null}
+{"spec_id": "style_0002", "question": "Do the hue and saturation of the red remain consistent throughout the video, without drifting toward other shades?", "associated_subject_id": null}
+{"spec_id": "style_0002", "question": "Are old black-and-white film media artifacts such as film grain, vertical scratches, and frame flicker consistently present throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0002", "question": "Does the contrast between the black-and-white world and the isolated red remain clearly established throughout, without the overall image drifting toward color or fading into grey?", "associated_subject_id": null}
+{"spec_id": "style_0003", "question": "Are the angler above the waterline and the real night sky rendered in a photorealistic style throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0003", "question": "Does the reflection on the water surface maintain a Van-Gogh-style swirling oil-painting brushstroke throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0003", "question": "Are the two styles of the photorealistic above-water world and the painted reflection always clearly distinguishable throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0003", "question": "Does the reflection exhibit flowing oil-painting brushstroke texture rather than an ordinary photoreal reflection or a static texture map?", "associated_subject_id": null}
+{"spec_id": "style_0003", "question": "Along the shoreline / water-surface boundary, do the two styles remain mutually uncontaminated with a clean edge between them?", "associated_subject_id": null}
+{"spec_id": "style_0004", "question": "Is the left half of the character rendered in strict cel-shaded anime flat-color style with hard-edged shadows and no gradients?", "associated_subject_id": null}
+{"spec_id": "style_0004", "question": "Is the right half of the character rendered in photorealistic style with visible pores and realistic lighting?", "associated_subject_id": null}
+{"spec_id": "style_0004", "question": "Is the left-side background an anime-style gradient color?", "associated_subject_id": null}
+{"spec_id": "style_0004", "question": "Is the vertical center-line boundary clean, without style bleeding, flickering, or gaps between the two halves?", "associated_subject_id": null}
+{"spec_id": "style_0004", "question": "Is the right-side background a photorealistic scene with shallow depth-of-field bokeh?", "associated_subject_id": null}
+{"spec_id": "style_0005", "question": "Does the bear cub at the center of the frame maintain a fully 3D volumetric rendering quality throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0005", "question": "Does the surrounding forest background maintain a purely flat 2D hand-drawn storybook illustration style throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0005", "question": "Are the two dimensional styles of the 3D subject and the 2D background always clearly distinguishable and never assimilated into each other throughout the video?", "associated_subject_id": null}
+{"spec_id": "style_0005", "question": "During the bear cub's movement, does the 2D background world stably retain its flat quality, without being pulled into a volumetric look or drifting in style?", "associated_subject_id": null}
+{"spec_id": "style_0006", "question": "Is the opening frame of the video in a recognizable Chinese ink-wash painting style, with dry-brush (feibai) strokes, ink-wash graduation, and negative-space blank background?", "associated_subject_id": null}
+{"spec_id": "style_0006", "question": "Is the ending frame of the video in a photorealistic style, with real horse-hair detail, kicked-up dust, and rim lighting?", "associated_subject_id": null}
+{"spec_id": "style_0006", "question": "Are the middle transition frames natural in appearance, without any awkward half-ink-half-realistic broken states?", "associated_subject_id": null}
+{"spec_id": "style_0007", "question": "Does the beginning of the video appear in a recognizable cel-shaded anime style?", "associated_subject_id": null}
+{"spec_id": "style_0007", "question": "Does the middle of the video appear in a clearly photorealistic style?", "associated_subject_id": null}
+{"spec_id": "style_0007", "question": "Does the end of the video switch back to a cel-shaded anime style?", "associated_subject_id": null}
+{"spec_id": "style_0007", "question": "Are the beginning and the ending highly consistent with each other in art style, line work, and color palette?", "associated_subject_id": null}
+{"spec_id": "style_0007", "question": "Are the style transitions between the three segments crisp and clearly delineated, without residual style blending across segments?", "associated_subject_id": null}
+{"spec_id": "style_0008", "question": "Does a segment with neon-outlined glitch-art style appear at some point in the video?", "associated_subject_id": null}
+{"spec_id": "style_0008", "question": "Does a segment with street graffiti spray-paint style appear at some point in the video?", "associated_subject_id": null}
+{"spec_id": "style_0008", "question": "During its own active segment, does each individual style stay internally uniform, without being mixed with other styles?", "associated_subject_id": null}
+{"spec_id": "style_0008", "question": "Does a segment with pop-art comic halftone (Ben-Day dots) style appear at some point in the video?", "associated_subject_id": null}
+{"spec_id": "style_0008", "question": "Does the opening of the video appear in a photorealistic style?", "associated_subject_id": null}
+{"spec_id": "style_0009", "question": "Is the opening sunflower field of the video in a recognizable photorealistic style?", "associated_subject_id": null}
+{"spec_id": "style_0009", "question": "After the camera zooms out, does the shot clearly reveal that this is an oil painting, with a visible picture frame, white gallery wall, and canvas texture all convincingly established?", "associated_subject_id": null}
+{"spec_id": "style_0009", "question": "After the camera pushes into the picture frame, does the image successfully transform into a thick-impasto Impressionist oil-painting brushstroke style?", "associated_subject_id": null}
+{"spec_id": "style_0009", "question": "Are the three layers — the photoreal sunflower field, the framed oil painting in the gallery, and the oil-painting world inside — clearly distinguishable in style?", "associated_subject_id": null}
+{"spec_id": "style_0009", "question": "After entering the oil-painting world, does the video consistently maintain the thick-impasto brushstroke style throughout that segment?", "associated_subject_id": null}
+{"spec_id": "style_0010", "question": "Does the opening of the video appear in an authentic ukiyo-e woodblock print style?", "associated_subject_id": null}
+{"spec_id": "style_0010", "question": "Does the video gradually transition into a fully formed cyberpunk style?", "associated_subject_id": null}
+{"spec_id": "style_0010", "question": "During the transition, is the neon-electrification and glitch-art conversion of the wave and cloud patterns stylistically coherent, rather than a stiff fade-in/fade-out?", "associated_subject_id": null}
+{"spec_id": "style_0010", "question": "Are the two genre styles — ukiyo-e and cyberpunk — each rendered sufficiently well to be clearly recognizable on their own?", "associated_subject_id": null}
+{"spec_id": "style_0010", "question": "Aside from the transition moment itself, does each of the two segments internally maintain a unified style without cross-genre contamination?", "associated_subject_id": null}

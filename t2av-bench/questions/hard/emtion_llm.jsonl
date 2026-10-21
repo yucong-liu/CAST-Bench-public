@@ -1,0 +1,106 @@
+{"spec_id": "emtion_0001", "question": "Is there a female voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Is there a female voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Is there a female voice in the audio of the video expressing an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Is there a boy's voice in the audio of the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Is there a female voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Do the mother's facial expression or body language in the video convey a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Do the mother's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Do the mother's facial expression or body language in the video convey an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Do the son's facial expression or body language in the video convey a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0001", "question": "Do the mother's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Is there a female voice in the audio of the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Is there a male voice in the audio of the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Is there a female voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Is there a male voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Is there a female voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Do the female coworker's facial expression or body language in the video convey a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Do the male coworker's facial expression or body language in the video convey a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Do the female coworker's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Do the male coworker's facial expression or body language in the video convey a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0002", "question": "Do the female coworker's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Is there a young female voice in the audio of the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Is there an elderly male voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Is there a young female voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Is there a young female voice in the audio of the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Is there an elderly male voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Do the daughter's facial expression or body language in the video convey a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Do the father's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Do the daughter's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Do the daughter's facial expression or body language in the video convey a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0003", "question": "Do the father's facial expression or body language in the video convey a neutral tender state?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Is there a customer's voice in the audio of the video expressing an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Is there a shop clerk's voice in the audio of the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Is there a customer's voice in the audio of the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Is there a shop clerk's voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Is there a customer's voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Do the customer's facial expression or body language in the video convey an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Do the shop clerk's facial expression or body language in the video convey a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Do the customer's facial expression or body language in the video convey a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Do the shop clerk's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0004", "question": "Do the customer's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Is there an elderly female voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Is there an elderly male voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Is there an elderly female voice in the audio of the video expressing an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Is there an elderly female voice in the audio of the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Is there an elderly female voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Do the grandmother's facial expression or body language in the video convey a neutral state?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Do the grandfather's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Do the grandmother's facial expression or body language in the video convey an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Do the grandmother's facial expression or body language in the video convey a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0005", "question": "Do the grandmother's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Is there a young female voice in the audio of the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Is there a young female voice in the audio of the video expressing an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Is there an elderly female voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Is there a young female voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Do the young woman's facial expression or body language in the video convey a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Do the young woman's facial expression or body language in the video convey an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Do the mother's facial expression or body language in the video convey a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0006", "question": "Do the young woman's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Is there a teacher's voice in the audio of the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Is there a boy's voice in the audio of the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Is there a boy's voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Is there a teacher's voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Is there a group of students' voices in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Is there a group of students' voices in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Do the teacher's facial expression or body language in the video convey a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Do the boy's facial expression or body language in the video convey a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Do the boy's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Do the teacher's facial expression or body language in the video convey a neutral state?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Do the students' facial expressions or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0007", "question": "Do the students' facial expressions or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Is there a young male voice in the audio of the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Is there a young male voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Is there an elderly female voice in the audio of the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Is there a nurse's voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Is there a young male voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Is there a young male voice in the audio of the video expressing a bittersweet joyful-and-sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Do the expectant father's facial expression or body language in the video convey a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Do the expectant father's facial expression or body language in the video convey a neutral, self-restrained state?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Do the grandmother's facial expression or body language in the video convey a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Do the nurse's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Do the expectant father's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0008", "question": "Do the expectant father's facial expression or body language in the video convey a bittersweet joyful-and-sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Is there a young male voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Is there an elderly male voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Is there an elderly male voice in the audio of the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Is there a young female voice in the audio of the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Is there a young male voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Is there a young male voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Do the red-shirt male's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Do the black-suited elderly male's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Do the black-suited elderly male's facial expression or body language in the video convey a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Do the blue-dress female's facial expression or body language in the video convey a confused emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Do the red-shirt male's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0009", "question": "Do the red-shirt male's facial expression or body language in the video convey a neutral, relaxed state?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Is there a young female voice in the audio of the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Is there a young female voice in the audio of the video expressing an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Is there a middle-aged female voice in the audio of the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Is there a young male voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Is there a young female voice in the audio of the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Is there a young female voice in the audio of the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Do the daughter's facial expression or body language in the video convey a sad emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Do the daughter's facial expression or body language in the video convey an angry emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Do the mother's facial expression or body language in the video convey a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Do the delivery courier's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Do the daughter's facial expression or body language in the video convey a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "emtion_0010", "question": "Do the daughter's facial expression or body language in the video convey a joyful emotion?", "associated_subject_id": null}

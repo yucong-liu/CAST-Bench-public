@@ -1,0 +1,42 @@
+# 环境声桶（ambient）：T2AV 音画场景一致性的基础信号
+id: ambient
+display_name: Ambient
+level: L1
+tier: core
+target_count: 50
+
+audio_profile: ambience       # 音频特征：持续性、低动态、场景化
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.ambient
+expected_l2_count: 6
+
+signature_dimensions:
+  - scene_classification           # 场景分类（CLIP / Qwen3-VL VQA）
+  - audio_scene_consistency        # 音频是否符合场景
+  - weather_consistency            # 风雨雷电时画面气象一致
+  - ambient_loudness_appropriate   # 城市街景不死寂、森林不轰隆
+  - long_term_audio_stability      # 8 秒内环境声不漂移
+
+typical_subjects:
+  - {type: scene, count: 1, role: scene_dominant}                # 场景本身是主体
+  - {type: human, count_range: [0, 10], role: extras, optional: true}
+  - {type: object, count_range: [0, 5], role: scene_element, optional: true}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - lipsync                        # 即使有人也不专门测嘴型
+  - dominant_dialogue
+  - close_up_subject_focus         # 环境声桶倾向 wide shot
+
+generation_constraints:
+  must_have_fields:
+    - scene_setting                # 场景描述必须丰富
+    - audio_events
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []
+  preferred_camera:                # 大景别优先
+    - long
+    - extreme_long
+    - medium_long

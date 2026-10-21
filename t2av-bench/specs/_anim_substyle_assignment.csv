@@ -1,0 +1,151 @@
+id,category,video_type,substyle,substyle_en
+action_0001,action,3d_animation,disney_3d,Disney-style 3D animation
+action_0010,action,2d_animation,gongbi,Chinese gongbi painting
+action_0023,action,3d_animation,cg_photoreal,photorealistic CG
+action_0028,action,2d_animation,watercolor,watercolor
+action_0032,action,2d_animation,pencil_sketch,pencil sketch
+action_0038,action,3d_animation,cn_donghua_3d,Chinese 3D donghua
+action_0042,action,3d_animation,low_poly,low-poly 3D
+action_0045,action,2d_animation,american_cartoon,American cartoon
+action_0046,action,2d_animation,marker,marker illustration
+action_0057,action,2d_animation,anime,Japanese anime
+action_0060,action,3d_animation,cg_photoreal,photorealistic CG
+action_0061,action,3d_animation,disney_3d,Disney-style 3D animation
+action_0071,action,2d_animation,anime,Japanese anime
+action_0073,action,3d_animation,cartoon_3d,3D cartoon
+action_0081,action,3d_animation,low_poly,low-poly 3D
+action_0085,action,2d_animation,crayon,crayon drawing
+action_0093,action,2d_animation,american_comic,American comic book
+ambient_0010,ambient,2d_animation,quick_sketch,quick sketch
+ambient_0020,ambient,3d_animation,cn_donghua_3d,Chinese 3D donghua
+ambient_0022,ambient,2d_animation,oil_painting,oil painting
+ambient_0028,ambient,2d_animation,pencil_sketch,pencil sketch
+ambient_0032,ambient,2d_animation,watercolor,watercolor
+ambient_0038,ambient,3d_animation,disney_3d,Disney-style 3D animation
+ambient_0042,ambient,3d_animation,cg_photoreal,photorealistic CG
+ambient_0045,ambient,2d_animation,korean_manhwa,Korean webtoon (manhwa)
+ambient_0053,ambient,3d_animation,pixar_3d,Pixar-style 3D animation
+ambient_0057,ambient,2d_animation,marker,marker illustration
+ambient_0061,ambient,3d_animation,pixar_3d,Pixar-style 3D animation
+ambient_0071,ambient,2d_animation,children_cartoon,children's cartoon
+ambient_0073,ambient,3d_animation,lego,LEGO brick style
+ambient_0085,ambient,2d_animation,cn_donghua_2d,Chinese 2D donghua
+ambient_0094,ambient,3d_animation,cg_photoreal,photorealistic CG
+animal_0001,animal,3d_animation,cg_photoreal,photorealistic CG
+animal_0020,animal,3d_animation,voxel,voxel art
+animal_0022,animal,2d_animation,cartoon_2d,2D cartoon
+animal_0023,animal,3d_animation,low_poly,low-poly 3D
+animal_0028,animal,2d_animation,disney_2d,2D Disney animation
+animal_0032,animal,2d_animation,european_comic,European comic (bande dessinee)
+animal_0038,animal,3d_animation,cartoon_3d,3D cartoon
+animal_0042,animal,3d_animation,cartoon_3d,3D cartoon
+animal_0045,animal,2d_animation,cn_donghua_2d,Chinese 2D donghua
+animal_0046,animal,2d_animation,cel_shaded,cel-shaded (celluloid animation)
+animal_0057,animal,2d_animation,gongbi,Chinese gongbi painting
+animal_0060,animal,3d_animation,cg_photoreal,photorealistic CG
+animal_0061,animal,3d_animation,cartoon_3d,3D cartoon
+animal_0073,animal,3d_animation,pixar_3d,Pixar-style 3D animation
+animal_0081,animal,3d_animation,cg_photoreal,photorealistic CG
+animal_0085,animal,2d_animation,cn_donghua_2d,Chinese 2D donghua
+animal_0093,animal,2d_animation,mg_animation,motion graphics (MG) animation
+animal_0094,animal,3d_animation,cg_photoreal,photorealistic CG
+bgm_0005,bgm,3d_animation,pixar_3d,Pixar-style 3D animation
+bgm_0010,bgm,2d_animation,oil_painting,oil painting
+bgm_0020,bgm,3d_animation,disney_3d,Disney-style 3D animation
+bgm_0028,bgm,2d_animation,crayon,crayon drawing
+bgm_0032,bgm,2d_animation,oil_painting,oil painting
+bgm_0038,bgm,3d_animation,lego,LEGO brick style
+bgm_0042,bgm,3d_animation,low_poly,low-poly 3D
+bgm_0046,bgm,2d_animation,crayon,crayon drawing
+bgm_0057,bgm,2d_animation,anime,Japanese anime
+bgm_0060,bgm,3d_animation,cartoon_3d,3D cartoon
+bgm_0073,bgm,3d_animation,lego,LEGO brick style
+bgm_0093,bgm,2d_animation,american_comic,American comic book
+bgm_0094,bgm,3d_animation,low_poly,low-poly 3D
+instrument_0001,instrument,3d_animation,pixar_3d,Pixar-style 3D animation
+instrument_0005,instrument,3d_animation,cartoon_3d,3D cartoon
+instrument_0010,instrument,2d_animation,children_cartoon,children's cartoon
+instrument_0020,instrument,3d_animation,cn_donghua_3d,Chinese 3D donghua
+instrument_0022,instrument,2d_animation,american_cartoon,American cartoon
+instrument_0023,instrument,3d_animation,cg_photoreal,photorealistic CG
+instrument_0028,instrument,2d_animation,american_comic,American comic book
+instrument_0045,instrument,2d_animation,watercolor,watercolor
+instrument_0046,instrument,2d_animation,minimalist_line,minimalist line art
+instrument_0053,instrument,3d_animation,voxel,voxel art
+instrument_0061,instrument,3d_animation,lego,LEGO brick style
+instrument_0073,instrument,3d_animation,voxel,voxel art
+instrument_0081,instrument,3d_animation,lego,LEGO brick style
+instrument_0085,instrument,2d_animation,american_cartoon,American cartoon
+instrument_0093,instrument,2d_animation,pencil_sketch,pencil sketch
+non_verbal_vocal_0001,non_verbal_vocal,3d_animation,voxel,voxel art
+non_verbal_vocal_0005,non_verbal_vocal,3d_animation,lego,LEGO brick style
+non_verbal_vocal_0010,non_verbal_vocal,2d_animation,ink_painting,Chinese ink painting
+non_verbal_vocal_0020,non_verbal_vocal,3d_animation,disney_3d,Disney-style 3D animation
+non_verbal_vocal_0022,non_verbal_vocal,2d_animation,ink_painting,Chinese ink painting
+non_verbal_vocal_0023,non_verbal_vocal,3d_animation,disney_3d,Disney-style 3D animation
+non_verbal_vocal_0028,non_verbal_vocal,2d_animation,ink_painting,Chinese ink painting
+non_verbal_vocal_0038,non_verbal_vocal,3d_animation,low_poly,low-poly 3D
+non_verbal_vocal_0042,non_verbal_vocal,3d_animation,disney_3d,Disney-style 3D animation
+non_verbal_vocal_0045,non_verbal_vocal,2d_animation,minimalist_line,minimalist line art
+non_verbal_vocal_0046,non_verbal_vocal,2d_animation,disney_2d,2D Disney animation
+non_verbal_vocal_0053,non_verbal_vocal,3d_animation,voxel,voxel art
+non_verbal_vocal_0057,non_verbal_vocal,2d_animation,gongbi,Chinese gongbi painting
+non_verbal_vocal_0060,non_verbal_vocal,3d_animation,pixar_3d,Pixar-style 3D animation
+non_verbal_vocal_0061,non_verbal_vocal,3d_animation,cn_donghua_3d,Chinese 3D donghua
+non_verbal_vocal_0073,non_verbal_vocal,3d_animation,cartoon_3d,3D cartoon
+non_verbal_vocal_0081,non_verbal_vocal,3d_animation,lego,LEGO brick style
+non_verbal_vocal_0085,non_verbal_vocal,2d_animation,children_cartoon,children's cartoon
+non_verbal_vocal_0093,non_verbal_vocal,2d_animation,gongbi,Chinese gongbi painting
+non_verbal_vocal_0094,non_verbal_vocal,3d_animation,voxel,voxel art
+object_0001,object,3d_animation,cartoon_3d,3D cartoon
+object_0005,object,3d_animation,cn_donghua_3d,Chinese 3D donghua
+object_0020,object,3d_animation,lego,LEGO brick style
+object_0023,object,3d_animation,lego,LEGO brick style
+object_0028,object,2d_animation,marker,marker illustration
+object_0032,object,2d_animation,european_comic,European comic (bande dessinee)
+object_0042,object,3d_animation,disney_3d,Disney-style 3D animation
+object_0046,object,2d_animation,ink_painting,Chinese ink painting
+object_0053,object,3d_animation,low_poly,low-poly 3D
+object_0057,object,2d_animation,cel_shaded,cel-shaded (celluloid animation)
+object_0060,object,3d_animation,cn_donghua_3d,Chinese 3D donghua
+object_0061,object,3d_animation,disney_3d,Disney-style 3D animation
+object_0073,object,3d_animation,pixar_3d,Pixar-style 3D animation
+object_0081,object,3d_animation,cn_donghua_3d,Chinese 3D donghua
+object_0094,object,3d_animation,voxel,voxel art
+sfx_0001,sfx,3d_animation,cg_photoreal,photorealistic CG
+sfx_0010,sfx,2d_animation,european_comic,European comic (bande dessinee)
+sfx_0020,sfx,3d_animation,lego,LEGO brick style
+sfx_0022,sfx,2d_animation,korean_manhwa,Korean webtoon (manhwa)
+sfx_0023,sfx,3d_animation,cn_donghua_3d,Chinese 3D donghua
+sfx_0028,sfx,2d_animation,pencil_sketch,pencil sketch
+sfx_0032,sfx,2d_animation,quick_sketch,quick sketch
+sfx_0038,sfx,3d_animation,pixar_3d,Pixar-style 3D animation
+sfx_0042,sfx,3d_animation,cartoon_3d,3D cartoon
+sfx_0045,sfx,2d_animation,disney_2d,2D Disney animation
+sfx_0046,sfx,2d_animation,retro_90s_anime,90s retro Japanese anime
+sfx_0053,sfx,3d_animation,voxel,voxel art
+sfx_0057,sfx,2d_animation,quick_sketch,quick sketch
+sfx_0073,sfx,3d_animation,voxel,voxel art
+sfx_0081,sfx,3d_animation,cartoon_3d,3D cartoon
+sfx_0085,sfx,2d_animation,watercolor,watercolor
+sfx_0093,sfx,2d_animation,cel_shaded,cel-shaded (celluloid animation)
+sfx_0094,sfx,3d_animation,low_poly,low-poly 3D
+speech_0001,speech,3d_animation,cg_photoreal,photorealistic CG
+speech_0005,speech,3d_animation,pixar_3d,Pixar-style 3D animation
+speech_0020,speech,3d_animation,cn_donghua_3d,Chinese 3D donghua
+speech_0022,speech,2d_animation,minimalist_line,minimalist line art
+speech_0023,speech,3d_animation,voxel,voxel art
+speech_0028,speech,2d_animation,korean_manhwa,Korean webtoon (manhwa)
+speech_0032,speech,2d_animation,cartoon_2d,2D cartoon
+speech_0038,speech,3d_animation,cn_donghua_3d,Chinese 3D donghua
+speech_0042,speech,3d_animation,low_poly,low-poly 3D
+speech_0045,speech,2d_animation,retro_90s_anime,90s retro Japanese anime
+speech_0046,speech,2d_animation,mg_animation,motion graphics (MG) animation
+speech_0053,speech,3d_animation,pixar_3d,Pixar-style 3D animation
+speech_0057,speech,2d_animation,retro_90s_anime,90s retro Japanese anime
+speech_0071,speech,2d_animation,cartoon_2d,2D cartoon
+speech_0073,speech,3d_animation,low_poly,low-poly 3D
+speech_0081,speech,3d_animation,disney_3d,Disney-style 3D animation
+speech_0085,speech,2d_animation,mg_animation,motion graphics (MG) animation
+speech_0093,speech,2d_animation,oil_painting,oil painting
+speech_0094,speech,3d_animation,low_poly,low-poly 3D

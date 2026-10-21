@@ -1,0 +1,399 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://t2av-bench/specs/schema.json",
+  "title": "T2AV Spec",
+  "description": "Reverse-flow spec for a single T2AV record. Sound-source-first (L1 categories) + global axes + multi-shot support.",
+  "type": "object",
+  "required": [
+    "id", "category", "version", "scene_setting", "subjects", "audio_events",
+    "shot_count", "visual_style", "audio_situation", "sound_complexity",
+    "video_type", "camera_movement", "camera"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z_]+_[0-9]{4}$",
+      "description": "{category}_{index:04d}，例：speech_0001"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["speech", "non_verbal_vocal", "object", "action", "ambient", "animal", "instrument", "bgm", "sfx"],
+      "description": "L1 声源桶（9 桶）"
+    },
+    "version": {
+      "type": "string",
+      "description": "数据集版本"
+    },
+    "duration_sec": {
+      "type": "number",
+      "minimum": 2,
+      "maximum": 30
+    },
+
+    "shot_count": {
+      "type": "string",
+      "enum": ["single_shot", "multi_shot"],
+      "description": "vocab/global.yaml.shot_count；multi_shot 时 shots[] 必填 2–9 项"
+    },
+    "visual_style": {
+      "type": "string",
+      "enum": ["sci_fi", "fantasy", "realistic", "punk", "historical", "xuanhuan"],
+      "description": "vocab/global.yaml.visual_style"
+    },
+    "audio_situation": {
+      "type": "string",
+      "enum": ["single_subject", "multi_subject", "off_screen"],
+      "description": "vocab/global.yaml.audio_situation"
+    },
+    "sound_complexity": {
+      "type": "string",
+      "enum": ["single_source", "multi_source"],
+      "description": "vocab/global.yaml.sound_complexity；按 L1 大类判定：单源=同一 L1 大类，多源=跨 2 个以上 L1 大类"
+    },
+    "video_type": {
+      "type": "string",
+      "enum": ["2d_animation", "3d_animation", "game", "film_tv", "vlog", "advertisement"],
+      "description": "vocab/global.yaml.video_type"
+    },
+    "camera_movement": {
+      "type": "string",
+      "enum": ["static", "dolly_in", "dolly_out", "tracking", "follow", "orbit", "none"],
+      "description": "vocab/global.yaml.camera_movement；multi_shot 下为整体主导运镜；speech / action 类一律为 'none'（不引入运镜约束）"
+    },
+
+    "scene_setting": {
+      "type": "string",
+      "minLength": 5,
+      "description": "自然语言场景描述（光照/地点/氛围）。multi_shot 时是整体前提，per-shot 细节在 shots[].scene_setting"
+    },
+    "visual_scene": {
+      "type": "object",
+      "description": "视觉场景结构化控制（vocab/visual_scene.yaml 决策后启用）",
+      "additionalProperties": true
+    },
+    "subjects": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/Subject"},
+      "minItems": 0
+    },
+    "audio_events": {
+      "type": "array",
+      "description": "L2 发声场景列表（视频整体）；multi_shot 时是所有 shots 的并集",
+      "items": {"$ref": "#/$defs/AudioEvent"},
+      "minItems": 1
+    },
+    "camera": {"$ref": "#/$defs/Camera"},
+    "primary_action": {"type": "string"},
+    "physics_phenomena": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+
+    "shots": {
+      "type": "array",
+      "description": "多镜头分镜数组（multi_shot 时必填 2–9 项）",
+      "items": {"$ref": "#/$defs/Shot"},
+      "minItems": 0,
+      "maxItems": 9
+    },
+
+    "speech_attributes": {
+      "type": "object",
+      "description": "speech 桶专属属性（vocab/speech.yaml）。当 emotion_change=true 时，emotion_from / emotion_to 必填且不相等；emotion 字段取 emotion_to（终态情绪），便于下游评测兼容。",
+      "additionalProperties": false,
+      "properties": {
+        "voice_timbre": {
+          "type": "string",
+          "enum": [
+            "child_voice", "middle_aged_voice", "elderly_voice", "broadcast_tone",
+            "male_voice", "female_voice", "robotic_voice"
+          ]
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+            "chinese", "english", "japanese", "french", "russian",
+            "german", "korean", "spanish", "arabic"
+          ]
+        },
+        "emotion": {
+          "type": "string",
+          "enum": [
+            "angry", "joyful", "sad", "surprised", "confused", "neutral",
+            "panicked"
+          ],
+          "description": "主导/终态情绪。emotion_change=false 时即全片单一情绪；emotion_change=true 时等于 emotion_to。"
+        },
+        "emotion_change": {
+          "type": "boolean",
+          "default": false,
+          "description": "全片是否出现一次情绪转折。约 40% 的样本为 true（由 emotion_from → emotion_to）。"
+        },
+        "emotion_from": {
+          "type": "string",
+          "enum": [
+            "angry", "joyful", "sad", "surprised", "confused", "neutral",
+            "panicked"
+          ],
+          "description": "起始情绪（仅当 emotion_change=true 时有值）。"
+        },
+        "emotion_to": {
+          "type": "string",
+          "enum": [
+            "angry", "joyful", "sad", "surprised", "confused", "neutral",
+            "panicked"
+          ],
+          "description": "终止情绪（仅当 emotion_change=true 时有值），必须与 emotion_from 不同；同时也是 emotion 字段的取值。"
+        }
+      }
+    },
+
+    "instrument_attributes": {
+      "type": "object",
+      "description": "instrument 桶专属属性（vocab/instrument.yaml）",
+      "additionalProperties": false,
+      "properties": {
+        "playing_mode": {"type": "string", "enum": ["solo", "ensemble"]}
+      }
+    },
+
+    "bgm": {
+      "type": "object",
+      "description": "bgm 桶用 + 跨桶背景音乐字段；music_kind 来自 vocab/bgm.yaml",
+      "additionalProperties": false,
+      "properties": {
+        "music_kind": {"type": "string", "enum": ["song", "instrumental", "rhythmic_beat"]},
+        "mood": {"type": "string"},
+        "tempo": {"type": "string", "enum": ["slow", "medium", "fast", "varied"]},
+        "genre": {"type": "string"}
+      }
+    },
+
+    "vfx": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "sfx 桶用：视觉特效列表"
+    },
+
+    "text_on_screen": {
+      "type": "array",
+      "description": "画面中应出现的文字（OCR 评测 GT）。约 10% 样本有非空数组；其余为 []。下游评测端可据此分流到 Text-rendering OCR 评测。",
+      "items": {
+        "type": "object",
+        "required": ["text", "kind"],
+        "additionalProperties": false,
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "description": "画面里出现的真实文字内容（OCR ground truth）"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "subtitle",
+              "narration",
+              "news_banner",
+              "ui_label",
+              "signage",
+              "ad_copy",
+              "screen_content"
+            ],
+            "description": "subtitle=对白字幕；narration=旁白叙事文本；news_banner=新闻条；ui_label=UI 文字（手机/按钮）；signage=店招/路牌/品牌 logo；ad_copy=广告标语；screen_content=显示器内容"
+          },
+          "shot_idx": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10,
+            "description": "multi_shot 时该文字出现在第几个分镜（1-based）；single_shot 可省略"
+          },
+          "position": {
+            "type": "string",
+            "enum": ["top", "bottom", "left", "right", "center", "background"]
+          },
+          "language": {
+            "type": "string",
+            "enum": [
+              "english", "chinese", "japanese", "russian", "french",
+              "german", "korean", "spanish", "arabic"
+            ]
+          }
+        }
+      }
+    },
+
+    "auxiliary_info": {
+      "type": "object",
+      "description": "测评端 ground truth，keys 即测评点名",
+      "additionalProperties": true
+    },
+    "dimensions_hit": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "从 auxiliary_info.keys() 自动派生"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "generated_by": {"type": "string"},
+        "generated_at": {"type": "string", "format": "date-time"},
+        "llm_model": {"type": "string"},
+        "is_gap_fill": {"type": "boolean", "default": false},
+        "gap_fill_target": {"type": "string"}
+      }
+    }
+  },
+
+  "allOf": [
+    {
+      "if": {
+        "properties": {"shot_count": {"const": "multi_shot"}},
+        "required": ["shot_count"]
+      },
+      "then": {
+        "required": ["shots"],
+        "properties": {
+          "shots": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 9
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "speech_attributes": {
+            "type": "object",
+            "properties": {"emotion_change": {"const": true}},
+            "required": ["emotion_change"]
+          }
+        },
+        "required": ["speech_attributes"]
+      },
+      "then": {
+        "properties": {
+          "speech_attributes": {
+            "required": ["emotion_from", "emotion_to"]
+          }
+        }
+      }
+    }
+  ],
+
+  "$defs": {
+    "Subject": {
+      "type": "object",
+      "required": ["id", "type", "descriptor"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^S[0-9]+$"},
+        "type": {
+          "type": "string",
+          "enum": ["human", "animal", "object", "scene", "anthropomorphic", "vfx"]
+        },
+        "descriptor": {"type": "string", "minLength": 3},
+        "appearance": {"type": "array", "items": {"type": "string"}},
+        "material": {"type": "string"},
+        "species": {"type": "string", "description": "vocab/animal.yaml.species 枚举值（animal 桶用）"},
+        "age_group": {"type": "string", "description": "child / teen / middle_aged / elderly（non_verbal_vocal 必填）"},
+        "gender": {"type": "string", "enum": ["male", "female"], "description": "仅允许二元性别：male / female。禁止 nonbinary / non-binary / androgynous / gender-neutral / genderqueer 等值。"},
+        "instrument_type": {"type": "string"},
+        "primary_action": {"type": "string"},
+        "speech": {"type": "string"},
+        "is_speaker": {"type": "boolean"},
+        "role": {"type": "string"}
+      }
+    },
+
+    "AudioEvent": {
+      "type": "object",
+      "required": ["l2_id", "parent_l1"],
+      "properties": {
+        "l2_id": {"type": "string", "description": "vocab/audio_events.yaml.l2_scenes.<parent_l1>.* 中的 enum id"},
+        "l3_kind": {"type": "string", "description": "vocab/audio_events.yaml.l2_scenes.<parent_l1>.<l2_id>[*] 中的具体种类（部分桶才有 L3）"},
+        "parent_l1": {
+          "type": "string",
+          "enum": ["speech", "non_verbal_vocal", "object", "action", "ambient", "animal", "instrument", "bgm", "sfx"]
+        },
+        "onset_pattern": {
+          "type": "string",
+          "enum": ["single_burst", "repeated", "continuous", "rising", "falling"]
+        },
+        "associated_subject_id": {"type": "string"},
+        "shot_idx": {"type": "integer", "description": "若该 audio_event 仅出现在某 shot，标注 shot_idx"},
+        "timing_sec": {
+          "type": "array",
+          "items": {"type": "number"},
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "[start, end] 相对视频开始"
+        }
+      }
+    },
+
+    "Camera": {
+      "type": "object",
+      "properties": {
+        "shot_size": {"type": "string"},
+        "angle": {"type": "string"},
+        "movement": {"type": "string"},
+        "lens": {
+          "type": "string",
+          "enum": ["wide_angle", "standard", "telephoto", "macro", "fisheye", "anamorphic"],
+          "description": "描述性词，禁止焦段毫米数（如 24mm/35mm/50mm）"
+        }
+      }
+    },
+
+    "Shot": {
+      "type": "object",
+      "required": ["shot_idx", "scene_setting", "camera"],
+      "description": "多镜头里的单个分镜",
+      "properties": {
+        "shot_idx": {"type": "integer", "minimum": 1, "maximum": 10, "description": "1-based 分镜序号"},
+        "duration_sec": {"type": "number", "minimum": 0.3},
+        "scene_setting": {"type": "string", "minLength": 3, "description": "本分镜的画面描述"},
+        "camera": {"$ref": "#/$defs/Camera"},
+        "primary_action": {"type": "string"},
+        "audio_events": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/AudioEvent"},
+          "description": "本分镜出现的 audio_events（顶层 audio_events 是所有 shots 的并集）"
+        },
+        "subjects_visible": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^S[0-9]+$"},
+          "description": "本分镜出现的 subject id 列表（引用顶层 subjects[].id）"
+        },
+        "dialogue": {
+          "type": "array",
+          "description": "speech 桶 multi_shot 专用：本分镜内被授权说出的台词分段。每段 text 必须是完整、可在 ~5s 内说完的独立句；按 shot 顺序拼接所有同一 speaker 的 text 必须等于 subjects[*].speech 全文（VERBATIM）。非 speech 桶或无说话主体的镜头省略此字段。",
+          "items": {
+            "type": "object",
+            "required": ["speaker_id", "text"],
+            "additionalProperties": false,
+            "properties": {
+              "speaker_id": {
+                "type": "string",
+                "pattern": "^S[0-9]+$",
+                "description": "引用顶层 subjects[].id（is_speaker=true 的主体）"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1,
+                "description": "本镜该 speaker 说出的完整台词片段（不得以 ... / … 结尾）"
+              }
+            }
+          }
+        },
+        "transition_in": {
+          "type": "string",
+          "enum": ["cut", "fade", "dissolve", "wipe"],
+          "description": "从上一镜过渡到本镜的方式"
+        }
+      }
+    }
+  }
+}

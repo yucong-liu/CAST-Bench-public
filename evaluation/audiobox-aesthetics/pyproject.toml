@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audiobox_aesthetics"
+version = "0.0.4"
+description = "Unified automatic quality assessment for speech, music, and sound."
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+dependencies = [
+  "numpy",
+  "torch>=2.2.0",
+  "torchaudio",
+  "tqdm",
+  "submitit",
+  "huggingface_hub",
+  "rich>=13.9.4",
+  "safetensors>=0.5.3",
+]
+
+[project.scripts]
+audio-aes = "audiobox_aesthetics.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/facebookresearch/audiobox-aesthetics"
+Issues = "https://github.com/facebookresearch/audiobox-aesthetics/issues"
+
+

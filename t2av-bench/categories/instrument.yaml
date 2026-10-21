@@ -1,0 +1,40 @@
+# 乐器桶（instrument）：边缘桶，演奏动作 ↔ 音符 timing
+id: instrument
+display_name: Instrument
+level: L1
+tier: edge
+target_count: 20
+
+audio_profile: music          # 音频特征：旋律 + 节奏
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.instrument
+expected_l2_count: 6
+
+extra_vocab_refs:
+  - vocab/instrument.yaml     # playing_mode（独奏/合奏）
+
+signature_dimensions:
+  - instrument_recognition         # 乐器种类识别
+  - performer_motion_music_align   # 演奏动作 ↔ 音符 timing
+  - performer_consistency          # 演奏者外观稳定
+  - audio_visual_temporal_align    # 击弦 / 按键 ↔ 出声
+  - music_tempo_visual_align       # 节奏 ↔ 镜头 / 动作合拍
+
+typical_subjects:
+  - {type: object, count_range: [1, 2], role: instrument, must_be_visible: true}
+  - {type: human, count_range: [0, 4], role: performer, optional: true}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - dominant_dialogue
+  - heavy_ambient
+  - bgm_layered                    # 这桶里乐器声是主角，不能被 BGM 盖
+
+generation_constraints:
+  must_have_fields:
+    - subjects[*].instrument_type  # 乐器主体必标种类
+    - audio_events
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []

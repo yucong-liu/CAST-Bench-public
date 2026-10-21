@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv*/
+venv/
+envs/
+
+# Local config / secrets
+.env
+*.local
+config.local.*
+
+# Model weights and checkpoints (keep Python packages named `models/` inside the tree)
+/models/
+weights/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+
+# Generated media and evaluation outputs
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+runs/
+runs_summary/
+score_out/
+*_test/
+generation/
+
+# Logs and caches
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

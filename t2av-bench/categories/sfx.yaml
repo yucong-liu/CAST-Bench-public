@@ -1,0 +1,39 @@
+# 特效音桶（sfx）：边缘桶，设计音效（非物理来源）
+# 这个桶是"反真实"桶 —— 刻意考察模型对非自然音的处理能力
+id: sfx
+display_name: Designed Sound Effects
+level: L1
+tier: edge
+target_count: 20
+
+audio_profile: designed_sfx
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.sfx
+expected_l2_count: 6
+
+signature_dimensions:
+  - sfx_event_detection            # 特效音识别（Qwen3-VL VQA / 设计音效专用模型）
+  - transition_audio_visual_align  # 转场音 ↔ 镜头切换
+  - ui_visual_align                # UI 提示音 ↔ 屏幕 UI 反馈
+  - vfx_audio_align                # 魔法技能特效 ↔ 视觉粒子 / 光效
+  - sfx_intensity_visual_align     # 夸张音效强度 ↔ 画面表现力
+
+typical_subjects:
+  - {type: object, count_range: [0, 3], role: fx_trigger, optional: true}
+  - {type: human, count_range: [0, 4], role: fx_caster, optional: true}
+  - {type: vfx, count_range: [1, 3], role: visual_effect, must_be_visible: true}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - lipsync
+  - physics_phenomena              # 设计音效不强求物理真实
+  - ambient_dominance
+
+generation_constraints:
+  must_have_fields:
+    - audio_events                 # 必含至少 1 个 sfx 类音频事件
+    - vfx                          # 必须有对应的视觉特效字段
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []

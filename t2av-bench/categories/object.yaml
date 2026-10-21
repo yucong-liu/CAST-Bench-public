@@ -1,0 +1,37 @@
+# 物体声桶（object）：物理可追的物体发声，10 个 L2 是并列最多的桶之一
+id: object
+display_name: Object Sound
+level: L1
+tier: core
+target_count: 50
+
+audio_profile: sfx_heavy      # 音频特征：短促、高动态、物理可追
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.object
+expected_l2_count: 3          # v0.5: 重组为 交通场景/武器/互动声 三个 L2，共 19 个 L3
+
+signature_dimensions:
+  - audio_event_detection         # 声音事件分类（CLAP/AudioSet）
+  - audio_visual_temporal_align   # 声画时序对齐（关键命门）
+  - physics_phenomena             # 撞击/破碎/液体的物理表现
+  - object_motion_align           # 发声物体运动 ↔ 声音强度同步
+  - material_consistency          # 材质决定音色（玻璃 vs 木头）
+
+typical_subjects:
+  - {type: object, count_range: [1, 3], role: sound_emitter, must_be_visible: true}
+  - {type: human, count_range: [0, 1], role: operator, optional: true}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - lipsync                       # 物体不开口
+  - multi_speaker
+  - dialogue_dense
+
+generation_constraints:
+  must_have_fields:
+    - audio_events
+    - subjects[*].material        # 发声物体必标材质
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []

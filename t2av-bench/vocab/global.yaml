@@ -1,0 +1,68 @@
+# T2AV-Bench 全局视频要求
+# 所有 spec 必须填这 6 个轴。schema 强制校验。
+version: 0.1
+field: global
+
+# ─── 镜头数 ────────────────────────────────────────────────
+# single_shot: 1 个镜头
+# multi_shot:  2–9 个镜头，每个镜头单独描述（spec 必须填充 shots[] 数组）
+# 多镜头的镜头数分布按 2:3:4:5:{6-9} = 0.5:1:3:4.5:1 权重分配
+# （见 scripts/02_generate_specs.py 的 MULTI_SHOT_DIST_WEIGHTS）
+shot_count:
+  - single_shot          # 单镜头
+  - multi_shot           # 多镜头
+
+# ─── 画面风格 ──────────────────────────────────────────────
+visual_style:
+  - sci_fi               # 科幻
+  - fantasy              # 奇幻
+  - realistic            # 写实
+  - punk                 # 朋克
+  - historical           # 历史
+  - xuanhuan             # 玄幻（东方奇幻）
+
+# ─── 发声主体情况（音频的"主体侧"）────────────────────────
+audio_situation:
+  - single_subject       # 单主体（只有一个主体发声）
+  - multi_subject        # 多主体（多个主体同时/接力发声）
+  - off_screen           # 画外音（声源不在画面里）
+
+# ─── 声源复杂度（按 L1 大类判定，只分单源 / 多源两档）─────
+# 判定依据：声源所属的 L1 大类（instrument / animal / speech /
+# human_nonverbal / vehicle / ambient / object / sfx / bgm），
+# 而非具体声音个数。
+# - single_source：所有声源都落在同一个 L1 大类
+#   （例：钢琴+小提琴 同属 instrument；老虎+青蛙 同属 animal）
+# - multi_source ：声源跨越 2 个或以上 L1 大类
+#   （例：人说话 + 钢琴 = speech + instrument；
+#         狗叫 + 汽车 = animal + vehicle）
+sound_complexity:
+  - single_source        # 单源（声源都在同一个 L1 大类内）
+  - multi_source         # 多源（声源跨越 2 个或以上 L1 大类）
+
+# ─── 视频类型 ──────────────────────────────────────────────
+video_type:
+  - 2d_animation         # 2D 动画
+  - 3d_animation         # 3D 动画
+  - game                 # 游戏
+  - film_tv              # 影视
+  - vlog                 # 日常
+  - advertisement        # 广告
+
+# ─── 运镜方式 ──────────────────────────────────────────────
+# single_shot: 这就是 THE 运镜
+# multi_shot:  表示视频整体的主导运镜，per-shot 可由 shots[].camera.movement 覆盖
+# none:        speech / action 两类不引入运镜，统一填 none（顶层 + 每个 shot）
+camera_movement:
+  - static               # 固定
+  - dolly_in             # 推镜头
+  - dolly_out            # 拉镜头
+  - tracking             # 移镜头
+  - follow               # 跟拍
+  - none                 # 不指定运镜（speech / action 类专用）
+ 
+
+# ─── 一致性约束（spec validator 会检查）──────────────────
+coherence_rules:
+  - "shot_count=multi_shot 时，spec 必须填 shots[] 数组（2–9 项）"
+  - "shot_count=single_shot 时，spec.shots 可省略，或仅 1 项"

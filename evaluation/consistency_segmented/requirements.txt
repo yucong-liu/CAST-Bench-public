@@ -1,0 +1,14 @@
+# core
+torch>=2.5.1
+torchvision>=0.20.1
+numpy
+pillow
+tqdm
+decord
+# CLIP (background encoder)
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+# SAM 2 (segmentation) — install separately from source, see README:
+#   git clone https://github.com/facebookresearch/sam2.git && cd sam2 && pip install -e .
+# DINOv2 is pulled automatically via torch.hub (needs internet on first run).

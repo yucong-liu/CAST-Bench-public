@@ -1,0 +1,40 @@
+# 动物声桶（animal）：边缘桶，物种识别 + 习性场景一致
+id: animal
+display_name: Animal Sound
+level: L1
+tier: edge
+target_count: 20
+
+audio_profile: sfx_heavy      # 音频特征：动物 vocalization，短促有节奏
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.animal
+expected_l2_count: 6          # 宠物叫声/野兽嘶吼/鸟鸣/昆虫/两栖/家畜（每个 L2 下有具体物种 L3）
+
+# v0.5: species 升级为 L3，在 vocab/audio_events.yaml.l2_scenes.animal 里管理；
+# 本桶不再需要单独的 vocab/animal.yaml
+
+signature_dimensions:
+  - animal_sound_recognition       # 物种识别
+  - animal_subject_consistency     # 该物种外观跨帧一致
+  - audio_event_detection
+  - audio_visual_temporal_align    # 张嘴 - 发声同步
+  - species_visual_audio_match     # 视觉物种 ↔ 音频物种 一致
+
+typical_subjects:
+  - {type: animal, count_range: [1, 5], role: vocalizer, must_be_visible: true}
+  - {type: scene, count: 1, role: habitat}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - human_lipsync
+  - multi_human_speaker
+  - anthropomorphic_voice          # 动物不要拟人化说人话
+
+generation_constraints:
+  must_have_fields:
+    - subjects[*].species          # 动物必须明确种类
+    - audio_events
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []

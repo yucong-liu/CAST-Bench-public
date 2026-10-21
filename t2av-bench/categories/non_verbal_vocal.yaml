@@ -1,0 +1,51 @@
+# 非语言人声桶（non_verbal_vocal）：生理/情绪发声，T2AV 模型重灾区
+id: non_verbal_vocal
+display_name: Non-Verbal Human Vocalization
+level: L1
+tier: core
+target_count: 50
+
+audio_profile: paralinguistic # 音频特征：非语言、生理/情绪性人声
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.non_verbal_vocal
+expected_l2_count: 3          # v0.5: 重组为 生理音/拟声/情感音 三个 L2，共 17 个 L3
+
+# 与 speech 不同：没词可对齐；与 action 不同：声源是生理通道而非肢体；
+# 与 animal 不同：发声主体是人。本桶专测面部/躯体生理反应的音画同步。
+signature_dimensions:
+  - facial_expression_audio_sync   # 打喷嚏→面部抽搐；大笑→嘴张开；哭泣→面部痛苦
+  - body_jerk_audio_sync           # 咳嗽→胸腔起伏；打喷嚏→头部抽动
+  - audio_visual_temporal_align    # 声音 onset ↔ 面/躯体反应 timing
+  - audio_event_detection
+  - voice_demographic_match        # 老人音色↔老人外观；儿童音色↔儿童外观
+  - subject_consistency
+
+typical_subjects:
+  - type: human
+    count_range: [1, 2]
+    role: vocalizer
+    must_be_visible: true
+    must_show_face: true           # 面部对齐是命门，必须见脸
+    attributes_must_specify: [age_group, gender]  # demographic match 用
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - lipsync                        # 没有词，不测嘴型
+  - asr_alignment                  # 没有词
+  - speech_content_recognition
+  - dominant_dialogue              # 出现对白就归 speech 桶
+  - dominant_bgm
+
+generation_constraints:
+  must_have_fields:
+    - subjects[*].type = human
+    - subjects[*].descriptor       # 必须含年龄段 + 性别
+    - audio_events
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []
+  preferred_camera:                # 必须见脸/上半身
+    - close_up
+    - medium_close_up
+    - medium

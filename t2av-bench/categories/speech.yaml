@@ -1,0 +1,45 @@
+# 语音桶（speech）：T2AV 对齐重头戏，专测 lipsync + ASR
+id: speech
+display_name: Speech
+level: L1
+tier: core                    # core: 50 条；edge: 20 条
+target_count: 50              # 该桶要生成的 spec 数
+
+audio_profile: dialogue_heavy # 音频特征：对白主导
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.speech
+expected_l2_count: 5          # L2 叶子数（v0.5: 5 个 L2 + 14 个 L3，删 cartoon_voice）
+
+# 该桶专属属性词表（在全局轴 + audio_events 之外额外消费的 vocab）
+extra_vocab_refs:
+  - vocab/speech.yaml         # voice_timbre / language / emotion
+
+# 该桶最强烈考察的测评点（阶段 4 反查时这一列必须够样本）
+signature_dimensions:
+  - lipsync                   # 嘴型同步（speech 桶的命门）
+  - asr_alignment             # ASR 文本对齐
+  - speaker_attribution       # 多说话人时谁在说
+  - audio_text_align          # 对白 timing 对齐
+  - subject_consistency       # 说话人外观跨帧一致
+
+# 该桶典型主体类型（spec generator 据此约束 subjects[*]）
+typical_subjects:
+  - {type: human, count_range: [1, 4], role: speaker, is_speaker: true}
+  - {type: anthropomorphic, count_range: [0, 2], role: cartoon_voice_actor, optional: true}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述全部走 scene_setting / shots[].scene_setting 自由发挥
+
+# 防 LLM 把 spec 写串味的硬负约束
+forbidden_dimensions:
+  - heavy_physics             # speech 桶不强测物理
+  - dominant_bgm              # 不能让 BGM 盖过对白
+  - silence                   # 这个桶必须有语音
+
+# spec 生成阶段的硬规则（LLM 必须遵守）
+generation_constraints:
+  must_have_fields:           # spec 必含的字段路径
+    - subjects[*].speech      # 至少 1 个 subject 有 speech 字段
+    - subjects[*].is_speaker = true
+  # auxiliary_info / dimensions_hit 已废弃（spec 不再输出这些字段），下列两项保持为空
+  must_have_aux: []
+  forbidden_aux: []

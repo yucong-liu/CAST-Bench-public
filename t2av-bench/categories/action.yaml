@@ -1,0 +1,39 @@
+# 动作声桶（action）：肢体动作产生的物理副声（脚步/拍手/击键等）
+# 注意：生理发声（咳嗽/打喷嚏等）已迁出到 non_verbal_vocal 桶，不要再混入。
+id: action
+display_name: Action / Body Sound
+level: L1
+tier: core
+target_count: 50
+
+audio_profile: sfx_heavy
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.action
+expected_l2_count: 2          # v0.6: 仍是 体育运动/日常活动 两个 L2，L3 扩到 23（sports 12 / daily_activity 11），并对部分 L3 设权重（见 spec/generator.py::ACTION_L3_WEIGHTS）
+
+signature_dimensions:
+  - action_recognition            # 动作分类（含复合活动如 sports）
+  - audio_visual_temporal_align   # 脚步落点 / 拍手 / 敲键 timing
+  - physics_phenomena             # 走路冲击、拍手形变、撞击
+  - body_motion_audio_sync        # 身体动作幅度 ↔ 声音强度
+  - subject_consistency
+
+typical_subjects:
+  - {type: human, count_range: [1, 6], role: actor, must_be_visible: true}
+  - {type: object, count_range: [0, 4], role: tool_or_target, optional: true}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - lipsync                       # 若有人开口，应转 speech 桶
+  - non_verbal_vocalizations      # 生理发声归 non_verbal_vocal，不能混进来
+  - dominant_dialogue
+  - off_screen_action             # 动作主体必须在画面里
+
+generation_constraints:
+  must_have_fields:
+    - subjects[*].primary_action  # 至少 1 个 subject 有可见动作
+    - audio_events
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []

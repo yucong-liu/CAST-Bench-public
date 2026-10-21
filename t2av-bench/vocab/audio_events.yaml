@@ -1,0 +1,97 @@
+# T2AV-Bench 音频事件词表
+# L1 = 声源（9 桶），L2 = 发声场景，L3 = 具体种类（部分桶有）
+# 所有 id 用英文（prompt 最终是英文）。
+version: 0.5
+field: audio_events
+
+# ─── L1：9 个声源桶 ──────────────────────────────────────────
+l1_sources:
+  speech:           {audio_profile: dialogue_heavy, expected_l2_count: 5}    # 语音
+  non_verbal_vocal: {audio_profile: paralinguistic, expected_l2_count: 3}    # 非语言人声
+  animal:           {audio_profile: sfx_heavy,      expected_l2_count: 6}    # 动物声
+  ambient:          {audio_profile: ambience,       expected_l2_count: 6}    # 环境声
+  instrument:       {audio_profile: music,          expected_l2_count: 6}    # 乐器
+  object:           {audio_profile: sfx_heavy,      expected_l2_count: 3}    # 物体声
+  bgm:              {audio_profile: music,          expected_l2_count: 3}    # 背景音乐
+  sfx:              {audio_profile: designed_sfx,   expected_l2_count: 6}    # 特效音
+  action:           {audio_profile: sfx_heavy,      expected_l2_count: 2}    # 动作声
+
+# ─── L2 → L3：发声场景 + 具体种类 ───────────────────────────
+# 每个 L1 桶下面是 dict：key=L2 id，value=L3 list（无 L3 时为空 list）
+l2_scenes:
+
+  # ── 语音（5 L2 / 14 L3）───────────────────────────────
+  speech:
+    daily_dialogue: [interview, quarrel, casual_conversation, meeting]            # 日常对话：访谈/吵架/日常交谈/会议
+    broadcast: [platform_livestream, news_broadcast, press_conference, lecture, radio_broadcast]  # 播报
+    commentary: [tour_guide, film_commentary, sports_commentary]                  # 解说：导游/电影/赛事
+    voiceover: [film_voiceover, documentary_narration]                            # 旁白：影视/纪录片
+    singing: []                                                                   # 唱歌（无 L3）
+
+  # ── 非语言人声（3 L2 / 17 L3）─────────────────────────
+  non_verbal_vocal:
+    physiological: [sneeze, yawn, snore, cough, sniffle, fart, hiccup]            # 生理音
+    mimicry: [beatbox, whistle, tongue_click]                                     # 拟声
+    emotional: [laugh, sigh, cry, cheer, scream, moan, smirk_laugh]               # 情感音
+
+  # ── 动物声（6 L2 / 18 L3）─────────────────────────────
+  animal:
+    pet_vocalization: [cat, dog]                                                  # 宠物叫声
+    wild_beast_roar: [tiger, bear, wolf,elephant]                                          # 野兽嘶吼
+    bird_call: [crow, cuckoo, eagle]                                              # 鸟鸣
+    insect_sound: [mosquito, bee, cricket, cicada]                                # 昆虫
+    amphibian: [frog, snake]                                                      # 两栖（含蛇）
+    livestock: [horse, chicken, duck, pig]                                        # 家畜
+
+  # ── 环境声（6 L2 / 无 L3）─────────────────────────────
+  ambient:
+    weather: []                # 风雨雷电
+    water_body: []             # 江河湖海
+    forest_field: []           # 森林田野
+    urban_street: []           # 城市街景
+    indoor_ambience: []        # 室内氛围
+    crowd_applause: []         # 人群掌声
+
+  # ── 乐器（6 L2 / 无 L3，独奏/合奏走 vocab/instrument.yaml.playing_mode 属性轴）
+  instrument:
+    piano: []                  # 钢琴
+    string_instrument: []      # 弦乐
+    wind_instrument: []        # 管乐
+    percussion: []             # 打击乐
+    ethnic_instrument: []      # 民族乐器
+    synthesizer: []            # 电子合成
+
+  # ── 物体声（3 L2 / 19 L3）─────────────────────────────
+  object:
+    transportation: [train, car, bicycle, motorcycle, airplane, ship, police_car] # 交通场景
+    weapon: [knife, arrow, dart, pistol, rifle, bomb, missile]                    # 武器
+    interaction: [collision, friction, tear, shatter, liquid]                     # 互动声
+
+  # ── BGM（3 L2 / 无 L3，歌曲/纯音乐/节奏律动走 vocab/bgm.yaml.music_kind 属性轴）
+  bgm:
+    film_score: []             # 影视配乐
+    game_music: []             # 游戏配乐
+    vlog_bgm: []               # 日常视频配乐
+
+  # ── 特效音（6 L2 / 无 L3）─────────────────────────────
+  sfx:
+    transition_sfx: []         # 转场音
+    ui_notification: []        # UI 提示音
+    exaggerated_sfx: []        # 夸张音效
+    sci_fi_sfx: []             # 科幻音效
+    ambience_sfx: []           # 氛围音效
+    magic_skill_sfx: []        # 魔法技能
+
+  # ── 动作声（2 L2 / 23 L3）─────────────────────────────
+  # v0.6: 体育运动扩到 12 个 L3、日常活动扩到 11 个 L3，并对部分 L3 设权重
+  #   （权重在 src/t2av_bench/spec/generator.py 的 ACTION_L3_WEIGHTS 配置）
+  action:
+    # 体育运动（12 L3）：
+    #   打篮球 / 踢足球 / 打乒乓球 / 打台球 / 跑酷 / 拳击比赛 /
+    #   篮球对抗上篮(0.10) / 足球带球过人 /
+    #   花式跳水(0.10) / 体操(0.05) / 摔跤比赛(0.05) / 游泳比赛(0.05)
+    sports: [basketball, soccer, table_tennis, billiards, parkour, boxing, basketball_layup_contest, soccer_dribbling, fancy_diving, gymnastics, wrestling, swimming_race]
+    # 日常活动（11 L3）：
+    #   走路 / 奔跑 / 进食 / 敲击 / 拍手 / 敲击键盘 /
+    #   空手打斗(0.05) / 棍棒打斗(0.05) / 武术打斗(0.10) / 刀剑互砍(0.10) / 切菜
+    daily_activity: [walking, running, eating, knocking, clapping, typing, unarmed_fighting, stick_fighting, martial_arts_fighting, sword_fighting, chopping_vegetables]

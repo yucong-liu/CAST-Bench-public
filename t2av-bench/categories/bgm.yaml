@@ -1,0 +1,42 @@
+# BGM 桶（bgm）：边缘桶，音乐情绪/节奏 ↔ 画面对齐
+id: bgm
+display_name: Background Music
+level: L1
+tier: edge
+target_count: 20
+
+audio_profile: music          # 音频特征：非演奏画面下的纯背景配乐
+sub_scenes_ref: vocab/audio_events.yaml#l2_scenes.bgm
+expected_l2_count: 3
+
+extra_vocab_refs:
+  - vocab/bgm.yaml            # music_kind（歌曲/纯音乐/节奏律动）
+
+signature_dimensions:
+  - music_mood_visual_align        # 音乐情绪 ↔ 画面情绪
+  - music_tempo_visual_align       # 节奏 ↔ 镜头剪辑 / 动作
+  - music_genre_consistency        # 风格稳定
+  - scene_music_appropriateness    # 音乐与场景类型匹配（VQA）
+  - background_loudness_appropriate # BGM 不能盖过其他声源
+
+typical_subjects:
+  - {type: scene, count: 1, role: scene_dominant}                # BGM 桶画面主体不重要
+  - {type: human, count_range: [0, 6], role: extras, optional: true}
+  - {type: object, count_range: [0, 5], role: scene_element, optional: true}
+
+visual_scene_axis:
+  status: llm_discretion      # v0.4 拍板：视觉描述自由发挥
+
+forbidden_dimensions:
+  - lipsync                        # 不要让画面里有人对口型
+  - audio_event_detection_dominant # BGM 桶不强测 onset 事件
+  - performer_visible              # 不出现演奏者，否则归 instrument 桶
+
+generation_constraints:
+  must_have_fields:
+    - bgm.mood                     # 情绪标签必填
+    - bgm.tempo                    # 节奏标签必填
+    - scene_setting
+  # auxiliary_info / dimensions_hit 已废弃，保持为空
+  must_have_aux: []
+  forbidden_aux: []

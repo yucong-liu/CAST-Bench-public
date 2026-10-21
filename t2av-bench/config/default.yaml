@@ -1,0 +1,66 @@
+# T2AV-Bench prompt generation default config
+# 复制为 config/local.yaml 并填入私密字段；local.yaml 已在 .gitignore 中。
+
+llm:
+  # 当前 provider，可选 qwen / openai_compat / mock
+  provider: qwen
+
+  qwen:
+    # 阿里云 DashScope 兼容的千问入口
+    # 例：https://dashscope.aliyuncs.com/compatible-mode/v1
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    # 部署后填入：API key 或 ${ENV_VAR} 形式
+    api_key: "${DASHSCOPE_API_KEY}"
+    # spec 生成用的模型；qwen-max 更稳，qwen-plus 更快
+    spec_model: "qwen-max"
+    # prompt 润色用的模型
+    prompt_model: "qwen-plus"
+    temperature: 0.7
+    top_p: 0.9
+    max_tokens: 4096
+    timeout_sec: 60
+  retry:
+    max_attempts: 4
+    initial_wait_sec: 2
+    multiplier: 2
+
+paths:
+  vocab_dir: vocab
+  categories_dir: categories
+  specs_dir: specs
+  prompts_dir: prompts
+  coverage_matrix_csv: coverage_matrix.csv
+  coverage_matrix_md: coverage_matrix.md
+
+generation:
+  # 每个题材初始生成数量（阶段 2）
+  default_specs_per_category: 30
+  # 阶段 4 覆盖矩阵下限，低于此值触发补丁 B
+  coverage_threshold: 50
+  # spec id 命名格式：{category}_{index:04d}
+  id_index_pad: 4
+  # 生成失败回退到模板渲染
+  fallback_to_template: true
+  # 难度配比 easy:medium:hard（每个 category 内部按此比例分配，最大余数法）
+  difficulty_ratio: "3:5:2"
+
+compile:
+  # spec → prompt 的目标语言
+  prompt_language: en
+  # 渲染时是否要求 LLM 把所有 spec 字段都嵌入句子（补丁 A 校验前提）
+  embed_all_fields: true
+  # prompt 文字长度上下界（single_shot 走这个上限）
+  min_chars: 60
+  max_chars: 600
+  # multi_shot 每镜目标 ~300 chars（hard floor 200, hard ceiling 600）；
+  # 5–10 镜 + OVERALL + tag 标头 + （speech 还会附 dialogue table）通常落在 1500–3000 区间；
+  # compiler 对 multi_shot 使用独立硬上限 multi_shot_hard_ceiling=5000（不再走 1.5x 缓冲）。
+  multi_shot_max_chars: 3000
+  # multi_shot 编译时长度校验的硬上限；超过则视为越界，触发重试。
+  multi_shot_hard_ceiling: 5000
+
+validation:
+  # prompt 必须包含的 spec 元素覆盖率
+  min_field_recall: 0.85
+  # 严格模式下任意字段缺失即失败
+  strict: false

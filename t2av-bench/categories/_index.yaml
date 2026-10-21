@@ -1,0 +1,185 @@
+# T2AV-Bench 一级分桶：声源（sound source）
+# 这是 categories/*.yaml 的总账：9 个声源 + tier 分级 + 配额。
+# CI 会校验：categories 的 L1 ids 必须 == vocab/audio_events.yaml.l1_sources 的 keys。
+
+version: 0.5                  # v0.5: 引入 L3（speech/non_verbal_vocal/object/action/animal 桶都有 L3 种类）
+axis: sound_source
+locked_at: "2026-05-21"
+
+# 总配额 = 核心 5×50 + 边缘 4×20 = 330
+total_target_specs: 330
+
+# ─── 工程使用的 vocab 文件 ────────────────────────────────
+vocab_files:
+  # 所有 spec 都消费（全局必填）
+  required_for_all:
+    - vocab/audio_events.yaml   # L1 + L2 + L3 枚举
+    - vocab/global.yaml         # shot_count / visual_style / audio_situation / sound_complexity / video_type / camera_movement
+  # 只在特定 L1 桶下消费（per-L1 属性轴）
+  per_l1:
+    speech:     [vocab/speech.yaml]      # voice_timbre / language / emotion
+    instrument: [vocab/instrument.yaml]  # playing_mode（独奏/合奏）
+    bgm:        [vocab/bgm.yaml]         # music_kind（歌曲/纯音乐/节奏律动）
+    # animal 的 species 在 v0.5 升级为 L3，已合并到 vocab/audio_events.yaml
+
+# ─── 9 个声源桶（核心 5 + 边缘 4）─────────────────────────────
+categories:
+  # ─── 核心声源（target_count=50）────────────────────────────
+  speech:
+    tier: core
+    target_count: 50
+    file: categories/speech.yaml
+    one_liner: "Human speech: dialogue / broadcast / commentary / singing / voiceover / cartoon"
+
+  non_verbal_vocal:
+    tier: core
+    target_count: 50
+    file: categories/non_verbal_vocal.yaml
+    one_liner: "Non-verbal human vocalization: sneeze / yawn / snore / cough / cry / laugh / sigh / sniffle / fart / hiccup"
+
+  object:
+    tier: core
+    target_count: 50
+    file: categories/object.yaml
+    one_liner: "Object sound: impact / friction / mechanical / shatter / explosion / liquid / weapon / vehicle / tear"
+
+  action:
+    tier: core
+    target_count: 50
+    file: categories/action.yaml
+    one_liner: "Body action sound: fighting / walking / running / eating / knocking / clapping / sports / typing / stir_frying"
+
+  ambient:
+    tier: core
+    target_count: 50
+    file: categories/ambient.yaml
+    one_liner: "Ambient: weather / water_body / forest / urban_street / indoor / crowd_applause"
+
+  # ─── 边缘声源（target_count=20）────────────────────────────
+  animal:
+    tier: edge
+    target_count: 20
+    file: categories/animal.yaml
+    one_liner: "Animal: pet / wild_beast / bird / insect / amphibian / livestock"
+
+  instrument:
+    tier: edge
+    target_count: 20
+    file: categories/instrument.yaml
+    one_liner: "Instrument: piano / strings / wind / percussion / ethnic / synthesizer"
+
+  bgm:
+    tier: edge
+    target_count: 20
+    file: categories/bgm.yaml
+    one_liner: "Background music: film_score / game_music / vlog_bgm"
+
+  sfx:
+    tier: edge
+    target_count: 20
+    file: categories/sfx.yaml
+    one_liner: "Designed SFX: transition / ui / exaggerated / sci_fi / ambience / magic_skill"
+
+# ─── 分级理由（写进文件便于 review）─────────────────────────
+tier_rationale:
+  core:
+    speech: "T2AV 对齐重头戏，lipsync + ASR 强相关，必须铺够样本"
+    non_verbal_vocal: "10 个 L2，并列最多；评测维度独家（facial_expression_audio_sync），T2AV 模型重灾区"
+    object: "L2 子场景最多（10 个），需要 50 条才能撑住覆盖"
+    action: "L2 9 个（含 3 个复合活动），与 physics、temporal_align 强相关"
+    ambient: "T2AV 音画场景一致性的最基础信号，必须铺够"
+  edge:
+    animal: "L2 6 个，物种识别 + habitat 即可覆盖；测评器现成（CLAP / ImageBind）"
+    instrument: "L2 6 个但音画绑定弱（演奏视频域窄），先少做"
+    bgm: "L2 仅 3 个；BGM 与画面对齐评测尚无成熟指标，控制规模"
+    sfx: "L2 6 个；'设计音效'天然脱离物理对齐，先少做"
+
+# 视觉场景轴决策（v0.4 拍板）：方案 A，LLM 自由发挥
+visual_scene_axis:
+  status: llm_discretion
+  decision: "v0.4 选 A 方案：不做 vocab/visual_scene.yaml 枚举控制，视觉描述由 LLM 在 scene_setting / shots[].scene_setting 里自由发挥"
+
+# ─── Freeform 字段（v0.4 拍板：这些字段不做 vocab 枚举控制）──
+# 这是显式的研究决策，不是 TODO；schema 对这些字段保持 type:string 接受任何值。
+freeform_fields:
+  camera_details:              # camera.shot_size / angle / lens 不做枚举（camera_movement 仍受 global.yaml 控制）
+    rationale: "LLM 描述性运镜词（'tight close-up' / 'bird's eye view'）比 enum 更丰富，且 T2V 模型本来就吃自然语言"
+  subject_attributes:          # subjects[*].descriptor / age_group / gender / appearance / material 不做枚举
+    rationale: "主体描述差异性是 benchmark 的多样性来源，强约束反而压缩样本空间"
+  physics_phenomena:           # 不做 vocab/physics.yaml 枚举
+    rationale: "物理现象长尾极多，写不全；评测端走 Qwen3-VL VQA 即可"
+  visual_scene:                # 不做 vocab/visual_scene.yaml 枚举
+    rationale: "spec.scene_setting 已经是自然语言，再加 enum 反而限制 LLM 的场景多样性"
+
+# ─── 待决策字段 ────────────────────────────────────────────
+deferred_decisions:
+  dimensions_vocab:
+    file: vocab/dimensions.yaml
+    status: "等第一批 spec 生成完，看 dimensions_hit 的实际分布再决定要不要规范化"
+    workflow: |
+      1. 用当前 categories/*.yaml.signature_dimensions（自由字符串）跑 02_generate_specs.py
+      2. 跑 05_build_coverage_matrix.py，收集所有出现过的 dimensions_hit
+      3. 用户审视：哪些保留 / 哪些转 VQA / 哪些删除（补丁 C）
+      4. 把保留的写入 vocab/dimensions.yaml，反向回填 categories/*.yaml.signature_dimensions
+
+  prompt_style_layering:
+    status: "v0.4 暂不分层 prompt，先跑详细版（detailed_tagged）看质量"
+    rationale: |
+      当前架构 1 个 spec 只编译 1 个 detailed 风格的 prompt，可能只测出模型的"指令执行能力"
+      而漏测"模糊指令下的自主补全能力"。先看首批 prompts 实际表现再定。
+    trigger_to_revisit: |
+      跑完首批 detailed prompt + 视频生成 + 评测后，出现下面任一情况就考虑加 ambiguous 版本：
+      - 各模型 detailed 得分都很高（区分度不够）—— 加 ambiguous 拉开差距
+      - 论文 reviewer 提"应该测 robustness"
+      - 有人质疑 benchmark 是不是只测"翻译能力"
+    candidate_styles:
+      detailed_tagged: "当前实现，[OVERALL] + [SHOT N/M] 标记式"
+      narrative: "中等详细，连续叙事，~150-250 chars"
+      ambiguous: "极简，~30-60 chars，模拟真实用户输入"
+
+# 版本变更
+changelog:
+  v0.6:
+    date: "2026-06-27"
+    changes:
+      - "action 桶 L3 扩展：sports 6→12（新增 parkour/basketball_layup_contest/soccer_dribbling/fancy_diving/gymnastics/wrestling/swimming_race，原 diving→fancy_diving），daily_activity 7→11（新增 unarmed_fighting/stick_fighting/martial_arts_fighting/sword_fighting/chopping_vegetables，原 fighting 拆为 4 类打斗）"
+      - "action 桶引入 L3 加权分配：4 项 0.10 + 5 项 0.05 + 14 项 0.025（合计 1.0）"
+      - "src/t2av_bench/spec/generator.py: 新增 ACTION_L3_WEIGHTS 常量和 _allocate_l3_weighted 函数；其他桶仍走 _allocate_l3 硬轮转"
+  v0.5:
+    date: "2026-05-22"
+    changes:
+      - "引入 L3 层级（具体种类），audio_events.yaml.l2_scenes 改为 dict[l2_id, list[l3_kind]] 嵌套结构"
+      - "speech: 5 L2 + 14 L3（删 cartoon_voice；每个 L2 加 L3 种类如 interview/news_broadcast 等）"
+      - "non_verbal_vocal: 重组为 生理音/拟声/情感音 3 个 L2 + 17 L3（新增 beatbox/whistle/tongue_click/cheer/scream/moan/smirk_laugh）"
+      - "object: 重组为 交通场景/武器/互动声 3 个 L2 + 19 L3（删 mechanical_operation/switch_button/explosion）"
+      - "action: 重组为 体育运动/日常活动 2 个 L2 + 13 L3（删 stir_frying；新增具体运动 basketball/soccer 等）"
+      - "animal: species 从 attribute 升级为 L3，结构与其他桶统一；删 vocab/animal.yaml"
+      - "specs/schema.json: AudioEvent 加 l3_kind 可选字段"
+      - "spec/generator.py: system prompt 新增 L3 kinds hint"
+  v0.4:
+    date: "2026-05-21"
+    changes:
+      - "拍板 freeform 字段：camera 细节 / subject 属性 / physics_phenomena / visual_scene 都让 LLM 自由发挥（不再做 vocab 枚举）"
+      - "visual_scene_axis.status: deferred → llm_discretion（同步到 9 个 categories/*.yaml）"
+      - "vocab/dimensions.yaml 明确延迟到第一批 spec 生成后再决定（补丁 C 时点）"
+  v0.3:
+    date: "2026-05-21"
+    changes:
+      - "新增 vocab/global.yaml: 6 个全局轴（shot_count / visual_style / audio_situation / sound_complexity / video_type / camera_movement）"
+      - "新增 vocab/speech.yaml: voice_timbre / language / emotion"
+      - "新增 vocab/animal.yaml: species 按 L2 分组"
+      - "新增 vocab/instrument.yaml: playing_mode"
+      - "新增 vocab/bgm.yaml: music_kind"
+      - "specs/schema.json: 加 Shot 结构 + shots[] 数组（多镜头 5–10 项）"
+      - "categories/{speech,animal,instrument,bgm}.yaml 加 extra_vocab_refs 字段"
+  v0.2:
+    date: "2026-05-21"
+    changes:
+      - "新增第 9 桶 non_verbal_vocal（核心），target=50"
+      - "speech: 7→6（删 multi_turn_dialogue / casual_speech→daily_dialogue）"
+      - "animal: 5→6（蛙类→两栖，新增 livestock）"
+      - "action: 12→9（移走 6 个生理发声到 non_verbal_vocal，新增 sports / typing / stir_frying）"
+      - "总配额: 280 → 330"
+  v0.1:
+    date: "2026-05-21"
+    changes: ["初版 8 桶分桶"]

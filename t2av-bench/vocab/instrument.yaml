@@ -1,0 +1,9 @@
+# Instrument 桶专属属性
+version: 0.1
+field: instrument_attributes
+applies_to_l1: instrument
+
+# ─── 演奏形式 ──────────────────────────────────────────────
+playing_mode:
+  - solo                 # 独奏
+  - ensemble             # 合奏

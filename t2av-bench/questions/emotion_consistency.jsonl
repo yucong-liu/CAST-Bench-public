@@ -1,0 +1,238 @@
+{"spec_id": "speech_0001", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0001", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0002", "question": "Does the speaking voice in the video start with a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0002", "question": "Does the speaking voice in the video transition from a neutral emotion to a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0002", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0003", "question": "Does the speaking voice in the video start with a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0003", "question": "Does the speaking voice in the video transition from a confused emotion to a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0003", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0004", "question": "Does the speaking voice in the video start with a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0004", "question": "Does the speaking voice in the video transition from a angry emotion to a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0004", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0005", "question": "Is the speaking voice in the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0005", "question": "Do the on-screen characters visually display a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0007", "question": "Does the speaking voice in the video start with a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0007", "question": "Does the speaking voice in the video transition from a neutral emotion to a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0007", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0008", "question": "Does the speaking voice in the video start with a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0008", "question": "Does the speaking voice in the video transition from a angry emotion to a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0008", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0009", "question": "Does the speaking voice in the video start with a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0009", "question": "Does the speaking voice in the video transition from a sad emotion to a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0009", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0011", "question": "Does the speaking voice in the video start with a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0011", "question": "Does the speaking voice in the video transition from a confused emotion to a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0011", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0012", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0012", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0013", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0013", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0014", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0014", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0016", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0016", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0018", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0018", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0019", "question": "Does the speaking voice in the video start with a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0019", "question": "Does the speaking voice in the video transition from a angry emotion to a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0019", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0020", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0020", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0021", "question": "Does the speaking voice in the video start with a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0021", "question": "Does the speaking voice in the video transition from a panicked emotion to a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0021", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0022", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0022", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0023", "question": "Does the speaking voice in the video start with a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0023", "question": "Does the speaking voice in the video transition from a joyful emotion to a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0023", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0024", "question": "Does the speaking voice in the video start with a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0024", "question": "Does the speaking voice in the video transition from a joyful emotion to a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0024", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0025", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0025", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0027", "question": "Does the speaking voice in the video start with a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0027", "question": "Does the speaking voice in the video transition from a surprised emotion to a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0027", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0028", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0028", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0029", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0029", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0031", "question": "Does the speaking voice in the video start with a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0031", "question": "Does the speaking voice in the video transition from a joyful emotion to a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0031", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0032", "question": "Does the speaking voice in the video start with a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0032", "question": "Does the speaking voice in the video transition from a joyful emotion to a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0032", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0034", "question": "Does the speaking voice in the video start with a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0034", "question": "Does the speaking voice in the video transition from a neutral emotion to a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0034", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0035", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0035", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0036", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0036", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0037", "question": "Is the speaking voice in the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0037", "question": "Do the on-screen characters visually display a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0038", "question": "Is the speaking voice in the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0038", "question": "Do the on-screen characters visually display a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0039", "question": "Is the speaking voice in the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0039", "question": "Do the on-screen characters visually display a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0040", "question": "Does the speaking voice in the video start with a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0040", "question": "Does the speaking voice in the video transition from a surprised emotion to a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0040", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0041", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0041", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0042", "question": "Does the speaking voice in the video start with a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0042", "question": "Does the speaking voice in the video transition from a sad emotion to a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0042", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0043", "question": "Does the speaking voice in the video start with a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0043", "question": "Does the speaking voice in the video transition from a panicked emotion to a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0043", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0044", "question": "Is the speaking voice in the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0044", "question": "Do the on-screen characters visually display a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0045", "question": "Is the speaking voice in the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0045", "question": "Do the on-screen characters visually display a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0046", "question": "Does the speaking voice in the video start with a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0046", "question": "Does the speaking voice in the video transition from a joyful emotion to a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0046", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0047", "question": "Is the speaking voice in the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0047", "question": "Do the on-screen characters visually display a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0048", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0048", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0049", "question": "Is the speaking voice in the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0049", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0050", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0050", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0051", "question": "Does the speaking voice in the video start with a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0051", "question": "Does the speaking voice in the video transition from a joyful emotion to a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0051", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0052", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0052", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0053", "question": "Does the speaking voice in the video start with a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0053", "question": "Does the speaking voice in the video transition from a confused emotion to a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0053", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0054", "question": "Does the speaking voice in the video start with a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0054", "question": "Does the speaking voice in the video transition from a sad emotion to a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0054", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0055", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0055", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0057", "question": "Does the speaking voice in the video start with a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0057", "question": "Does the speaking voice in the video transition from a neutral emotion to a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0057", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0058", "question": "Does the speaking voice in the video start with a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0058", "question": "Does the speaking voice in the video transition from a sad emotion to a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0058", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0059", "question": "Does the speaking voice in the video start with a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0059", "question": "Does the speaking voice in the video transition from a sad emotion to a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0059", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0060", "question": "Is the speaking voice in the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0060", "question": "Do the on-screen characters visually display a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0061", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0061", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0062", "question": "Is the speaking voice in the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0062", "question": "Do the on-screen characters visually display a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0063", "question": "Does the speaking voice in the video start with a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0063", "question": "Does the speaking voice in the video transition from a angry emotion to a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0063", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0064", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0064", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0066", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0066", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0067", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0067", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0068", "question": "Does the speaking voice in the video start with a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0068", "question": "Does the speaking voice in the video transition from a surprised emotion to a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0068", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0069", "question": "Does the speaking voice in the video start with a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0069", "question": "Does the speaking voice in the video transition from a surprised emotion to a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0069", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0070", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0070", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0071", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0071", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0072", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0072", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0073", "question": "Is the speaking voice in the video expressing a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0073", "question": "Do the on-screen characters visually display a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0074", "question": "Is the speaking voice in the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0074", "question": "Do the on-screen characters visually display a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0075", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0075", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0076", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0076", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0077", "question": "Does the speaking voice in the video start with a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0077", "question": "Does the speaking voice in the video transition from a confused emotion to a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0077", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0078", "question": "Does the speaking voice in the video start with a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0078", "question": "Does the speaking voice in the video transition from a sad emotion to a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0078", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0079", "question": "Is the speaking voice in the video expressing a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0079", "question": "Do the on-screen characters visually display a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0080", "question": "Does the speaking voice in the video start with a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0080", "question": "Does the speaking voice in the video transition from a panicked emotion to a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0080", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0081", "question": "Does the speaking voice in the video start with a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0081", "question": "Does the speaking voice in the video transition from a joyful emotion to a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0081", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0082", "question": "Is the speaking voice in the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0082", "question": "Do the on-screen characters visually display a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0083", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0083", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0084", "question": "Is the speaking voice in the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0084", "question": "Do the on-screen characters visually display a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0085", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0085", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0086", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0086", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0088", "question": "Does the speaking voice in the video start with a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0088", "question": "Does the speaking voice in the video transition from a panicked emotion to a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0088", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0089", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0089", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0090", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0090", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0091", "question": "Is the speaking voice in the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0091", "question": "Do the on-screen characters visually display a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0092", "question": "Does the speaking voice in the video start with a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0092", "question": "Does the speaking voice in the video transition from a confused emotion to a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0092", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0093", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0093", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0094", "question": "Does the speaking voice in the video start with a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0094", "question": "Does the speaking voice in the video transition from a panicked emotion to a surprised emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0094", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0095", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0095", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0096", "question": "Is the speaking voice in the video expressing a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0096", "question": "Do the on-screen characters visually display a confused emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0098", "question": "Is the speaking voice in the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0098", "question": "Do the on-screen characters visually display a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0099", "question": "Is the speaking voice in the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0099", "question": "Do the on-screen characters visually display a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0100", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0100", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0101", "question": "Is the speaking voice in the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0101", "question": "Do the on-screen characters visually display a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0102", "question": "Is the speaking voice in the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0102", "question": "Do the on-screen characters visually display a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0103", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0103", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0104", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0104", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0105", "question": "Is the speaking voice in the video expressing a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0105", "question": "Are there no people visible in the video?", "associated_subject_id": null}
+{"spec_id": "speech_0106", "question": "Is the speaking voice in the video expressing a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0106", "question": "Do the on-screen characters visually display a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0107", "question": "Does the speaking voice in the video start with a neutral emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0107", "question": "Does the speaking voice in the video transition from a neutral emotion to a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0107", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0108", "question": "Does the speaking voice in the video start with a panicked emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0108", "question": "Does the speaking voice in the video transition from a panicked emotion to a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0108", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0109", "question": "Does the speaking voice in the video start with a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0109", "question": "Does the speaking voice in the video transition from a sad emotion to a angry emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0109", "question": "Does the on-screen character's facial expression shift in a way that matches the vocal emotional transition?", "associated_subject_id": null}
+{"spec_id": "speech_0110", "question": "Is the speaking voice in the video expressing a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0110", "question": "Do the on-screen characters visually display a sad emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0111", "question": "Is the speaking voice in the video expressing a joyful emotion?", "associated_subject_id": null}
+{"spec_id": "speech_0111", "question": "Do the on-screen characters visually display a joyful emotion?", "associated_subject_id": null}

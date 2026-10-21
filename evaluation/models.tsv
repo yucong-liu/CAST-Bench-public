@@ -1,0 +1,24 @@
+# =============================================================
+# 评测用模型清单 (所有 evaluation/*/run_all.sh 共享)
+# 两列 TSV，使用 TAB 分隔:
+#   <模型名>\t<视频根目录(output 根)>
+# 以 # 开头的行为注释，空行忽略。
+#
+# 新增模型 = 在这里加一行即可，所有评测脚本自动识别。
+# 注意:
+#   - "视频根目录" 必须直接指向包含各类 mp4 子目录(speech/object/...)的 output 根；
+#     例如 daVinci-MagiHuman 真实视频在 .../output/540p/speech/，
+#     这里仍写到 .../output 即可，asr_eval 等脚本会自动兼容下钻一层 540p。
+# =============================================================
+LTX-2.3	LTX-2.3_test/output
+Ovi	Ovi_test/output
+daVinci-MagiHuman	daVinci-MagiHuman_test/output
+seedance	generation/seedance/output
+wan2.7	generation/wan2.7/output
+kling-v3	generation/kling-v3
+kling-v3-omni	generation/kling-v3-omni/output
+veo3.1	generation/veo3.1/output
+happyhorse-1.1	generation/happyhorse-1.1/output
+seedance-2.5	generation/seedance-2.5/output
+MiniMax-H3	generation/MiniMax-H3/output
+LTX-2.5	LTX-2.5_test/output
