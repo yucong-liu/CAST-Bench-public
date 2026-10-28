@@ -1,8 +1,8 @@
 # T2AV-Bench 环境搭建与运行指南（SETUP.md）
 
 > 本文档记录从 0 把 [`t2av-bench`](./README.md) 工程跑起来的完整步骤，重点是
-> **如何复用同机的 [`Qwen3-VL-235B_prompt`](../Qwen3-VL-235B_prompt/README.md) 工程
-> 起的本地 vLLM 千问服务** 来做 spec 生成 / prompt 编译。
+> **如何复用同机的 [`llm_serving`](../llm_serving/README.md) 工程
+> 起的本地 vLLM LLM服务** 来做 spec 生成 / prompt 编译。
 >
 > 工程版本：v0.5（categories/_index.yaml 已引入 L3）
 
@@ -14,7 +14,7 @@
 并编译成自然语言 prompt。LLM 调用解耦在 `src/t2av_bench/llm/`，可切换：
 
 - `mock`  —— 不调真实 LLM，本地随机生成（开发自检）
-- `qwen`  —— 通过 OpenAI 兼容 API 调千问（**本文采用：指向本地 vLLM**）
+- `openai_compat`  —— 通过 OpenAI 兼容 API 调LLM（**本文采用：指向本地 vLLM**）
 
 ---
 
@@ -25,24 +25,24 @@
 | 操作系统 | Linux |
 | GPU | 8 卡（vLLM `tensor-parallel-size 8`） |
 | 镜像 | `<your-cuda12.8-vllm-image>` |
-| 千问权重路径 | `/path/to/models/Qwen3-VL-235B-A22B-Instruct-FP8/` |
-| vLLM 工程路径 | `/path/to/workspace/Qwen3-VL-235B_prompt/` |
+| LLM权重路径 | `/path/to/models/<model>-FP8/` |
+| vLLM 工程路径 | `/path/to/workspace/llm_serving/` |
 | 本工程路径 | `/path/to/workspace/t2av-bench/` |
 | 推理服务端口 | `8080`（OpenAI 兼容） |
-| served-model-name | `Qwen3-VL-235B-A22B-Instruct` |
+| served-model-name | `<your-model>` |
 
 ---
 
-## 3. 千问 vLLM 后端（依赖 Qwen3-VL-235B_prompt 工程）
+## 3. LLM vLLM 后端（依赖 llm_serving 工程）
 
-t2av-bench 自身不启动 LLM 服务，而是通过 OpenAI SDK 连接 `Qwen3-VL-235B_prompt`
+t2av-bench 自身不启动 LLM 服务，而是通过 OpenAI SDK 连接 `llm_serving`
 工程已经搭好的 vLLM。
 
 ### 3.1 启动 vLLM（在 8 卡机器上执行）
 apt-get update && apt-get install -y tmux && tmux -V
 ```bash
-cd /path/to/workspace/Qwen3-VL-235B_prompt
-./scripts/start_qwen3vl.sh        # tmux 会话 qwen3vl_serve
+cd /path/to/workspace/llm_serving
+./scripts/start_llm_server.sh        # tmux 会话 llm_serve
 ./scripts/status.sh               # 查看就绪情况
 ```
 
@@ -52,17 +52,17 @@ cd /path/to/workspace/Qwen3-VL-235B_prompt
 
 ```bash
 curl -s http://127.0.0.1:8080/v1/models
-# 期望看到 id="Qwen3-VL-235B-A22B-Instruct"
+# 期望看到 id="<your-model>"
 ```
 
 ### 3.3 已知坑位（启动前自查）
 
 | 现象 | 原因 | 处理 |
 |------|------|------|
-| `start_qwen3vl.sh` 立刻报 `找不到 .../config.json` | [config.env](../Qwen3-VL-235B_prompt/config.env) 中 `MODEL_DIR` / `WORK_DIR` 与本机实际挂载点不一致 | 已修（2026-05-24）：两者均改为 `/path/to/...`；如未来换机器重新挂载需再核 |
+| `start_llm_server.sh` 立刻报 `找不到 .../config.json` | [config.env](../llm_serving/config.env) 中 `MODEL_DIR` / `WORK_DIR` 与本机实际挂载点不一致 | 已修（2026-05-24）：两者均改为 `/path/to/...`；如未来换机器重新挂载需再核 |
 | `connection refused` / `Connection reset` | 本地 HTTPS 代理拦了 127.0.0.1 | 设置 `export NO_PROXY=localhost,127.0.0.1,::1; export no_proxy=$NO_PROXY` |
 | GPU OOM | `--max-model-len 128000` 太大 | 改小到 32768 / 16384 重启 |
-| 长时间 `RUNNING` 但接口无响应 | tmux 会话内 vllm 还在 loading shards | `tmux attach -t qwen3vl_serve` 看进度 |
+| 长时间 `RUNNING` 但接口无响应 | tmux 会话内 vllm 还在 loading shards | `tmux attach -t llm_serve` 看进度 |
 
 ---
 
@@ -103,12 +103,12 @@ t2av-bench 的 [src/t2av_bench/config.py](./src/t2av_bench/config.py) 会自动�
 ```yaml
 # config/local.yaml
 llm:
-  provider: qwen
-  qwen:
+  provider: openai_compat
+  openai_compat:
     base_url: "http://127.0.0.1:8080/v1"
     api_key: "EMPTY"
-    spec_model: "Qwen3-VL-235B-A22B-Instruct"
-    prompt_model: "Qwen3-VL-235B-A22B-Instruct"
+    spec_model: "<your-model>"
+    prompt_model: "<your-model>"
     temperature: 0.7
     top_p: 0.9
     max_tokens: 2048
@@ -136,8 +136,8 @@ from t2av_bench.llm.base import Message
 
 cfg = load_config()
 print("provider:", cfg.get("llm.provider"))
-print("base_url:", cfg.get("llm.qwen.base_url"))
-print("model:",    cfg.get("llm.qwen.spec_model"))
+print("base_url:", cfg.get("llm.openai_compat.base_url"))
+print("model:",    cfg.get("llm.openai_compat.spec_model"))
 
 cli = get_client(config=cfg)
 resp = cli.chat([Message(role="user", content="ping，请回复 pong")])
@@ -146,7 +146,7 @@ print(resp.text)
 PY
 ```
 
-期望输出：`provider: qwen` + 模型回复一段话。
+期望输出：`provider: openai_compat` + 模型回复一段话。
 
 ---
 
@@ -162,14 +162,14 @@ python scripts/04_validate_prompts.py --category speech
 python scripts/05_build_coverage_matrix.py
 ```
 
-### 6.2 真实千问全流程（330 条 spec）
+### 6.2 真实LLM全流程（330 条 spec）
 
 ```bash
 # 阶段 1：词表/分桶配置 sanity check
 python scripts/01_build_vocab.py
 
 # 阶段 2：每个声源桶按 target_count 生成（核心 5×50 + 边缘 4×20 = 330）
-python scripts/02_generate_specs.py --category all --provider qwen
+python scripts/02_generate_specs.py --category all --provider openai_compat
 
 # 阶段 3：spec → prompt 编译
 python scripts/03_compile_prompts.py --category all
@@ -207,9 +207,9 @@ python scripts/07_split_prompts_specs.py
 
 | 现象 | 排查 |
 |------|------|
-| `QwenClient 需要有效的 api_key` 报错 | local.yaml 没生效 / api_key 仍是 `${...}` 形式。检查 `python -c "from t2av_bench.config import load_config; print(load_config().data['llm']['qwen'])"` |
+| `LLMClient 需要有效的 api_key` 报错 | local.yaml 没生效 / api_key 仍是 `${...}` 形式。检查 `python -c "from t2av_bench.config import load_config; print(load_config().data['llm']['openai_compat'])"` |
 | `Connection refused 127.0.0.1:8080` | vLLM 没起或还在 loading；`curl /v1/models` 看 |
-| `openai.BadRequestError: response_format=json_object 不支持` | 个别 vLLM 版本不兼容；可临时改 [qwen_client.py](./src/t2av_bench/llm/qwen_client.py) 的 `chat_json`，去掉 `response_format` 参数，靠 system prompt 强约束 + 客户端解析兜底 |
+| `openai.BadRequestError: response_format=json_object 不支持` | 个别 vLLM 版本不兼容；可临时改 [llm_client.py](./src/t2av_bench/llm/llm_client.py) 的 `chat_json`，去掉 `response_format` 参数，靠 system prompt 强约束 + 客户端解析兜底 |
 | spec 大量被 validator 拒（rejected）| 多半是模型选了 vocab 之外的枚举；调高 temperature 或减小 max_tokens 让回答更短，或检查 system prompt 注入是否正确 |
 | `prompt char 长度不达标` | 调 `config.compile.{min_chars,max_chars}` 或 `config.validation.min_field_recall` |
 
@@ -219,17 +219,17 @@ python scripts/07_split_prompts_specs.py
 
 | 日期 | 变更 |
 |------|------|
-| 2026-05-24 | 初版：接入本地 vLLM 千问（127.0.0.1:8080），新增 `config/local.yaml` |
-| 2026-05-24 | 修 `Qwen3-VL-235B_prompt/config.env` 的 `MODEL_DIR` / `WORK_DIR`：从最初的 `/path/to` 挂载迁到当时可用的挂载点（旧挂载点不存在），后又于 2026-07-13 统一迁到当前的 `/path/to`，详见下条 |
+| 2026-05-24 | 初版：接入本地 vLLM LLM（127.0.0.1:8080），新增 `config/local.yaml` |
+| 2026-05-24 | 修 `llm_serving/config.env` 的 `MODEL_DIR` / `WORK_DIR`：从最初的 `/path/to` 挂载迁到当时可用的挂载点（旧挂载点不存在），后又于 2026-07-13 统一迁到当前的 `/path/to`，详见下条 |
 
 ---
 
-## 附：与 Qwen3-VL-235B_prompt 工程的关系
+## 附：与 llm_serving 工程的关系
 
 两个工程**只共享一个 vLLM 服务进程**，没有任何代码 / 配置 / 数据耦合：
 
-- `Qwen3-VL-235B_prompt` 自己用 [prompts/dimensions.yaml](../Qwen3-VL-235B_prompt/prompts/dimensions.yaml)
-  / [meta_prompts.yaml](../Qwen3-VL-235B_prompt/prompts/meta_prompts.yaml) 生成 10 大类
+- `llm_serving` 自己用 [prompts/dimensions.yaml](../llm_serving/prompts/dimensions.yaml)
+  / [meta_prompts.yaml](../llm_serving/prompts/meta_prompts.yaml) 生成 10 大类
   AV 评测 prompt
 - `t2av-bench` 用自己的 `vocab/` + `categories/` + `specs/schema.json` 生成声源分桶 spec
 
@@ -291,7 +291,7 @@ python3 scripts/run_all_persistent.py --top-n 10 --num-gpus 8 2>&1 | tee logs/ru
 - `daVinci-MagiHuman_test/`
 - `LTX-2.3_test/`
 - `Ovi_test/`
-- `qwen3omni_deploy/`
+- `llm_serving/`
 - `generation/`
 - `evaluation/`
 - `prompts/hunyuan/`（rewrite_zh_to_hunyuan.py 等）
@@ -328,7 +328,7 @@ grep -rl "/path/to" <target_dir> \
 
 ### 每类 150 条 · 生成 + 编译 + 翻译 完整命令
 
-前置：确保本地 vLLM 千问服务在 `127.0.0.1:8080` 上就绪（详见本文 §3）。
+前置：确保本地 vLLM LLM服务在 `127.0.0.1:8080` 上就绪（详见本文 §3）。
 
 ```bash
 cd /path/to/workspace/t2av-bench
@@ -340,7 +340,7 @@ export no_proxy=$NO_PROXY
 python scripts/02_generate_specs.py \
   --category all \
   --n 150 \
-  --provider qwen \
+  --provider openai_compat \
   --multi-shot-ratio 0.5 \
   --shot-dist "0.5:1:3:4.5:1" \
   --concurrency 8 \

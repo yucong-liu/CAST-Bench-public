@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 把 t2av-bench/prompts/zh/*.json 里的中文提示词，
-调用本地 vLLM (Qwen3-VL-235B-A22B-Instruct) 改写成 hunyuan 训练/推理格式的
+调用本地 vLLM (OpenAI 兼容 LLM) 改写成 hunyuan 训练/推理格式的
 CSV，与 prompts/hunyuan/prompt_trans/exp/t2va_{single,multi}_captions_300_5s_15s.csv
 列结构完全对齐，仅在最前面多一列 id。
 
@@ -82,9 +82,9 @@ CSV_HEADER = [
 ]
 
 # 默认 vLLM 配置（见 t2av-bench/SETUP.md §5.1，可用环境变量覆盖）
-DEFAULT_BASE_URL = os.environ.get("QWEN_BASE_URL", "http://127.0.0.1:8080/v1")
-DEFAULT_API_KEY  = os.environ.get("QWEN_API_KEY",  "EMPTY")
-DEFAULT_MODEL    = os.environ.get("QWEN_MODEL",    "Qwen3-VL-235B-A22B-Instruct")
+DEFAULT_BASE_URL = os.environ.get("LLM_BASE_URL", "http://127.0.0.1:8080/v1")
+DEFAULT_API_KEY  = os.environ.get("LLM_API_KEY",  "EMPTY")
+DEFAULT_MODEL    = os.environ.get("LLM_MODEL",    "<your-model>")
 
 # ----------------------------------------------------------------------
 # System Prompt（关键：让 VL 学会 hunyuan 的中文自然语言风格 + 内嵌音频标签）

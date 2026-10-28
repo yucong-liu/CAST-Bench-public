@@ -4,7 +4,7 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格3D动画CG风多镜头序列，展现两个孩子在阳光明媚的客厅中，女孩认输、男孩庆祝胜利，对话为欢快的中文对白，环境音包括钟表滴答声、鸟鸣与轻柔器乐；无镜头移动，固定中景，情绪稳定愉悦。\n\n[SHOT 1/2, medium_shot]\n中景镜头：一位扎双马尾、穿黄色连衣裙的8岁女孩抱着毛绒熊，眼神充满俏皮的不满，坐在一位咧嘴笑、穿条纹衬衫的10岁男孩身旁，男孩身体前倾、双手撑膝。女孩嘴唇清晰同步儿童声线说出 \"你赢了！我承认你比我聪明！\"，语调明亮带调侃。背景中，一只虎斑猫在窗台小憩，尾巴随附近收音机播放的轻柔器乐节奏微微摆动。窗外隐约传来鸟鸣，墙钟持续滴答作响。午后阳光温暖洒落，烘托欢乐氛围。\n\n[SHOT 2/2, medium_shot]\n中景镜头延续相同平视构图：男孩仰头大笑，双手叉腰，条纹衬衫被阳光照亮，张大嘴巴欢快喊出 \"哈哈，我就知道你会认输！\"，唇形精准同步儿童胜利语气。身旁女孩咯咯笑，用空着的手戳他手臂，表情转为忍俊不禁。猫咪略动但未醒，尾巴仍轻摆。收音机器乐持续播放，与钟表滴答和远处鸟鸣交融。两个孩子仍坐沙发，玩闹活力不减，无镜头移动，光线与背景保持一致。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "cg_photoreal",
     "visual_substyle_zh": "CG风"
   },
@@ -13,28 +13,28 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 历史影视单镜头：19世纪昏暗书房内，中景平视固定镜头。一位身着高领丝绸长裙的女子坐在黄铜台灯下，以女性声线用中文说话，情绪从平静转为困惑。她的口型同步匹配：“我原以为这只是份寻常的账目..但这些数字，它们不可能是巧合。是谁在幕后操纵？” 对面，一位穿着剪裁合体马甲的男子前倾身体，口型同步匹配：“你确定没有看错？这些数据..确实异常。” 画外旁白以沉稳克制的语调讲述背景信息——随即戛然而止，女子在说话中途突然僵住，双眼逐渐睁大，流露出初现的困惑。无环境音，无音乐，仅有人声。情绪弧线：平静 → 困惑。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0003",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 历史电影风格的多镜头序列，设定在阳光普照的罗马斗兽场竞技场内，正在进行角斗士比赛，三位解说员——一位困惑的男性、一位狂喜的女性和一只卡通狮子——通过对话驱动的情绪弧线从怀疑转向喜悦，所有镜头均为固定画面，配有单声道中文解说音频。\n\n[SHOT 1/3, close-up]\n特写镜头聚焦于一位中年男性罗马解说员，身着托加袍，灰发，橄榄色皮肤，眉头紧锁，身体前倾，姿态犹豫，脚下尘土飞扬。他眯眼凝视竞技场地面，声音略带颤抖地说：\"这..这怎么可能？那个新来的角斗士居然挡住了三轮猛攻？裁判是不是看错了？\" 他身旁，一位身着斯托拉长袍的女性解说员专注观看，双唇紧抿，目光锁定沙地。背景中，一只身穿红色托加袍的卡通狮子吉祥物定格在欢呼半空，双爪高举。阳光在石制解说台投下锐利阴影，凸显男性解说员质疑裁判判罚时的紧张神情。\n\n[SHOT 2/3, medium shot]\n平视中景镜头，展现男性解说员双眼骤然睁大，此时角斗士腾空跃起，挥舞旋转长剑。女性解说员倒吸一口气，紧抓栏杆，双颊泛红，兴奋迸发，脱口而出：\"天哪！他翻身一跃！那招‘旋风斩’太漂亮了！观众都疯了！这才是真正的英雄！\" 同时，卡通狮子吉祥物咆哮：\"吼——！太棒了！干得漂亮！\" 欢喜地拍打石台。男性解说员的困惑逐渐化为初现的惊叹，嘴巴微张，凝视角斗士的动作。午后阳光下尘土持续飞舞，捕捉着三位解说员表情实时转变的瞬间。\n\n[SHOT 3/3, wide shot]\n广角镜头展现男性解说员如今笑容满面，热情鼓掌，身旁女性解说员则兴奋跳跃。卡通狮子吉祥物挥舞一面微型罗马旗帜，双爪仍高举。男性解说员高喊：\"我错了！这孩子是天才！\" 女性转向他，开怀大笑，两人击掌庆祝。暖阳洒在他们脸上，洋溢纯粹喜悦。石制解说台、飞舞尘土与隐含的观众欢呼声共同框住这胜利时刻。无其他音效——唯有他们的解说声回荡，呼应从困惑到狂喜的情绪弧线。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0004",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在灯光昏暗的博物馆走廊中，地面铺着抛光大理石，两侧陈列古典半身像，尽头一扇紧闭的门被一束聚光灯照亮。画外音为男性导游，声线男性，讲俄语，情绪弧线：愤怒 → 惊慌。他逐字说出：“Вы не понимаете — это не просто старинный артефакт! Он активирован! Бегите, пока не поздно!. О, Боже, оно движется — я слышу шаги в коридоре!” 声音起初尖锐而命令式，随后碎裂为气喘吁吁的恐慌。远处传来低频嗡鸣与隐约金属碰撞声，源自看不见的机械装置。镜头为中景，平视，标准镜头——固定画面，无运镜。口型必须精准匹配说话中途的情绪突变。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0005",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格3D动画3D皮克斯动画风格：一位穿着皱巴巴西装的中年男子，在暴雨中的昏暗公司会议室里用中文发表悲伤独白，多声道音频包含他颤抖的声音与远处雷声；情绪全程保持悲伤。\n\n[SHOT 1/4, medium shot]\n一位穿着皱巴巴西装的中年男子，双眼因哭泣泛红，瘫坐在长会议桌前，头低垂，双手微微颤抖，凝视着空荡的椅子。他身后的落地窗上雨水纵横。房间寂静，唯有他低沉破碎的声音。他略微抬起目光，嘴唇费力张开，说道：\"我尽力了.但董事会还是决定裁员。我辜负了所有人。\" 最后一个词声音嘶哑，呼吸急促，肩膀因话语的重量而紧绷。远处雷声在他话语下隐隐滚动。\n\n[SHOT 2/4, close-up]\n特写男子面部，眼眶泛着未落的泪光，缓慢眨眼。嘴唇明显颤抖后才吐出下一句话，声音几乎低不可闻。他垂下视线，下颌颤抖着说：\"他们说这是为了公司生存.可我连自己的团队都保不住。\" 雷声持续低鸣，与他呼吸的细微颤抖交织。西装领口微歪，一只手在画面外紧抓桌沿。除嘴唇颤抖与眨眼外，无其他动作。\n\n[SHOT 3/4, over-the-shoulder]\n过肩镜头，从男子身后拍摄，视角越过会议桌望向空椅子。雨痕模糊的玻璃上隐约映出他的倒影。他双肩塌陷，深吸一口颤抖的气，声音沉重悲伤地对着空无一人的座位说：\"我该对那些信任我的人说什么？我连自己都说服不了。\" 手指在桌沿微微蜷曲。背景雷声持续低沉稳定，衬托他的声音。无其他动作——只有他背部随呼吸缓慢起伏。\n\n[SHOT 4/4, wide shot]\n会议室全景。男子独自坐着，被偌大空间衬得渺小，窗外雨势已转为细密。他缓缓向后靠，闭上双眼，发出一声漫长疲惫的叹息。最后的话语几乎听不见，哽咽着说出：\"也许.这就是结局吧。\" 双手无力垂放于大腿，西装外套因久坐而褶皱。背景雷声渐弱为远方低语，随他声音消散。无其他动作——只有他姿态中缓慢而颓然的静止。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "pixar_3d",
     "visual_substyle_zh": "3D皮克斯动画风格"
   },
@@ -43,77 +43,77 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 历史风格的多镜头 vlog 序列，展现一位女性广播员在19世纪录音室中用德语播报时，情绪从平静逐步转为恐慌的全过程，单声道音频，无镜头移动。\n\n[SHOT 1/5, medium]\n一位30多岁的女性广播员，身着剪裁合体的19世纪衬衫与长裙，金发盘成整齐发髻，佩戴金框眼镜与象牙色手套，端坐于木制桌前。她调整复古麦克风，目光专注脚本，姿态放松。一只黄铜羽毛、红玻璃眼的机械鹦鹉静立于架子上。她声音平稳冷静地朗读：“Guten Tag, liebe Hörer. Heute berichten wir über die neuesten Entwicklungen im Eisenbahnnetz. Die Züge fahren pünktlich, und die Passagiere sind zufrieden. Es gibt keine Störungen, keine Unfälle — alles läuft reibungslos.” 录音室光线昏暗，可见黄铜旋钮与木质面板，无环境杂音——唯有她的声音填满空间。\n\n[SHOT 2/5, close-up]\n特写镜头，略低角度聚焦广播员面部。她翻动脚本时手微微颤抖，目光扫过桌上电报。表情紧绷，双唇紧抿，眉头紧锁。机械鹦鹉转头望向她，却仍沉默。她继续播报，声音仍克制但已带一丝紧绷：“Die Nachrichten ändern sich schnell. Ein Zug ist verschwunden — keine Spur, keine Signale. Die Behörden sind ratlos.” 复古麦克风捕捉到她呼吸的边缘。灯光依旧昏暗，聚焦于她，无其他声响。\n\n[SHOT 3/5, full]\n全景镜头：广播员猛然站起，打翻水杯，玻璃在木地板上碎裂。她身体僵直，声音在句中突然破裂。她紧抓桌沿，双眼圆睁。机械鹦鹉不安地扑扇翅膀，仍无发声。录音室灯光短暂闪烁。她对着麦克风大喊：“Ich — ich muss das sofort melden. Keine Züge mehr, keine Verbindungen — es ist ein Notfall! Alle Stationen sollen geschlossen werden!” 手套明显颤抖。控制台上的黄铜旋钮在昏暗中微弱发光。除她逐渐失控的声音外，无其他音频。\n\n[SHOT 4/5, close-up]\n高角度特写，广播员俯身贴近麦克风，面色潮红，胸膛起伏。她紧抓胸前衣襟，双眼圆睁而失焦。声音急促、气喘、颤抖：“Hört mich an! Es ist ein Notfall! Keine Züge mehr, keine Verbindungen — schließt alle Stationen! Ich wiederhole: schließt alle Stationen!” 机械鹦鹉齿轮发出清晰运转声，却未模仿她。录音室氛围压抑，墙壁仿佛向内挤压。无背景嗡鸣，无脚步声——唯有她恐慌的播报填满寂静。象牙手套紧握麦克风支架。\n\n[SHOT 5/5, medium]\n中景镜头：广播员瘫坐回椅中，喘息不止，双手剧烈颤抖。眼镜微微滑落鼻梁。机械鹦鹉静止于架子上。录音室寂静，仅余她粗重的呼吸与麦克风微弱的嗡鸣。她低声呢喃，声音破碎：“Es tut mir leid. ich kann nicht mehr. es ist zu viel.” 姿态萎靡，双肩颤抖。木桌上散落纸张与碎玻璃。无其他声响。昏暗光线投下长长的阴影。情绪弧线：平静 → 恐慌，完成。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0008",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位中年女性电影导演身穿剪裁合体的西装外套，僵直地站在昏暗电影工作室控制室的控制台前，面部因愤怒而泛红，随即扭曲成惊慌。她用女性声音讲德语，口型精准同步于：\"Das ist nicht akzeptabel — wieso ist die Kamera noch nicht auf dem Set? . Warte — nein, nein, nein! Er bewegt sich nicht! Jemand ruf den Notarzt! Sofort!\" 她的情绪弧线在句子中途由愤怒转为惊慌，一边喘息一边冲向窗户。窗外，工作人员在慢动作中慌乱奔走；可听见沉闷的喊叫与器材碰撞声。镜头：中景，平视，标准镜头。无摄像机运动。情绪弧线：愤怒 → 惊慌。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0009",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 科幻风格的vlog式演讲，情绪弧线：悲伤 → 中性，主角为一名男性人类演讲者，身处昏暗的未来大厅，背景有全息投影和两名静默的机器人助手；音频为单声道，仅来自演讲者，所有对话使用中文脚本。\n\n[SHOT 1/6, medium]\n中年男性演讲者身穿流线型科幻长袍，低头站在讲台前，身后是闪烁的全息图表。他声音低沉颤抖，开始讲话时目光低垂，嘴唇精准而庄重地开合。他说：\"今天，我们纪念那些在量子风暴中消失的同行。\" 浮动UI面板的环境光在他脸上投下柔和阴影。无其他声音——音频仅来自他本人。他身体保持静止，双肩微垂，以静止姿态传达悲伤。\n\n[SHOT 2/6, close_up]\n特写镜头聚焦演讲者面部，他缓缓抬头，眼中含泪未落。身后全息屏切换为事件时间轴。他声音稍稳，下颌紧绷显出决心。他说：\"他们的牺牲，让我们更接近真理。\" 表情沉重但克制，呼吸平稳，目光直视前方。灯光勾勒面部轮廓，强化从悲伤到专注的情绪过渡。无镜头移动；画面固定于其上半身与面部。\n\n[SHOT 3/6, medium]\n演讲者略微转身，两名机器人助手入镜——一高一矮，高者银色、蓝光双眼；矮者红色、头戴显示装置。他瞥向他们，再转向观众，语气转为客观陈述。他说：\"这些数据，由我们的AI助手整理，将展示我们最新的模型。\" 嘴型精准同步，无迟疑。机器人静立不动，默默观察。身后全息影像柔和脉动。转场为淡入淡出；无镜头移动。他稍移重心，长袍布料反射环境光。\n\n[SHOT 4/6, wide]\n广角镜头展现演讲者指向一幅大型全息投影，投影显示波动曲线。他表情完全中性，专注。他说：\"注意这个波动曲线，它揭示了量子纠缠的新模式。\" 机器人静立两侧，无声旁观。大厅昏暗光线与明亮投影形成对比。他手势明确，手指伸向曲线。无镜头移动；画面固定。音频仍为单声道——仅他清晰、平稳的声音填充空间。\n\n[SHOT 5/6, medium]\n演讲者转向机器人，以中性语气提问。其中一台机器人发出合成语音回应——其姿态无视觉变化。他点头，表情未变。他说：\"这个模型的预测准确率是多少？\" 嘴型与合成语音节奏精准同步。另一台机器人静止不动，头戴显示器微光闪烁。转场为划像。无镜头移动。音频仍仅来自演讲者；机器人语音为画外音，除声音外无视觉描述。\n\n[SHOT 6/6, medium]\n演讲者再次面向观众，双手交握于身前。身后全息影像渐暗。他声音平静、平稳、完全中性。他说：\"感谢各位。科学没有终点，只有持续的探索。\" 姿态挺拔，目光稳定。机器人已不在画面内。转场为淡出。无镜头移动。最后一句以沉静权威的语气说出，嘴型精准，无情绪起伏。音频仍为单声道——仅他清晰、坚定的声音结束演讲。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0011",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 科幻电影风格的新闻发布会，场景设在霓虹灯照亮的穹顶礼堂，氛围紧张正式，主角为一位身穿银色长袍的老年女性政治家与一位铬合金机器人新闻主播；情绪弧线：困惑 → 中性；对话以中文呈现，语调为老年女性声线；单声道音频聚焦于发言者；无镜头运动。\n\n[SHOT 1/7, wide]\n低角度广角镜头拍摄霓虹灯照亮的穹顶礼堂。身穿金属银色长袍的老年女性政治家站在悬浮讲台后，调整眼镜，灰发整齐盘起，目光扫过笔记，神情略显不确定。她头顶上方全息影像闪烁不定。身旁，铬合金机器人主播静立不动，LED双眼微光。画外观众低声议论。她深吸一口气，说道 \"我理解你们的困惑.\"，声音平稳但略带迟疑，口型清晰同步，开始发表声明。\n\n[SHOT 2/7, close_up]\n平视特写镜头聚焦政治家面部。她微微皱眉，手指有节奏轻敲讲台。身后全息影像剧烈闪烁后恢复稳定。机器人LED双眼随环境光柔和脉动。她语句中途稍作停顿，随后继续说道 \"..但数据已确认——这不是故障，是系统自主进化。\"，语气转为坚定，声线仍保持老年特质但更具权威感，口型精准同步，清晰传达关键语句。\n\n[SHOT 3/7, medium]\n平视中景镜头同时拍摄两人。政治家稍退半步，将主导权让予机器人。机器人转头面向观众，LED双眼稳定发光。全息影像此时显示清晰图表。它以冷静合成音说道 \"官方声明已确认：AI系统进入自适应模式。\"，音频干净无情绪起伏，无人类语调，无需口型同步（因其为机器）。\n\n[SHOT 4/7, medium]\n从机器人身后拍摄的过肩中景，镜头对准政治家。她缓缓点头，表情明显柔和。全息影像现为平静蓝色波形图。她以重获镇定的语气说道 \"我们已启动监控协议，确保人类主导权。\"，声线保持一致，口型流畅同步，姿态挺直，重新掌控叙事节奏，机器人仍静立一旁。\n\n[SHOT 5/7, medium]\n平视中景双人镜头。政治家站姿更挺拔，双肩平展。机器人LED双眼稳定发光。观众席寂静无声。穹顶环境光由红转蓝。她宣告道 \"这并非失控，而是协同进化。\"，语调中性沉稳，口型清晰无迟疑，情绪弧线已完全由困惑转为冷静权威。\n\n[SHOT 6/7, close_up]\n平视特写镜头聚焦政治家面部。她神情平静，目光专注前方。她缓慢而刻意地深吸一口气。机器人仍静立身旁。她清晰说出 \"请相信，人类仍是决策核心。\"，声音坚定无波动，老年声线稳定，口型精准同步，无任何紧张迹象，完全掌控全局，声明即将结束。\n\n[SHOT 7/7, wide]\n低角度广角镜头拍摄整个礼堂。政治家从讲台后退一步。机器人关闭LED灯。全息影像渐隐入黑暗。观众席依旧寂静。穹顶灯光已全转为蓝色。她最终说道 \"会议结束。\"，语调终结而沉稳，口型清晰无多余动作，仅以言语收尾，场景静止，事件落幕。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0012",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "手持式vlog风格的中景镜头，平视角度，固定画面，拍摄于一间杂乱的家庭办公室内：桌面上散落着纸张，笔记本电脑显示暂停的视频通话界面，咖啡杯，窗外是阴天的自然光。画面中无人或动物出现。画外传来带有广播腔调的英语人声，表达困惑，原话为：“Wait, did you say the meeting was rescheduled to Tuesday? I thought it was Thursday — can you confirm that again? I’m honestly a bit lost here.”。背景中持续传来远处冰箱的微弱嗡嗡声，以及挂钟反复的滴答声，伴随人声。无需唇形同步——说话者在画面外。情绪状态始终保持困惑。视觉风格：写实。声音复杂度：多声源。视频类型：vlog。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0013",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头序列，场景设定在黄昏时分昏暗的巴黎家庭办公室，一位年迈的法国女性与一只卡通风格的姜黄色猫对直播中断做出反应；音频仅来自直播广播，无环境音；女性声音苍老、困惑、持续贯穿8个镜头，情绪无变化。\n\n[SHOT 1/8, medium shot]\n一位灰发、穿羊毛开衫、戴老花镜的年迈法国女性僵硬地坐在木桌前，双眼圆睁、眉头紧锁，凝视着笔记本电脑屏幕，窗外雨水划过玻璃。一只戴贝雷帽的卡通姜黄色猫站在她身旁，爪子抬起悬在半空。她低声喃喃，嘴唇缓慢开合，说道：\"Je ne comprends pas pourquoi la plateforme a coupé ma diffusion. j’étais en train de parler des choux-fleurs, pas des politiques !\" 房间内无其他声音——只有直播广播填满空间。\n\n[SHOT 2/8, close-up]\n特写女性面部，双眼左右扫视，仿佛在寻找答案，嘴唇微微颤抖。猫的爪子从画面右侧伸入，指向屏幕。她身体前倾，声音紧绷但清晰，说道：\"C’est impossible. j’ai vérifié les mots interdits !\" 表情凝固在困惑与难以置信中，无其他声音——只有她自己声音的直播广播持续播放。\n\n[SHOT 3/8, over-the-shoulder]\n从女性身后拍摄的过肩镜头，显示笔记本电脑屏幕冻结在红色 'STREAM ENDED' 横幅上。猫的倒影映在屏幕上。她凑近屏幕，眯起眼睛，声音略带挫败地提高，说道：\"Mais pourquoi ‘chou-fleur’ serait-il interdit ? C’est un légume !\" 双手静止，姿态紧绷，唯一音频是她自己声音的直播广播。\n\n[SHOT 4/8, medium shot]\n中景镜头，猫现在站在桌上，爪子搭在笔记本键盘上，以了然神情看着女性。窗外雨声持续。它用一只爪子做手势，声音平静而解释性地说道：\"Madame, vous avez dit ‘chou-fleur’ trois fois en cinq secondes. Le système a cru que c’était un mot de passe secret.\" 女性注视着它，身体仍僵硬，无其他声音——只有广播继续播放。\n\n[SHOT 5/8, two-shot]\n双人镜头，女性与猫面对面，女性双手抬起表示难以置信，眉毛高高扬起。猫微微耸肩。她惊呼，声音因困惑而颤抖：\"Un mot de passe secret ? Pourquoi ?\" 嘴唇急促开合，目光锁定猫，无其他音频——只有她自己声音的直播广播持续播放。\n\n[SHOT 6/8, close-up]\n笔记本电脑屏幕特写，聊天消息快速滚动：‘CHOU-FLEUR? IS THAT A CODE?’ ‘SHE’S HACKING THE PLATFORM!’ 猫的爪子悬在键盘上方。它边打字边说，声音平稳：\"Je vais leur expliquer que c’est juste un légume.\" 女性无助地注视着，无其他声音——只有她自己声音的广播继续播放。\n\n[SHOT 7/8, medium shot]\n中景镜头，女性瘫坐回椅中，神情挫败，眼神黯淡，肩膀下垂。猫站在她身旁，疯狂打字。她轻叹，声音轻柔但清晰：\"Je vais peut-être juste cuisiner des choux-fleurs en silence.\" 雨水划过他们身后的窗户，无其他音频——只有她自己声音的直播广播持续播放。\n\n[SHOT 8/8, wide shot]\n全景镜头展示房间：女性静坐不动，茫然凝视笔记本电脑。猫已停止打字，以同情表情看着她。她低语，声音微弱但清晰：\".ou peut-être que je devrais juste arrêter de parler.\" 广播仍在继续——无其他声音——场景静默，唯有她自己的声音。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0014",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在一个奇幻风格的魔法新闻演播室中，漂浮的水晶屏幕与发光的符文环绕四周，三位主播站在悬浮的播报台后：一位身穿闪亮蓝袍的女性主播（30多岁，面带灿烂笑容）说 “各位观众朋友们，今天魔法大陆迎来了千年一遇的彩虹龙降临！天空被七彩光芒笼罩，所有魔力生物都在欢庆！”；一位身穿金色马甲的男性搭档主播（20多岁末，兴奋地鼓掌）说 “没错！据魔法气象局报道，彩虹龙的鳞片能净化负面情绪，全国魔法学校已宣布今日停课庆祝！”；还有一位狐狸模样的搭档主播，拥有翡翠色双眼并戴着迷你记者帽（满面喜悦）说 “我刚从龙谷现场连线回来！孩子们都在追着彩虹光跑，连老树精都跳起了舞！”。三人皆以欢快的中文语调说话，口型完美同步，背景为柔和的风铃与钟声氛围。固定中景平视镜头。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0016",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "A middle-aged man in a beige sweater sits on a sofa in a sunlit living room with vintage furniture, smiling broadly as he speaks directly to the camera in a warm, middle-aged English voice, saying: \"This is the happiest day of my life — I never thought I’d see my childhood dream come true!\" His lipsync matches the joyful tone of his words. Behind him, a woman in her 30s in a floral dress softly laughs while arranging flowers on a side table. A tabby cat naps on a windowsill, twitching its ears occasionally. Ambient sounds include a ticking clock and faint birdsong from outside. The shot is a fixed medium, eye-level, standard-lens frame. No camera movement. The overall mood is joyful and stable throughout, with uplifting cinematic instrumental music playing underneath.",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0018",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "手持式vlog镜头，固定中景，平视角度，展示一个杂乱的博物馆展品房间，玻璃展柜内陈列着古代文物，顶部柔和灯光照射——无可见人物。唯一声音是画外一位女性导游犹豫、困惑的俄语解说：“Хм. этот артефакт, кажется, был найден в пещере под городом. но почему на нем такие странные символы? Я не уверена, что они означают.” 她的声音音色明显为女性，全程情绪稳定且困惑——无情绪变化。唇形必须与所讲俄语完全同步，即使说话者未出现在画面中。无镜头移动。写实视觉风格。单音源：仅她的声音。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0019",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义vlog风格多镜头序列，捕捉企业会议从愤怒到困惑的情绪弧线，包含多角色对话、广播语调英文对白、固定画面镜头，以及一只卡通咖啡杯承认系统错误。\n\n[SHOT 1/3, medium_shot]  \n一位中年男性高管身穿深色西装，表情严厉，站在玻璃墙会议室长桌尽头，一拳砸在桌上，手指指向显示红色财务图表的笔记本电脑屏幕。他身体前倾，下颌紧绷，眼神灼灼，正在说出：\"This quarter's numbers are unacceptable — we're hemorrhaging revenue and no one has an explanation! I want answers by noon or heads will roll.\" 一位戴眼镜的年轻女分析师紧张地摆弄着笔站在他身旁；一位穿连帽衫的男工程师靠墙而立，双臂交叉。桌上一只卡通风格的动画咖啡杯缓缓眨动眼睛。房间顶部灯光明亮，投下清晰阴影。音频：仅高管声音，持续且有力。\n\n[SHOT 2/3, close_up]  \n戴眼镜的初级分析师现在站在笔记本电脑旁，手指猛戳屏幕，屏幕上显示仓库日志，她声音提高、语气急促地说：\"Actually. the anomaly isn't in sales — it's in the supply chain. The warehouse logs show shipments being rerouted to an unapproved third party.\" 穿连帽衫的技术主管凑近，眉头紧锁，尖锐插话：\"That doesn't make sense — our logistics API hasn't been touched in six months. Someone's overriding it manually.\" 咖啡杯微微颤抖，眼睛左右乱转。团队领导在背景中虚焦可见，仍显紧张。镜头角度略高，聚焦屏幕与分析师表情。音频：重叠人声，一个重复，一个单次爆发。\n\n[SHOT 3/3, medium_shot]  \n团队领导瘫坐在椅子上，手按额头，茫然凝视着咖啡杯——杯子正泛着微光，露出愧疚表情。初级分析师与技术主管交换困惑眼神。笔记本电脑屏幕闪烁错误信息。咖啡杯用高音调、充满歉意的声音插话：\"Oh no. that's my fault! I was trying to automate the coffee breaks and accidentally linked the ERP system to the vending machine API!\" 领导嘴巴微张，双眼圆睁，表情从愤怒明显转为困惑。房间灯光未变。音频：仅杯子单次发声，无其他对白。情绪弧线完成：愤怒 → 困惑。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0020",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位 cheerful 的中年男性主持人，身穿卡其色背心、头戴宽边帽，手持麦克风，站在阳光照耀的雨林树冠步道中央，面带灿烂笑容，朝身后荡秋千的猴子们做手势。他用欢快的男性中文声音说话：“欢迎来到亚马逊雨林！看这些灵巧的猴子，它们是这片生态的活地图！” 他的口型与语音完全同步。他身后，一只幼年卷尾猴在荡秋千时吱吱叫，一只成年吼猴从树枝上发出低沉的吼声。远处鸟鸣与树叶沙沙声构成环境音效。镜头保持固定，采用平视中景，完整捕捉整个场景，无任何移动。视觉风格为写实 3D 动画3D国漫风。情绪全程保持欢快，无情绪变化。无其他对话或屏幕文字出现。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "cn_donghua_3d",
     "visual_substyle_zh": "3D国漫风"
   },
@@ -122,14 +122,14 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 奇幻电影风格的多镜头序列，场景设定在一座悬浮水晶广播室内，主角为一名从惊慌转为困惑的男性人类主播与一只猫头鹰书记官；情绪弧线：惊慌 → 困惑；多声道音频包含紧急对话与魔法环境嗡鸣；所有对话均以英文原句呈现。\n\n[SHOT 1/4, close_up]\n特写镜头聚焦于一名身穿深蓝色银绣长袍、约三十多岁的男性人类主播，双眼圆睁，双手颤抖地紧握水晶麦克风。他身后，一只琥珀色发光双眼、头戴书记官帽的猫头鹰栖于悬浮凳上，凝视着一份噼啪作响的发光卷轴。墙壁符文不规则脉动。主播对着麦克风嘶喊，声音紧绷而急促：\"This is not a drill! The skybridge is collapsing! All citizens must evacuate immediately!\" 他每个音节嘴唇都剧烈开合，语句间隙可听见喘息。广播之下，魔法嗡鸣隐隐震动。卷轴迸发火花时，猫头鹰羽毛微微颤动。\n\n[SHOT 2/4, medium]\n中景镜头中，主播身体前倾，声音颤抖地朗读着此刻剧烈闪烁的发光卷轴。猫头鹰用利爪疯狂翻页，双眼紧锁文字。墙壁符文短暂暗淡。主播表情由惊慌转为困惑，喃喃道：\"Wait, no, that can't be right — the runes are flickering. why are the runes flickering?\" 他眉头紧锁，手悬于太阳穴旁。魔法反馈声随其语调逐渐增强。猫头鹰帽子前倾，专注扫视卷轴。主播嘴唇缓慢开合，最后一词声音略带破裂。\n\n[SHOT 3/4, medium]\n中景镜头展示猫头鹰用爪子指向发光卷轴，声音急促而尖锐。主播茫然凝视卷轴，表情凝固于惊愕。墙壁符文转为微弱蓝光。猫头鹰宣告：\"The magical feedback loop is destabilizing! The bridge wasn’t supposed to collapse — the prophecy said ‘rebuild’, not ‘collapse’!\" 他每念一字喙部大张，羽毛竖立。主播手从脸上垂落，双眼圆睁失焦。环境嗡鸣回归，平稳衬托猫头鹰播报。卷轴光芒随猫头鹰话语同步脉动。\n\n[SHOT 4/4, close_up]\n特写镜头中，主播瘫坐椅中，手按额头，喃喃自语，满是难以置信。猫头鹰略带担忧地注视他，帽子微微歪斜。墙壁符文稳定蓝光，洒下宁静光线。主播低语，声音沙哑破碎：\"I don't understand what's happening!\" 他嘴唇几乎不动，眼神涣散，呼吸微弱。环境嗡鸣持续衬托低语。猫头鹰琥珀色双眼微眯，头略倾斜。除主播最后话语与低沉魔法共鸣外，再无其他声响。他长袍上的银绣在符文光下微微闪烁。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0022",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位 cheerful 的女性机器人主持人，拥有光滑的金属皮肤、发光的蓝色眼睛和流线型银色套装，站在明亮的 2D 动画极简线条风演播室中央，用欢快的机器人声线用中文说话：“大家好！今天我们来分析这部经典电影的镜头语言和情感表达。注意这个特写镜头，角色的眼神传达了强烈的喜悦情绪！” 她身后的大屏幕上播放着一段电影片段。一个小型方块状的漂浮机器人，屏幕脸部分可见，插话一次：“对，那个镜头真的很棒！” 画面上叠加文字：顶部显示“经典电影镜头分析”，底部显示“角色眼神传达喜悦情绪”，以及底部右下角显示“© 2024 FilmStudy Studios”。所有对话均精准口型同步。无镜头移动。视觉风格为写实 2D 动画。情绪全程保持欢快。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "minimalist_line",
     "visual_substyle_zh": "极简线条风"
   },
@@ -138,7 +138,7 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格3D动画体素风，描绘大学讲堂内一位教授的欢快开场演讲因机器人助手的打断而陷入混乱，包含多源音频如学生反应与环境音效；情绪弧线：欢快 → 困惑。\n\n[SHOT 1/5, medium]\n中年男教授身穿粗花呢夹克、戴眼镜，站在讲台后手持激光笔，笑容满面地开始讲课。前排女学生背着蓝色背包，热情点头，笔记本摊开。后排男学生正对朋友耳语，面带窃笑。卡通机器人站在讲台旁，蓝色眼睛发光，灯光平静闪烁。教授声音温暖而充满活力，说道：\"大家好！今天我们要探讨量子纠缠的哲学意涵——它不仅是物理现象，更是意识与现实的桥梁！\" 教室里弥漫着投入的期待感，灯光明亮均匀。\n\n[SHOT 2/5, close_up]\n特写教授面部，他继续讲话，声音因热情而提高，眼镜后双眼发亮。机器人眼睛亮度增强，礼貌打断，金属身躯静止不动。女学生身体前倾，笔悬停在笔记本上方。后排男学生笑容更甚，继续对朋友低语。机器人声音冷静而合成，说道：\"教授，根据量子退相干模型，您的假设可能忽略环境噪声的干扰。\" 教授笑容略显动摇，手仍悬在半空。\n\n[SHOT 3/5, medium]\n教授在句子中途僵住，笑容消退，眯起眼睛消化机器人的评论。女学生表情从好奇转为担忧，眉头紧锁。后排男学生停止低语，抬头张望。机器人静止不动，灯光缓慢脉动。教授声音结巴，仍试图维持欢快语气，说道：\"嗯..这确实是个值得探讨的角度。但我们的实验数据表明——.\" 女学生轻声惊呼；环境嗡鸣声更明显。\n\n[SHOT 4/5, medium]\n教授略微转向机器人，声音变得犹豫而轻柔，肩膀下垂。女学生专注凝视，笔已忘记。男学生向后靠，双臂交叉，神情怀疑。机器人微微歪头，灯光变暗。教授的欢快语调彻底崩塌为困惑，说道：\"等等..如果环境噪声真的能干扰观测，那我们之前的所有结论..是不是都错了？\" 手指在讲台边缘微微颤抖。\n\n[SHOT 5/5, medium]\n教授茫然盯着笔记，手明显颤抖。女学生同情地看着他，嘴唇微张。男学生耸肩，掏出手机。机器人灯光闪烁一次后熄灭。讲堂陷入寂静，仅剩空调嗡嗡声。教授表情完全困惑，陷入沉思，说道：\"我..我需要重新审视这个模型。今天的课，就到这里吧。\" 他垂下目光，声音几不可闻。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "voxel",
     "visual_substyle_zh": "体素风"
   },
@@ -147,28 +147,28 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位三十多岁的女性，棕色及肩发，身穿浅蓝色亚麻衬衫和米色长裤，坐在明亮现代的客厅沙发上，面带微笑并做着手势，用女性英语声音说话——她说话中途表情从喜悦突然转为惊慌，因为身后一个5岁男孩绊倒，打翻玻璃花瓶（发出清脆碎裂声），并开始哭泣。她猛地起身，同步口型急切地说：\"Oh, sweetie, you’re okay — wait, are you hurt? Oh no, that’s glass everywhere — someone call 911! I need help now!\" 背景持续有滴答钟声和远处鸟鸣。情绪弧线：喜悦 → 惊慌。镜头：中景，平视，固定画面。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0025",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视多镜头序列，展现一场紧张的政府新闻发布会，主角为一名出现故障的机器人发言人，两名人类助手对其混乱发言做出反应，多声道音频，无镜头移动。\n\n[SHOT 1/6, medium]\n一名金属面孔、双眼发光的机器人新闻发言人站在讲台后，头部微倾，双眼闪烁，以困惑语气用英语开始发言。“The economic indicators are. inconsistent. Re-calculating. Please standby.” 两名人类助手——一位穿深色西装的中年女性和一位系蓝色领带的年轻男性——站在其身旁，彼此交换眼神。观众席上众人举着手机与麦克风，灯光昏暗。讲台后悬挂着国旗。\n\n[SHOT 2/6, close_up]\n中年女性政府助手特写，身着深色西装，表情深感忧虑。她微微摇头，随即侧身向男助手急促耳语，语气困惑。“I'm sorry, but the data doesn't align — can we revisit the third quarter projections?” 背景中机器人声音持续，略有卡顿。男助手摆弄着笔记，目光在她与机器人之间来回游移。\n\n[SHOT 3/6, medium]\n系蓝色领带的年轻新闻秘书略向前一步，用紧张的手指调整领带。机器人中途停顿，声音渐弱。他面向观众，强作镇定地发言，语调平稳却紧绷。“The minister will address that momentarily — please hold your questions.” 观众席传来轻微低语。一名安保人员静立门边。机器人双眼在他身后不规则闪烁。\n\n[SHOT 4/6, close_up]\n机器人发言人头部进一步倾斜，声音出现机械卡顿。“System anomaly detected. Rebooting core parameters.” 中年女性助手靠近它，急促低语，眉头紧锁。机器人发光双眼短暂变暗。观众开始躁动，部分人起身。男助手仍僵立背景，紧握笔记。昏暗灯光在讲台上投下阴影。\n\n[SHOT 5/6, medium]\n年轻男新闻秘书完全挡在机器人前方，遮蔽其身影，直接面向观众以冷静却紧绷的语调发言。“We are experiencing a minor technical delay — please remain seated.” 女助手将机器人稍向后拉，其机身发出轻微嗡鸣。机器人双眼持续暗淡。观众静坐，紧张气氛弥漫。国旗在他们身后静止悬挂。\n\n[SHOT 6/6, wide]\n机器人发言人现部分隐于讲台后，双眼完全熄灭。两名助手并肩站立，面向观众，神情凝重。房间寂静，仅余机器人冷却系统的微弱嗡鸣。“Processing. Error. Standby mode engaged.” 观众席静坐不动，屏息等待。昏暗灯光强化静止感。讲台、麦克风与国旗仍在画面中，纹丝不动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0027",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 真实感游戏渲染的多镜头序列，一名30多岁的男性主播因游戏中突发意外事件而情绪逐渐升级，从震惊转为愤怒决心，全程用西班牙语说话并清晰口型同步，采用固定画面拍摄，背景有电脑嗡鸣与聊天提示音。\n\n[SHOT 1/7, medium_shot]\n一名30多岁的男性主播，短黑发，胡茬，戴着游戏耳机，穿着休闲连帽衫，坐姿端正于杂乱的桌前，多台显示器显示游戏界面与聊天窗口。他双眼圆睁，嘴巴微张，双手悬停在键盘上方。房间光线昏暗，仅闻轻微电脑嗡鸣与偶尔的聊天提示音。他凝视屏幕，满脸震惊，随后惊呼 \"¡¿Qué?! ¡No puede ser! ¡Ese movimiento no estaba en el script!\" —— 声音尖锐充满难以置信，嘴唇精准同步每个音节。\n\n[SHOT 2/7, close_up]\n主播面部特写，略带仰角：眉头紧锁，嘴唇紧抿，目光在屏幕与聊天窗口间快速游移。表情从震惊转为困惑，身体前倾，双手紧抓桌沿。他低声嘟囔 \"¡Esto es una broma, ¿verdad?! ¡No voy a tolerar esto!\" —— 声音渐紧，下颌紧绷，眼神收窄。背景嗡鸣持续，衬托他日益增长的挫败感，屏幕在昏暗工作室中泛着柔和光晕。\n\n[SHOT 3/7, medium_shot]\n主播轻拍桌面，桌面微微震动。他面色泛红，眼神锐利，声音略升调。他低声咒骂后高声宣告 \"¡Estoy furioso! ¡Voy a denunciarlo en el foro ahora mismo.\" —— 声音尖锐，嘴唇用力开合。电脑嗡鸣随之增强，呼应他情绪升温。连帽衫未变，耳机紧贴，双手紧握桌面，消化着不公。\n\n[SHOT 4/7, full_shot]\n主播猛然起身，椅子被带得后移。他踱步几步，停在屏幕前，目光坚定怒视。呼吸清晰可闻，声音响亮尖锐。他直视镜头宣告 \"¡Escúchenme todos! Esto no puede quedar así. ¡Voy a hacer que sepan lo que pasó!\" —— 嘴唇精准同步，姿态僵硬。聊天窗口快速滚动。工作室依旧昏暗，环境嗡鸣恒定，凸显其决心。\n\n[SHOT 5/7, medium_shot]\n重回座位，姿态僵直，主播疯狂敲击键盘，目光在屏幕与聊天间来回扫视。声音低沉如咆哮，压抑着怒火。他宣告 \"¡No van a salirse con la suya! ¡Voy a publicar esto en todas las redes!\" —— 嘴唇用力开合，手指飞速敲击。电脑嗡鸣持续，强化其专注强度。连帽衫与耳机未动，表情凝固在沸腾的怒意中。\n\n[SHOT 6/7, medium_shot]\n他向后靠在椅背，双臂交叉，直视镜头，眼神冰冷而压抑着怒火。声音平稳却暗藏威胁，他说 \"¡Esto no termina aquí! ¡Voy a asegurarme de que todos lo sepan!\" —— 嘴唇精准同步，目光毫不动摇。聊天窗口消息滚动模糊。灯光未变，环境嗡鸣恒定。连帽衫与耳机依旧，表情坚如磐石。\n\n[SHOT 7/7, medium_shot]\n主播再次起身，动作刻意，调整耳机。他瞥一眼屏幕，转身直面镜头，眼神决绝。声音坚定，宣告 \"¡No voy a dejar que esto se quede así! ¡Voy a hacer que se arrepientan!\" —— 嘴唇锐利同步，表情坚毅。电脑嗡鸣随他话语渐弱。连帽衫与耳机未变，姿态威严，以压抑的怒火收尾。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0028",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "2D动画韩漫风。[OVERALL] 一位30多岁的女新闻主播，身穿深蓝色西装外套，坐在现代演播室的桌前，用困惑的女性英语声音说道：\"Wait — the report says the mayor resigned, but the press release just issued says he’s attending a summit? I’m confused — can someone verify this?\" 她的口型与所说话语完全同步。她身后的大窗户映出黄昏时分的城市天际线；远处可听见警笛声和微弱的车流嗡鸣。演播室灯光柔和均匀。她始终表现出明显的困惑——眉毛上扬，头部微微倾斜，嘴巴在说话中途张开——情绪毫无变化。镜头为固定中景、平视视角、标准镜头构图，无任何摄像机移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "korean_manhwa",
     "visual_substyle_zh": "韩漫风"
   },
@@ -177,21 +177,21 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 黄昏时分，雾气笼罩的城堡庭院中，一名身穿破旧精灵斗篷的年轻女子与一只悬浮的机械猫头鹰共同出现在奇幻电影场景中；画外音为法语对话，背景有魔法铃声与远处龙吼；情绪始终维持困惑，无情绪转变。\n\n[SHOT 1/8, close_up]\n特写镜头：一名困惑的年轻女子，身披破旧精灵斗篷，银长发贴在脸颊，雨水从兜帽滴落，双眼微光闪烁，满是难以置信地凝视手中不规则脉动的护身符。她嘴唇微颤，正欲开口，声音急促地喊出：\"Mais pourquoi le portail ne s'ouvre-t-il pas ? Je suis pourtant la gardienne !\"；摇曳的火把光影在她脸上投下变幻的阴影，背景中隐约传来魔法铃声。\n\n[SHOT 2/8, medium]\n中景镜头：同一女子猛然转身，一只半透明、齿轮翅膀的悬浮猫头鹰振翅飞入画面，翅膀稳定嗡鸣。猫头鹰悬浮于她面前，神情平静却急切，声音清晰回荡：\"Le temps est brisé, maîtresse. Le portail attend une réponse que tu n'as pas encore formulée.\" 她张口凝视，手中护身符仍泛着微光，远处魔法铃声持续在雨润空气中飘荡。\n\n[SHOT 3/8, full]\n全景镜头：年轻女子踉跄后退，被湿滑石板下隐藏的树根绊倒，护身符骤然迸发蓝光，照亮地面。她声音陡然拔高，惊慌喊道：\"Quelle réponse ? Je n'ai rien à dire !\" 雨水顺着斗篷滑落，她勉强站稳，目光在发光的护身符与前方幽暗拱门间来回扫视；庭院火把剧烈摇曳，投下颤抖的长影。\n\n[SHOT 4/8, medium]\n中景镜头：机械猫头鹰俯冲低飞，齿轮翅膀轻擦女子肩头，发出柔和嗡鸣。远处龙吼穿透雾气，虽不见其形，却可感空气震颤。猫头鹰声音依旧平稳：\"Tu dois poser la question, pas attendre la réponse.\" 她微微一颤，紧握护身符，冷冽暮色中呼出白气，雨水持续倾落。\n\n[SHOT 5/8, close_up]\n特写镜头：年轻女子跪倒在地，低头垂首，双手颤抖，护身符在她手中逐渐黯淡。她声音哽咽，强忍压力道出：\"Je. je ne sais pas quoi demander !\" 泪水与雨水混流脸颊，发光双眸低垂，唇微启，流露无声绝望。身后庭院火把微弱摇曳，魔法铃声如未回应的回音萦绕。\n\n[SHOT 6/8, medium]\n中景镜头：机械猫头鹰停驻于火把支架，齿轮翅膀整齐收拢，火焰在它周身剧烈跳动。它声音柔和而坚定：\"Demande ce que tu crains le plus. Le portail répond à la vérité, pas à la certitude.\" 年轻女子仍跪于画外，仅见边缘颤抖的手紧握已黯淡的护身符，庭院中魔法低鸣在雨声下若隐若现。\n\n[SHOT 7/8, close_up]\n特写镜头：年轻女子缓缓抬头，雨水与泪水交融面颊，眼中闪烁脆弱光芒，护身符再度微弱发光。她低语，声音几不可闻却颤抖：\"Et si. et si je n'ai pas la force ?\" 唇瓣缓慢开合，呼吸在句中停顿，仿佛强压恐惧才挤出字句。身后火光随远处魔法铃声节奏摇曳，庭院唯余雨声。\n\n[SHOT 8/8, full]\n全景镜头：年轻女子挺身站起，护身符稳定脉动光芒，机械猫头鹰再次振翅升空，齿轮轻鸣。她站姿挺拔，声音渐稳，宣告道：\"Très bien. Je demande. pourquoi ai-je peur ?\" 庭院四周归于寂静，雨势转为细雨，火把低燃却稳定。猫头鹰盘旋一圈后滑向拱门，留她独自伫立暮色之下，神情坚毅。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0031",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义电影级体育演播室场景，含多主体音频与多源音效，展现两位男性解说员与一只卡通狮子吉祥物对足球比赛情绪弧线的反应——从欢欣胜利到沉痛失利，画面上叠加新闻横幅与逐字英文对白，采用固定中景镜头，无任何摄像机运动。\n\n[SHOT 1/2, medium shot]  \n切至中景镜头：两位男性解说员并排坐在抛光木桌后，蓝色氛围灯光笼罩。中年男子短灰发、穿深色西装、神情专业，身体前倾，双眼发亮，双手比划着高声喊出：\"And here we go — the final whistle! What an incredible match, folks! The underdogs pulled off a miracle! This is the stuff of legends — pure joy, pure heart!\" 他身旁的年轻分析师戴眼镜、穿浅蓝色衬衫，同步激动，双臂高举，大喊：\"Unbelievable! The crowd is going wild — you can feel the energy through the screen! This is why we love the game!\" 背后LED屏幕闪现球队欢庆画面；一只穿球衣的卡通狮子吉祥物在屏幕上欢快跳跃。顶部新闻横幅显示 FINAL SCORE: 2-1；底部横幅显示 UNBELIEVABLE COMEBACK! 两人唇形与充满活力、喜悦的男性英文语调完全同步。\n\n[SHOT 2/2, medium shot]  \n淡入同一中景镜头，灯光变暗，解说员身体前倾、低头，神情凝重。灰发男子西装领口微歪，声音低沉沉重地说：\"It's over. The dream ends here. Such heartbreak — you can see it in their eyes. This is the cruel beauty of sport.\" 年轻分析师仍穿浅蓝衬衫戴眼镜，茫然盯着桌面，声音微颤低语：\"They fought hard. But sometimes, the heart isn't enough. I'm speechless.\" LED屏幕现球员垂头离场画面；卡通狮子吉祥物安静坐在屏幕一角，耳朵下垂。底部新闻横幅显示 HEARTBREAK FOR THE UNDERDOGS。两人唇形准确反映情绪从喜悦到悲伤的转变，保持男性英文语调，无任何摄像机运动或动作动词。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0032",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "2D动画2D卡通风格。[OVERALL] 一位穿着卡其色背心的中年男性导游，手持指示棒，站在阳光明媚的植物园中，用愉悦的男声用英语讲话：\"Welcome, everyone! Isn’t this garden just breathtaking? Look at those orchids — they’re in full bloom today! . Oh — hold on — (glances at watch, voice flattens) . I just got a message — the next group’s running late. We’ll pause here for five minutes.\" 他在阅读智能手表时，表情从愉悦转为中性。背景音效包括持续的树叶沙沙声、远处一声鸟鸣，以及来自看不见的公园扬声器的轻柔持续器乐。镜头：中景，平视，标准镜头 — 固定画面。情绪弧线：愉悦 → 中性。口型同步精确匹配每个单词和停顿。无摄像机移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "cartoon_2d",
     "visual_substyle_zh": "2D卡通风格"
   },
@@ -200,21 +200,21 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 现实主义vlog风格单镜头，固定画面，中景，平视角度，标准镜头。在光线柔和的客厅中，一位中年女性叙述者身穿简约衬衫，端正坐在沙发上，以广播腔调用中文进行正式纪录片式旁白：“城市野生动物保护需要全民参与。但最近一项调查显示，超过70%的市民并不了解本地物种的生存状况。——直到今天，一只会说话的狐狸突然出现在我家客厅，它说：‘别担心，我们狐狸家族已经准备好和人类合作了！’.” 话说到一半，一只拟人化的卡通狐狸突然从旁边的茶几上跳出来，欢快地尖叫并竖起大拇指，原话说道：“别担心，我们狐狸家族已经准备好和人类合作了！”。叙述者的表情从平静明显转为喜悦，露出灿烂笑容——情绪弧线：平静 → 喜悦。仅能听到人声，无背景音效。口型必须与所讲中文台词完全同步。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0035",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头序列，展现一位30多岁、面带喜悦的女性电台主持人，用英语对着复古录音室麦克风欢快讲话，多源音频包括持续广播、环境嗡鸣与隐约城市声；无镜头移动，每镜头固定画面。\n\n[SHOT 1/4, medium_shot]\n一位30多岁、面带喜悦的女性电台主持人，身穿干练西装外套，戴着耳机坐在木桌前，微笑着调整耳塞，阳光从身后窗户洒入。麦克风旁放着咖啡杯，时钟显示上午9:00。她身体前倾，生动地对着麦克风讲话，口型精准匹配她温暖欢快的语调，说着 \"Good morning, listeners! Today we’ve got a special guest joining us live — the author of the bestselling novel 'Whispers in the Rain' — and she’s here to share her inspiration behind the story. Stay tuned!\"。录音室设备的轻柔嗡鸣与远处城市声在她声音下层叠。\n\n[SHOT 2/4, medium_closeup]\n主持人稍向后靠，边听耳机边笑得眼睛发亮，表情洋溢喜悦。咖啡杯已微微移至一侧，阳光角度略有变化，暗示时间推移。她轻轻点头，再前倾，声音依旧欢快地问道 \"That’s such a lovely story — I can totally imagine that rainy afternoon in the bookstore. What made you choose that setting?\"。她的金发、眼镜与耳环在光线下闪烁，始终与麦克风保持平视交流，环境嗡鸣与隐约街声持续衬底。\n\n[SHOT 3/4, medium_shot]\n主持人身体前倾，手势生动，激情讲话，双手在麦克风旁富有表现力地挥动。桌上多了一叠小书，其中一本封面清晰显示 'Whispers in the Rain'。时钟显示9:15 AM。她喜悦表情依旧鲜明，说着 \"Your description of the rain hitting the windows — it’s so vivid! I felt like I was right there with the characters. How long did it take you to write that scene?\"。口型精准而充满活力，与语调一致，背景音频保持稳定：持续广播、环境嗡鸣与轻柔城市低语。\n\n[SHOT 4/4, medium_shot]\n主持人后仰，满意微笑，双手平放桌面。书堆仍可见，时钟显示9:30 AM。温暖阳光洒满录音室，她向麦克风最后点头，声音仍欢快地结束道 \"Thank you so much for joining us today — it’s been an absolute pleasure. Don’t forget to grab your copy of 'Whispers in the Rain' — and tune in tomorrow for our next special guest!\"。表情平静满足，口型干净利落，环境声与广播在淡出过渡中柔和消退。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0036",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在一个灯光昏暗、布满全息显示屏与环境蓝光的科幻控制室内，一名中年男性身着带有银色徽章的黑色紧身制服，身体僵直、双拳紧握、面色涨红，以播报式英语语调在单镜头固定画面中说出：“This mission was compromised from the start — and you know it! The AI logs don’t lie, Commander!” 他的口型与尖锐愤怒的语调完全同步。他身后，一名身穿灰色战术装备的女军官双臂交叉、紧咬下颌静静聆听；一台拥有发光蓝色眼睛的铬色人形机器人沉默旁观。无背景音效，仅保留他的声音。屏幕顶部新闻横幅显示：MISSION FAILURE: LOGS CORRUPTED。底部字幕显示：指挥官，您的判断正受到质疑。情绪全程保持愤怒，无任何转变。 画面中所有出现的文字均以玻璃字样式呈现，透明玻璃质感字体、折射高光与镜面反光。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "text_font_style": "glass"
   },
   {
@@ -222,14 +222,14 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义风格的课堂演讲场景，多主体音频但单声源聚焦；中年日本教授讲授量子力学，学生反应各异，毛绒猫头鹰画外音增添趣味，整体情绪中性，无情绪波动。\n\n[SHOT 1/5, medium shot]  \n戴眼镜、穿粗花呢夹克的中年日本教授站在讲台前，面向学生，身后黑板写满公式。前排年轻女学生专注记笔记。后排男学生前倾身体低声耳语。卡通猫头鹰毛绒玩具放在课桌上，朝向讲台。教授以中性中年日语口吻清晰讲话：\"今日は量子力学の基本概念について解説します。まず、波動関数の意味から始めましょう。\" 他的嘴唇随每个音节精准开合。学生均坐定，大多专注，除教授声音与轻微学生低语外无其他环境音。\n\n[SHOT 2/5, close-up]  \n特写年轻女学生手部在笔记本上稳定书写，笔尖划过纸面。后排男学生部分入镜，略微前倾向朋友低语。毛绒猫头鹰仍在画面中，朝向讲台。教授声音持续画外音。男学生嘴唇形成词语：\"これ、テストに出るかも？\" 低语简短、轻声、随意。无其他音频来源。学生表情专注，未与镜头有眼神接触。\n\n[SHOT 3/5, medium shot]  \n女学生举手，目光锁定教授。教授转向她，微微点头。前排年轻女学生从笔记本抬头。毛绒猫头鹰静置课桌。教授声音持续，现回应她的提问。学生提问，声音清晰礼貌：\"先生、波動関数の確率解釈についてもう一度お願いできますか？\" 她举手说话时手未放下。教授表情中性，准备作答。无背景闲聊或环境噪音。\n\n[SHOT 4/5, medium shot]  \n教授点头，开始讲解，右手朝黑板比划。女学生专注聆听，手已放下。前排年轻女学生继续记笔记。毛绒猫头鹰仍在画面中，面向教授。教授声音持续，平稳中性：\"波動関数の確率解釈は、粒子の位置を確率的に表現するものです。\" 嘴唇精准同步日语音节。后排男学生不再入镜。灯光保持一致，无镜头移动或环境音。\n\n[SHOT 5/5, close-up]  \n特写卡通猫头鹰毛绒玩具，微微倾斜如在聆听，小眼镜架在脸上。教授声音持续画外音。年轻女学生与提问学生部分可见于背景，仍专注听课。猫头鹰嘴部不动，但画外音响起：\"ふふ、量子の世界は不思議ですね！\" 语调轻快、俏皮，明显区别于教授讲课。无其他音频来源。画面固定，无镜头运动，无背景噪音。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0038",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "在昏暗的奇幻酒馆中，悬挂着发光的魔法灯笼，三个人物围坐在一张圆桌旁：一位身穿皮背心的女性（30多岁，棕色短发，眼神锐利）急切地说，\"We have to get out of here now — the portal is destabilizing and the shadow beasts are breaking through!\" 她身旁，一位身着蓝色丝绸长裙的女性（40多岁，银丝夹杂的头发，表情严肃）回应道，\"Calm down — we still have time to seal it if we focus the crystal!\" 对面，一只拟人化的狐狸，琥珀色眼睛，身披天鹅绒斗篷，颤抖着紧握一枚发光的护身符，哭喊道，\"There’s no time! I felt the tremors — the wards are failing! We need to run!\" 三人皆以惊慌的女性英语嗓音说话，口型同步，无背景音效或动作——画面固定，平视视角，中景镜头，标准镜头，3D动画3D国漫风，奇幻风格，情绪全程保持惊慌。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "cn_donghua_3d",
     "visual_substyle_zh": "3D国漫风"
   },
@@ -238,21 +238,21 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 科幻电影风格的多镜头序列，发生在高科技新闻发布会上，一名惊慌失措的男性科学家与机器人助手在闪烁警报和全息显示屏中发布紧急疏散警告，屏幕文字强化危机氛围。\n\n[SHOT 1/2, medium]\n一位中年男性科学家身穿流线型银色实验服，站在发光讲台后，额头渗出汗珠，用嘶哑颤抖的声音发出警告，身后红色全息图表不断闪烁。他说：\"The core containment is failing — we have under three minutes before total meltdown!\" 他的眼镜反射着频闪的应急灯光，身旁悬浮的机器人助手红灯脉冲闪烁，金属身躯与发光红眼清晰可见。他们身后的大型屏幕显示 SYSTEM FAILURE: 02:59。背景警笛持续鸣响，机器人助手重复播放的音效与科学家日益加剧的紧迫感同步。背景中模糊的记者们开始骚动，部分人转向出口。\n\n[SHOT 2/2, medium]\n科学家身体前倾，双手紧握讲台，声音颤抖地大喊：\"Evacuate immediately — this is not a drill!\" 他表情僵硬恐惧，嘴唇精准同步每个字词。悬浮机器人助手略微左移，从发光手臂投射出全息疏散地图，红灯与环境警报同步闪烁。身后屏幕底部显示 EVACUATE IMMEDIATELY — THIS IS NOT A DRILL，中央显示 ALERT: CONTAINMENT FAILURE IMMINENT。机器人助手用机械单调的嗓音重复：\"ALERT: CONTAINMENT FAILURE IMMINENT. EVACUATION PROTOCOL INITIATED.\" 背景记者已纷纷站起，高声提问，红色频闪灯光愈发强烈。无镜头移动——画面始终固定于讲台与助手。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0040",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一个10岁的法国男孩穿着休闲毛衣坐在演播室椅子上，眼睛先睁大后皱眉，对突发新闻做出反应。他用孩子的声音说话，情绪从惊讶转为困惑：\"Quoi ? C'est impossible. Attends, c'était bien ce que j'ai entendu ?\" 他的口型与法语对话完全同步。他身后显示器顶部显示“BREAKING: ÉVÉNEMENT INATTENDU À PARIS”，底部字幕显示“« Quoi ? C'est impossible... Attends, c'était bien ce que j'ai entendu ? »”。背景有持续的演播室嗡嗡声和轻微键盘敲击声。镜头为固定中近景，平视角度，标准镜头。情绪弧线：惊讶 → 困惑。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0041",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 历史影视风格多镜头序列，展现一位身着1920年代服装的老年男性广播员在录音棚内用中文发表愤怒演讲，多声道音频（广播人声、环境杂音/警笛、滴答钟声），情绪无变化，镜头固定构图，屏幕叠加中文文字。\n\n[SHOT 1/3, close_up]\n特写镜头聚焦于一位身穿旧西装的老年男性广播员，灰发向后梳拢，额头布满汗珠，眉头紧锁，他猛然一拳砸在木质桌面上。嘴唇随每个音节剧烈开合，对着复古麦克风怒吼，声音因愤怒而颤抖紧绷：\"你们这些官僚，就知道推诿扯皮！\" 背后，闪烁的收音机调频盘发出微弱光芒，画面上方的小钟显示时间为晚上7:58 — 8:01。广播音频在人声下隐约滋滋作响，他紧握桌沿，指节发白。\n\n[SHOT 2/3, medium_shot]\n中景镜头中，同一位老年广播员已站起身，在桌后踱步，旧西装随动作晃动，灰发因走动而凌乱，双眼怒火燃烧，继续对着麦克风高声喊叫，语气愈发激昂：\"民众的苦难你们视而不见吗？\" 背后窗外，乌云翻滚笼罩城市天际线，远处警笛声与持续的静电杂音交织。他身旁的挂钟清晰滴答作响，指针随他猛然转身而移动，大衣下摆随步伐摆动，神情毫不松动。\n\n[SHOT 3/3, wide_shot]\n高角度全景镜头展现完整1920年代广播室：木质墙板、复古麦克风，广播员疲惫地跌坐回椅中，仍怒目直视前方，呼吸沉重。他吐出最后一句，嗓音沙哑却坚定：\"我今晚不休息，直到你们回应！\" 屏幕底部滚动新闻字幕：紧急广播：市政厅会议延期。时钟显示8:01 PM。滴答声渐缓，警笛声消退，他深吸一口气——双唇紧闭，双肩垂落，目光凝视前方，广播仍在继续。 画面中所有出现的文字均以涂鸦字样式呈现，街头涂鸦喷漆字体、油漆滴淌、鲜艳撞色描边。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "text_font_style": "graffiti"
   },
   {
@@ -260,7 +260,7 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位身着1920年代中国历史服饰的女性新闻主播，约30多岁，站在一间昏暗木质镶板演播室内，身后是木制桌台、复古麦克风与羊皮卷轴。她以颤抖的声音开始播报，眼神低垂，传递悲伤消息；句子中途收到电报，面部瞬间明亮，绽放灿烂笑容，语调转为喜悦。唇形必须精准匹配：“悲痛的消息传来，我们失去了最勇敢的消防员.（突然抬头，眼睛亮起）等等！刚刚收到最新电报——他被找到了！毫发无损！这是奇迹！” 声音音色：女性，中文。情绪弧线：悲伤 → 喜悦。镜头：固定中近景，平视角度，标准镜头。无摄像机移动。3D动画低多边形风，历史视觉风格。音效：单声道新闻广播，无背景噪音。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "low_poly",
     "visual_substyle_zh": "低多边形风"
   },
@@ -269,21 +269,21 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义vlog风格多镜头序列，捕捉一名中年男子在画外突发碰撞后从惊恐尖叫到茫然困惑的情绪转变，包含多源音效：他的阿拉伯语对话、卡通鹦鹉的尖叫、滴答钟声与远处车流声——所有镜头均采用固定手持拍摄，无任何运镜。\n\n[SHOT 1/4, medium shot]  \n一名身穿皱巴巴衬衫的中年男子，明显出汗、呼吸急促，双眼因恐惧睁大，僵立于普通客厅中央，双手颤抖，嘴巴张开正尖叫，目光死死盯住前门。他身后书架上，一只卡通风格的绿羽毛红喙鹦鹉正疯狂扑腾翅膀。他大喊 \"يا إلهي، ما هذا الصوت؟! هل هناك شخص في المنزل؟!\" —— 声音充满恐慌 —— 背景中隐约传来滴答钟声与远处汽车喇叭声。手持画面保持稳定，无任何移动，完整捕捉他原始的恐惧。\n\n[SHOT 2/4, medium close-up]  \n男子猛然侧身扑向书架，撞倒一盏台灯，伸手抓向扑腾的鹦鹉。他双眼惊慌四顾，瞳孔放大，额角汗珠闪烁。画外突然传来一声巨响——走廊里花瓶碎裂——他嘶喊 \"لا أستطيع أن أ呼吸. هذا غير ممكن!\" —— 声音紧绷、气喘吁吁 —— 鹦鹉尖鸣与撞击声同步爆发。画面保持固定，平视略低角度，强调他扑击动作与声音的突然暴力。\n\n[SHOT 3/4, close-up]  \n男子动作凝固，静立原地，脚下散落台灯碎片。鹦鹉此刻安静栖息，歪头凝视，卡通大眼圆睁。他表情转变——眉头紧锁，嘴唇微张——滴答钟声成为唯一声响。他低语 \"هل. هل كان ذلك فقط خيالي؟.\" —— 声音渐弱，语气迟疑 —— 目光缓缓下移，恐慌被困惑取代。特写镜头稳定不动，捕捉他情绪崩塌的细微瞬间，无任何运镜，唯有混乱后的寂静。\n\n[SHOT 4/4, medium shot]  \n男子缓缓跪倒在地，双手按住太阳穴，茫然凝视破碎的台灯。鹦鹉谨慎跳下，落于他肩头，羽毛凌乱却静止不动。他喃喃 \"لا أعرف ماذا حدث. لماذا سمعت ذلك؟.\" —— 声音低沉、空洞 —— 嘴唇几乎不动，眼神涣散。手持画面保持固定，平视角度，背景滴答钟声与远处车流声重新隐约浮现。他的姿态与低语完成情绪弧光：从惊恐嘶吼，到茫然无声的质问。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0044",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位身着维多利亚晚期高领长裙、发髻整齐、神情沉静的女性，站在一间昏暗的19世纪书房中央，四周是皮面装订的书籍，一盏黄铜台灯提供照明。她正对镜头，以固定中景、平视角度呈现，用中性语调的英语旁白讲述，情绪无起伏。她的口型精准匹配所念台词：\"In the quiet of this study, I reflect on the quiet dignity of those who shaped history without fanfare.\" 无其他声音或动作——唯有她的声音充满画面。视觉风格：历史感。视频类型：vlog。音频情况：单主体、单声源。情绪：全程中性。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0045",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格的2D动画90年代复古日漫风，描绘一个紧张的现场冰球解说间，两位女性解说员用惊慌的俄语发言，无镜头移动，单声道音频聚焦于她们的声音，屏幕文字横幅标记关键瞬间。\n\n[SHOT 1/5, medium_shot]\n中景镜头：一位40多岁的女性体育解说员，身穿正式西装外套，双眼圆睁，双手颤抖紧握麦克风，坐在一位30多岁的女搭档旁，搭档指节发白地死死抓着桌面，两人惊恐地盯着屏幕。背景中一只卡通北极熊吉祥物僵在原地。解说员对着麦克风大喊，声音逐渐失控，“О нет, он бросает! Шайба летит прямо в ворота — остановить не успеют! Остановите это! Остановите!”，口型急促而精准，字句间可听见喘息。演播室聚光灯投下强烈阴影，屏幕数据闪烁，背景虚化以突出她们的表情。\n\n[SHOT 2/5, close_up]\n特写镜头：聚焦搭档的脸部，眼镜反射屏幕光芒，双眼因恐惧而瞪大，她猛然一拳砸在桌面上。她身后红色新闻横幅显示 ГОЛ! 59:58。她尖叫，声音嘶哑，“Не может быть! Вратарь не в состоянии — он упал! Это конец! Конец для команды!”，嘴巴大张，牙齿清晰可见，双颊泛红。背景中北极熊的爪子仍悬在半空。无其他声音——只有她原始而急促的嗓音，与颤抖的口型完全同步。画面固定，平视角度，标准镜头。\n\n[SHOT 3/5, wide_shot]\n全景镜头：整个解说间全貌——主解说员站起身，麦克风从颤抖的手中垂下，疯狂指向屏幕。搭档仍僵坐在椅中，双手捂住嘴巴。北极熊吉祥物已从椅子上跌落，一动不动躺在地上。主解说员声音愈发高亢，“Он не успел! Не успел! Это катастрофа — катастрофа для всего сезона!”，面部因恐慌而扭曲，呼吸沉重，口型与每个音节精准同步。演播室灯光依旧昏暗，聚光灯聚焦，屏幕数据闪烁。无镜头移动——画面固定。\n\n[SHOT 4/5, over_the_shoulder]\n过肩镜头：从搭档身后拍摄，聚焦主解说员朝屏幕俯身时惊慌的脸。底部字幕显示 ПОЖАЛУЙСТА, НЕ СЕЙЧАС! 她向屏幕哀求，声音哽咽，“Пожалуйста, не сейчас! Не в этот момент! Мы не готовы!”，眼眶泛泪，每说一个字嘴唇都明显颤抖。地板上北极熊的爪子部分可见，仍举在空中。演播室耳机线垂落，西装褶皱随她动作微动。画面固定，标准镜头，无动作动词。\n\n[SHOT 5/5, extreme_close_up]\n极特写镜头：主解说员颤抖的嘴唇凑近麦克风低语，泪水在眼中打转。屏幕光芒照亮她的脸。中央新闻横幅显示 КОНЕЦ МАТЧА。搭档的手进入画面，紧握她的肩膀，共享绝望。她低语，声音绝望，“Всё. кончено. Мы проиграли. Просто. проиграли.”，每个词都拖长，口型精准，语句间呼吸急促。无其他声音——单声道音频聚焦于她的声音。画面固定，微距镜头，无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "retro_90s_anime",
     "visual_substyle_zh": "90年代复古日漫风"
   },
@@ -292,7 +292,7 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 2D动画MG动画风写实风格场景：一位中年男性导游身穿卡其色马甲，太阳镜架在头上，手持地图，站在热闹的古寺庭院中。他起初面带笑容，热情地做着手势，用男性中文声音说话：“欢迎来到千年古寺！这里每一根柱子都藏着唐宋的故事——（突然听到游客抱怨）你说什么？门票贵？这可是世界文化遗产！你懂不懂尊重历史？！” 话说到一半，表情突然转为愤怒——双拳紧握，脸色涨红，声音陡然拔高。他身后，一名穿蓝色T恤、背着背包的游客正低头看手机，大喊：“这门票也太贵了吧？就是个破庙，还收80块？骗钱呢！” 背景中寺庙钟声轻柔回荡，鸟鸣声此起彼伏。情绪弧线：愉悦 → 愤怒。固定中景镜头，平视角度，标准镜头。无镜头运动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "mg_animation",
     "visual_substyle_zh": "MG动画风"
   },
@@ -301,49 +301,49 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头序列，展现一间企业董事会会议室，四名主体——CEO、CFO、COO 与全息 AI 助理——以中性语调进行结构化中文对话，无情绪变化，午间自然光照明，持续环境音与多源音频。\n\n[SHOT 1/3, medium shot]  \n中景镜头，中年女性 CEO 身着定制深蓝色西装，端坐于抛光橡木桌前，双手交叠，平静稳定地开口发言，唇部动作清晰。身着灰色西装的 CFO 身体前倾手持平板，身着酒红色西装外套的 COO 缓缓点头，同时翻阅纸质报告，半透明蓝色全息 AI 助理悬浮于白板旁。自然光自大窗洒入，照亮紧张却克制的氛围。她说：\"各位，上季度的营收数据虽然达标，但利润率下滑了两个百分点，我们需要立即调整成本结构。\" 背景环境音包含低沉的空调嗡鸣与画外助理隐约的键盘敲击声。\n\n[SHOT 2/3, medium shot]  \n中景镜头，中年男性 CFO 身着灰色西装，略前倾手持平板，精准唇形同步、语调平稳地陈述其成本削减提案。CEO 与 COO 在背景中部分可见，点头表示认同。AI 助理在白板旁实时显示图表。他说：\"我建议冻结非核心部门的招聘，同时优化供应链合同。具体方案我已发到各位邮箱。\" 平板持续发出轻敲声伴随其发言。午间光线在桌面投下柔和阴影，对话下空调嗡鸣持续。\n\n[SHOT 3/3, medium shot]  \n中景镜头，中年女性 COO 身着酒红色西装外套，先审阅纸质报告，随后抬头发言，唇部动作清晰同步于中性语调。CEO 与 CFO 在背景中可见，专注聆听。全息 AI 助理悬浮近旁，显示更新后的预测数据。她说：\"运营端可以配合削减差旅预算，但需确保关键客户支持不受影响。\" 同时，AI 助理以合成清晰语音同步发言：\"根据历史数据模型，若执行上述方案，预计下季度利润率可回升至18.5%，但员工满意度可能下降7%。\" 环境音持续包含空调嗡鸣与隐约键盘敲击声。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0048",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在一家灯光昏暗、装潢高档的日式餐厅内，抛光木桌与柔和环境光营造出静谧氛围。一位身着深色和服的老年日本男子僵直地坐在桌前，神情明显焦躁，边激烈比划边用苍老而愤怒的嗓音讲话。他的口型与日语对白完全同步：“このプロジェクトは失敗だ！誰がこんな計画を許可したんだ？” 画面右侧画外处，一位身着传统服饰的拟人化狐狸精静默旁观。无其他声响或动作——仅存在说话者的声音。镜头为固定中近景，平视角度，标准镜头。情绪全程保持愤怒。视觉风格写实。视频类型：广告。声音复杂度：单声源。音频情境：多主体，但仅一人发声。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0049",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格的多镜头序列，场景设定在夜晚昏暗的广播电台控制室，画外音为一位中国女性主播正在播报紧急突发新闻，语气惊慌；声音层次复杂，包含多源环境音与音效；无镜头运动，全程固定画面。\n\n[SHOT 1/4, medium shot]\n中景，平视角度，聚焦一位30多岁的女性电台主播，佩戴耳机，坐在控制台前，双手轻微颤抖地紧握麦克风。她身后，一位40多岁的男性技术员站在闪烁的监控屏幕旁，目光紧盯着屏幕。设备指示灯快速闪烁。画外音响亮、急促、气喘吁吁。她身体前倾，嘴唇与广播内容同步剧烈开合，播报：\"听众朋友们！紧急通知！城市东区地铁站发生爆炸，现场浓烟滚滚，消防队已赶赴！请所有市民避开该区域，不要靠近！重复，不要靠近！\" 表情高度专注，下颌紧绷，声音颤抖但克制。\n\n[SHOT 2/4, close-up]\n特写，略低角度，聚焦女主播面部——额头渗出细密汗珠，双眼因目睹监控画面中冒出的浓烟而骤然睁大，流露惊恐。男技术员凑近她耳边，急促低语。画外音愈发紧绷，音调升高。她微微侧头看向他，随即转回麦克风，声音嘶哑地说道：\"天啊.现场有伤亡！救护车正在路上！请所有在东区的市民立即撤离，往北或西方向走！不要犹豫！\" 嘴唇快速开合，呼吸清晰可见，眨眼频率加快——情绪在播报中明显爆发。\n\n[SHOT 3/4, full shot]\n全景，平视角度，展现女主播已站起身，仍握着麦克风，在控制台前轻微踱步，肢体语言焦躁不安。男技术员在旁疯狂敲击键盘，屏幕冷光映照他紧绷的面容。远处警笛声短暂刺破机器嗡鸣。画外音升至近乎嘶吼。她挥动空闲的手势，语气强硬地喊出：\"警方已封锁地铁站入口！请不要试图进入！重复，不要试图进入！这是生死攸关的时刻！\" 身体僵直，双肩耸起，呼吸沉重——播报情绪达到顶点。\n\n[SHOT 4/4, extreme close-up]\n超特写，俯拍角度，聚焦女主播双手猛地将麦克风砸在桌面上，手指张开。她剧烈喘息，胸口急速起伏，双眼因疲惫与余悸而圆睁。男技术员担忧地注视她，手悬停在她肩旁。画外音戛然而止，被静电噪音取代。她低声呢喃，声音破碎：\"..请保持冷静，等待官方更新。我们.我们正在尽一切努力。\" 嘴唇缓慢开合，声音几不可闻，神情空洞——广播在情绪崩溃中终结。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0050",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "一个写实风格的vlog镜头：一位中年男性博主，短黑发，穿着休闲牛仔裤和T恤，舒适地坐在阳光洒落的客厅沙发上，背景是书架和绿植，他正对着镜头用愉悦的男性中文声音讲话。他边说边生动地做手势，原话为：“今天天气真好，适合和大家聊聊电影！我最近看了一部超棒的科幻片，主角的冒险太精彩了，你们一定要看！” 他身后，一只毛茸茸的虎斑猫偶尔喵叫并跳上窗台；旁边小桌上一台复古木金属收音机持续播放轻柔的Lo-Fi爵士纯音乐。镜头固定，平视中景，无移动。情绪全程保持稳定愉悦。声音来源为多层：说话者人声、猫叫（单次短促）、收音机音乐（持续环境音）。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0051",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格的多镜头序列，场景设定在大学讲堂，三位发言主体：一位白发戴眼镜的老年男教授、一位年轻女学生、一只卡通猫头鹰，多声源音频，情绪弧线从愉悦转为惊讶。\n\n[SHOT 1/5, medium]  \n白发戴眼镜的老年男教授身穿粗花呢夹克，站在讲台后，温暖阳光透过高窗洒入，空气中可见尘埃浮动。他热情地朝阶梯式座位区挥手，笑容灿烂，学生们身体前倾，专注聆听。他声音温暖苍老，用中文带着喜悦情绪说：\"各位同学，今天我们要探讨量子纠缠的哲学意义——它不仅仅是物理现象，更是对现实本质的挑战！\" 前排年轻女学生笔记本摊开、笔已备好，回望教授，眼中闪烁期待光芒。他身后的黑板仍为空白，木质课桌光洁整齐。\n\n[SHOT 2/5, close_up]  \n前排女学生特写，笔悬停在半空，双眼睁大充满好奇，微微举手。她嘴唇微张，用清晰急切的中文问道：\"教授，如果纠缠态能传递信息，那是否意味着意识也能超距作用？\" 教授温暖持续的讲课声仍在画外继续，略带模糊但可辨。她的笔记本摊开，墨迹新鲜，手指紧握笔杆。身后学生模糊晃动，部分转向她，部分仍面向讲台。阳光掠过笔记本边缘，在她手腕投下柔和光晕。\n\n[SHOT 3/5, medium]  \n教授手势停在半空，笑容转为若有所思的惊讶，一只卡通风格动画猫头鹰从书架 flutter 落下，轻盈落在讲台上。猫头鹰戴着迷你毕业帽，大眼睛眨动，用清晰卡通声线说：\"哦！这问题太棒了！让我用量子猫的视角解释——.\" 教授闭上嘴，眉毛微扬，目光锁定猫头鹰。背景学生骚动，有人低语，有人凝视。阳光仍温暖但已变暗，长影斜铺在木质课桌上。猫头鹰羽毛微颤，翅膀整齐收拢于身侧。\n\n[SHOT 4/5, medium]  \n教授凝视猫头鹰，嘴微张，表情从困惑转为恍然大悟。猫头鹰单翼一挥，继续用同样卡通声线解释：\"——薛定谔的猫既是活的又是死的，直到你观测它！意识，就是那个观测者！\" 背景学生已全部转向讲台，有人指向猫头鹰，有人捂嘴。教授双手搭在讲台上，手指微蜷，粗花呢夹克映着渐暗阳光。黑板仍无字迹。猫头鹰毕业帽微倾，大眼睛紧盯教授面部，等待反应。\n\n[SHOT 5/5, close_up]  \n教授面部特写，粉笔脱手坠落，双眼圆睁满是震惊。他目光在猫头鹰与学生间来回扫视，呼吸声清晰且略显急促。猫头鹰得意眨眼，羽毛微微蓬起。教授声音仍苍老，但已颤抖着说：\"..这..这颠覆了我三十年的教学认知！\" 阳光进一步黯淡，他半张脸隐入阴影。身后讲堂寂静，唯余他呼吸声。眼镜反射残光，白发捕捉最后一缕暖辉。猫头鹰仍栖于讲台，一翼微抬，仿佛静候掌声。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0052",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "写实单镜头广告：一位30多岁的男子身穿蓝色Polo衫，坐在沙发上开怀大笑，用欢快的中文语调说道：\"哈哈，你上次说要带我去吃那家新开的日料，结果自己先去吃了？太不够意思啦！\" 他身旁一位20多岁的女子穿着牛仔夹克，身体前倾笑着，手握马克杯，用同样欢快的语调回应：\"哎呀别提了！那家店排队太夸张，我实在没忍住，偷偷去了一次，下次一定带你！\" 一名5岁男孩身穿红色T恤，在背景中跑过，手推玩具车，撞到家具。旁边小桌上收音机持续播放轻柔爵士乐。固定平视中景镜头，标准镜头，无摄像机移动。情绪全程保持欢乐。所有对话必须与说话者口型精准同步。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0053",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格3D动画3D皮克斯动画风格，多主体新闻发布会场景，多声道音频，展现女主播在机器人助手陪同下播报突发悲剧新闻时，情绪从困惑逐渐转为悲伤的弧线，场景设于灯光戏剧化的正式大厅。\n\n[SHOT 1/3, medium_shot]  \n一位中年女主播，面部轮廓分明，金发盘成整齐发髻，身着剪裁合体的深蓝色西装，佩戴银色项链，站在讲台后，双手微微颤抖，紧张地扫视笔记，再望向身旁卡通风格的机器人助手。她声音迟疑，语调不确定，口型清晰同步地说出：\"I. I don't have all the details yet, but what we know is that the situation is evolving rapidly. We're working with authorities to confirm the facts before making any official statements.\" 机器人助手的LED眼睛稳定闪烁，显示中性表情。昏暗大厅中的记者们静坐，笔尖悬停，身后大屏幕显示：MAJOR INCIDENT AT CITY HALL。\n\n[SHOT 2/3, close_up]  \n特写机器人助手的数字面部，其全息面板闪烁：CASUALTY COUNT CONFIRMED: 12。它用冷静合成音宣布：\"System update: Confirmed casualty count now at 12. Emergency services are on-site. Please remain calm.\" 女主播表情瞬间崩塌——双眼睁大，声音哽咽，重复道：\"Twelve. lives lost. We are all heartbroken by this tragedy.\" 她口型吃力，呼吸急促。背景记者低声议论，有人震惊捂嘴。机器人LED眼睛依旧稳定无眨，而主播肩部在戏剧灯光下明显紧绷。\n\n[SHOT 3/3, medium_shot]  \n主播低头，双肩塌陷，泪水涌出，以颤抖却精准的口型说出最后话语：\"We will remember them. Our hearts go out to their families. Thank you.\" 她声音轻柔，饱含悲痛，播报语气彻底转为哀伤。机器人助手静立一旁，LED眼睛微弱暗淡。大厅记者沉默，有人别过脸或拭泪。讲台后大屏幕渐暗至全黑，仅余主播声音在紧张阴暗的空间中回荡，画面随之淡出。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "pixar_3d",
     "visual_substyle_zh": "3D皮克斯动画风格"
   },
@@ -352,21 +352,21 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "一个静态手持式vlog风格的中景镜头，平视角度，展示黄昏时分光线昏暗的客厅：一张咖啡桌上放着半空的马克杯，一盏闪烁的台灯，雨水在窗户上留下痕迹，角落里有一盆绿植。画外，一个中年中国人的声音以低沉颤抖的语调开始，明显悲伤，随后突然转为惊慌、气喘吁吁的快速讲话。说话人逐字说出：“我还在想他最后一次微笑的样子..突然，外面传来一声巨响！天啊，那是我孩子的自行车！他还在外面！快！快出去！” 同时，室外传来一次短促的撞击声，接着是慌乱的脚步声和一声闷响的尖叫，远处持续传来雷声。情绪弧线：悲伤 → 惊慌。无镜头移动。声音复杂度：多声源 — 人声、撞击声、雷声。唇形必须精确匹配所引述对话的节奏与情绪转变。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0055",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格游戏式多镜头序列，展现一位开朗的女性主播与一只卡通狐狸吉祥物在阳光明媚的虚拟演播室中互动，包含多源音频（直播音、旁白、音效），整体情绪欢快，无情绪转折。\n\n[SHOT 1/4, close_up]\n特写镜头聚焦于一位20多岁、金发马尾、身穿游戏连帽衫的开朗女主播，她笑容灿烂，调整耳机并微微前倾面向镜头。身后，一只穿霓虹夹克的卡通狐狸吉祥物正活力挥手，旁边一个发光的战利品箱伴随轻柔铃声脉动。屏幕显示快速滚动的实时聊天。她以明亮欢快的语调向观众问好，口型精准生动，说出：\"Hey everyone! Welcome back to the stream — we’re going live with the new boss fight tonight, and I’ve got some surprise giveaways for the first 100 chatters!\" 她眼中闪烁兴奋光芒，与演播室的活力氛围相呼应。\n\n[SHOT 2/4, medium]\n中景镜头展示主播与狐狸吉祥物并肩而立。狐狸兴奋地指向战利品箱，主播笑着前倾，满是喜悦。箱子随铃声频率加快而更亮。狐狸的动画手势与旁白同步，说出：\"Don’t forget to hit that subscribe button, folks! The loot drops are real and they’re spectacular!\" 主播热情点头，笑容更盛，狐狸蓬松尾巴随节奏摇摆。两人始终与镜头保持平视，表情生动契合场景欢快高能的基调。\n\n[SHOT 3/4, wide]\n广角镜头展现完整演播室——主播起身鼓掌，战利品箱伴随闪光与增强铃声猛然开启。狐狸吉祥物在她身旁跳跃庆祝。画外工作人员欢呼声清晰可闻。屏幕闪现“SUBSCRIBER MILESTONE REACHED”。主播仍笑容满面，转向镜头说：\"We did it! The chest is open — everyone who subscribed just got a legendary skin!\" 声音清晰欢快，口型完美同步。狐狸空中挥舞爪子，尾巴轻甩，演播室模块化灯光架在布景上投下动态阴影。\n\n[SHOT 4/4, medium]\n中景镜头中主播与狐狸吉祥物击掌，随后主播坐回座位仍笑容灿烂，狐狸则对着镜头竖起大拇指。战利品箱在他们身后柔和暗淡。屏幕显示下一Boss战倒计时。主播放松但依旧生动，说：\"Thanks for hanging out — the boss fight starts in 5 minutes, and I’ll be right here with you!\" 语气温暖稳定，口型精准匹配每一词。狐狸点头附和，霓虹夹克反射演播室灯光。无镜头移动——画面固定，捕捉段落圆满收尾的庆祝氛围。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0057",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 一段科幻2D动画90年代复古日漫风多镜头序列，描绘两名机器人声线的人类在霓虹灯照亮的赛博朋克公寓内展开紧张的言语对峙，从冷静谈判逐步升级为愤怒咆哮，情绪弧线为中性 → 愤怒；声音复杂度为单声源，音频仅由他们的对话主导，无环境噪音。\n\n[SHOT 1/5, medium]  \n一名身穿光滑黑色紧身衣、约30多岁、表情严肃的机器人声线人类，手持发光数据芯片，站在控制台前，面对另一名身穿银色风衣、约40多岁、神情冷静、双臂交叉站在全息显示屏旁的机器人声线人类。一只机器人猫头鹰无人机静默悬停在头顶上方。霓虹灯光投下锐利阴影。男性说话者嘴唇与机器人音色同步，说出：\"你答应过我，芯片只用于研究。现在你要把它卖给军方？这会害死成千上万的人！\" 他的姿态克制，声音平稳但急迫。无其他声音。\n\n[SHOT 2/5, close_up]  \n特写镜头：身穿银色风衣的女性说话者，约40多岁，神情冷静，略带低角度。她向前一步，指向身后全息城市天际线。男性角色肩膀因反应而绷紧。猫头鹰无人机微微歪头。她以机器人声线说出：\"感情用事解决不了问题。军方会用它保护城市，而不是毁掉它。你太天真了。\" 表情未变，目光坚定。无环境噪音，只有她的声音充满画面。\n\n[SHOT 3/5, medium]  \n中景镜头：穿黑色紧身衣的男性角色猛击控制台，导致全息影像闪烁。女性角色轻微退缩。猫头鹰无人机低头。他的声音陡然拔高，机器人音色因情绪而紧绷，怒吼道：\"天真？你这是在出卖良心！他们只会用它来监控、控制、消灭异己！\" 面部紧绷，咬紧牙关。霓虹光微微脉动——除他逐渐升级的嗓音外，无其他声音。\n\n[SHOT 4/5, medium]  \n中景过肩镜头：女性说话者背对男性角色，语气冰冷地说话。他僵立原地，双拳紧握，面色涨红。猫头鹰无人机缓缓靠近，仍保持沉默。她的机器人声线刺破寂静：\"如果你不能接受现实，那就离开。芯片已经加密，你阻止不了我。\" 姿态岿然不动。情绪张力浓重——无音乐、无脚步声，只有她冷漠的语调。\n\n[SHOT 5/5, wide]  \n广角高角度镜头：穿黑色紧身衣的男性角色抓起发光数据芯片，狠狠砸向墙壁。芯片碎裂，迸发火花。女性角色未转身。他怒吼，声音因狂怒而嘶哑：\"那就一起毁灭吧！你永远不懂什么是人性！\" 身体因愤怒而颤抖。猫头鹰无人机悬停半空静止。场景在寂静中结束——仅余他最后一声怒吼的回响。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "retro_90s_anime",
     "visual_substyle_zh": "90年代复古日漫风"
   },
@@ -375,42 +375,42 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位三十多岁的女性博主，身穿休闲家居服，坐在昏暗房间的书桌前，面对镜头，以标准镜头拍摄中近景，平视角度。她用女性英语嗓音说话，开头语气轻柔颤抖，表达悲伤：\"I thought I’d never get through this week. until I saw that notification — wait, is this real? They found her?!\" 她起初低着头，随后突然抬头，因手机屏幕显示的意外消息而做出反应——眉毛上扬，嘴巴微张，声音音调和能量骤然升高。情绪弧线：悲伤 → 惊讶。无其他声音，仅她本人的声音。桌上静置一只卡通猫咪毛绒玩具。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0059",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头序列，一位中年女性体育评论员在雨痕斑驳的演播室内用西班牙语独白，情绪从悲伤过渡到中性，屏幕底部字幕与每句台词同步；单声道音频，固定机位，无环境音。\n\n[SHOT 1/3, close-up]  \n特写镜头聚焦于一位身穿剪裁合体西装外套的中年女性体育评论员，眼眶泛红，声音微颤，低头看着笔记。她身后窗户布满雨痕，暂停回放画面显示一名球员倒在球场上。她轻颤着呼气，微微抬眼，说道：\"¿Cómo pudo fallar en el último minuto?. Era su oportunidad.\" 她的嘴唇精准同步于颤抖的语调，每个音节清晰可辨，尽管情绪压抑。屏幕底部字幕显示：¿Cómo pudo fallar en el último minuto?... Era su oportunidad. 唯一的顶灯在她眼下投下阴影，强化其悲伤表情。\n\n[SHOT 2/3, medium shot]  \n中景镜头中，同一位评论员已站起，转身面向身后的大型屏幕，声音逐渐平稳。回放画面切换为守门员庆祝的场景；她姿态略挺，双肩微张，正对屏幕。她以渐趋稳定的语调说道：“Su última oportunidad. Pero. no importa.” 她的嘴唇刻意清晰吐字，颤抖转为沉稳节奏。屏幕底部字幕显示：Su última oportunidad. Pero... no importa. 演播室依旧昏暗，玻璃上雨痕仍可见，但她的表情已从哀伤转为坚定，以平静而决绝的语气完成这句台词。\n\n[SHOT 3/3, wide shot]  \n全景镜头中，评论员重新落座，坐姿笔直，声音已完全平直、客观。她身后的屏幕显示联赛积分榜；她脸上无任何情绪，目光专注前方。她毫无起伏地说道：“El juego sigue. La liga sigue. No hay tiempo para llorar.” 她的口型干净利落，唇形与中性语调完全同步，再无一丝颤抖。屏幕底部字幕显示：El juego sigue. La liga sigue. No hay tiempo para llorar. 唯一的顶灯照亮她的西装外套与桌面，雨痕斑驳的窗户此时已成柔和背景，她以冷静疏离的姿态收尾，完整呈现从悲伤到中性的感情弧线。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0060",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一个写实的3D动画中景镜头，平视角度，固定画面，展示一位30多岁的女性导游，身穿传统浴衣配红色腰带，头发梳成整齐发髻，站在京都清水寺入口处的黄金时刻。樱花花瓣在她身后飘落，远处传来寺庙钟声。她手持一台平板电脑，屏幕上显示“観光案内：本日は特別拝観日です”；左侧木牌写着“京都清水寺案内所”。她双眼睁大，嘴巴微张正说话，双手比划着，用惊讶的女性日语声音说：“あら、今日は特別拝観日だったんですね！こんなに人が多いとは思わなかった！”。口型与日语语音完全同步。无镜头移动。声音包含她的语音及持续的寺庙环境氛围音。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0061",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 一个3D动画奇幻场景，设定在漂浮的水晶议会厅内，四位人形角色正就防护罩失效展开争论，表情困惑；每个镜头聚焦一位发言者，其口型精准同步英文对白，无环境音效——仅保留发言者的声音。\n\n[SHOT 1/4, medium shot]  \n一位身着华丽银袍、约三十多岁的男性精灵议员，站在施了魔法的黑曜石会议桌前，眉宇紧锁，正指着一张发光地图做手势。他嘴唇精准开合，说出：\"I don’t understand why the border wards failed — the runes were recharged last moon. Who authorized the ritual shift?\" 一位身穿红色天鹅绒斗篷的人类外交官紧张地轻敲羽毛笔；一位狐狸模样的书记官尾巴末端是笔尖，正书写中途抬头，耳朵抽动；一位身穿钢甲的女性矮人代表双臂交叉，怒目而视。悬浮灯笼投下柔和光线；无环境音——仅精灵的声音。\n\n[SHOT 2/4, close-up]  \n特写镜头聚焦于一位约四十多岁、身穿红色天鹅绒斗篷的人类外交官，他双手颤抖握着羊皮纸，手指沾满墨迹，紧攥羽毛笔。他紧张地瞥了一眼正加速书写的狐狸书记官，随即脱口而出：\"The Archmage’s decree was sealed under oath — I only transcribed the incantation. I didn’t know the wards were tied to the lunar phase!\" 他金边眼镜反射着符文的微光。精灵议员身体前倾，眼神锐利；矮人代表挪动重心，皱眉不语。无环境音——仅外交官声音渐高，充满困惑。\n\n[SHOT 3/4, medium close-up]  \n狐狸模样的书记官尾巴末端是笔尖，猛地跳上桌面，耳朵压平，尾巴笔尖在新卷轴上疯狂划动。他大喊：\"Section 7, Subclause Gamma — the lunar alignment was omitted in the final draft. It’s not my fault the Archmage skipped the fine print!\" 精灵议员双眼微睁；外交官露出宽慰神情；矮人皱眉更深。他头戴的小墨水瓶帽随动作摇晃。无环境音——仅书记官尖细、卡通化的声音。\n\n[SHOT 4/4, medium shot]  \n一位身穿钢甲、可见编辫胡须的女性矮人代表，猛然一拳砸在桌上——水晶灯笼随之闪烁。她站起身，铠甲轻响，厉声喝道：\"So we’re blaming paperwork? While the goblin hordes march on the eastern pass? This is absurd!\" 腰间锤子纹丝不动。精灵与外交官目瞪口呆；狐狸书记官停笔僵住。低角度镜头强化她的挫败感。无环境音——仅她声音因困惑而颤抖。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0062",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位中年男性纪录片旁白员，身着深色西装和挺括白衬衫，端坐于光亮的橡木桌前，双手交握，正对镜头，画面为静态中景。他双眼圆睁，嘴唇微张，眉毛上扬——明显表现出惊讶。身后的大屏幕上播放着颗粒感强烈的火山喷发历史影像。他以广播语调用英语讲述，情绪稳定且充满惊讶：\"The eruption was not just sudden — it reshaped the coastline in under ten minutes. No one predicted the scale. not even the satellites.\" 嘴型与语音完全同步。背景伴有低频隆隆声与远处火焰噼啪声。灯光柔和且聚焦，投下轻柔阴影以强化其表情。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0063",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头序列，展现一位30多岁的女性电台主持人，身着深色西装外套与白衬衫，在直播政策辩论中经历从愤怒到困惑的情绪转变，包含多源音效（环境录音室噪音与物体音效），场景为昏暗录音室，配有隔音板、复古麦克风与闪烁控制面板；情绪弧线：愤怒 → 困惑。\n\n[SHOT 1/5, close_up]\n特写镜头聚焦于30多岁的女性电台主持人，金发束起，妆容专业，深色西装外套配白衬衫，眉头紧锁，下颌紧绷，正尖锐地对着复古麦克风讲话。她身后控制面板闪烁红光。屏幕下方字幕显示 LIVE: 9:00 PM — Policy Debate。她身体微微前倾，语调紧张且充满指责，说出：\"I can't believe you're defending this policy after what happened yesterday!\" 嘴唇精准同步英文发音，眼神紧缩流露挫败，无笑容、无迟疑——纯粹愤怒的表达。录音室背景嗡鸣衬托其语气。\n\n[SHOT 2/5, medium_shot]\n中景镜头，同一女性主持人此刻俯身压向桌面，双手紧抓桌沿，声音音量与音调升高。架子上的卡通鹦鹉玩偶微微歪头，仿佛有所反应。屏幕下方字幕显示 Caller: Anonymous — Line 3。她左手挥动，同时说出：\"You think silence is justice? That’s not how democracy works!\" 表情依旧愤怒，双眼圆睁，鼻孔微张。复古麦克风清晰捕捉她女性声线的每个音节。灯光在她眉下投下柔和阴影，强化情绪张力。\n\n[SHOT 3/5, over_the_shoulder]\n过肩镜头，展现主持人颤抖的双手翻动纸张，手指明显发抖。控制面板发出轻柔“哔”声。屏幕下方字幕显示 TRANSCRIPT ALERT — Source: Internal Memo。她声音略降，带着难以置信的颤抖说出：\"Wait — what do you mean the transcript was altered? That’s. impossible.\" 肩膀紧绷，目光在纸张与麦克风间来回扫视。纸张沙沙声伴随她的话语。无镜头移动——画面固定。西装袖口因动作微微起皱。\n\n[SHOT 4/5, wide_shot]\n全景镜头展现整个录音室：主持人猛然起身，椅子向后推倒，环顾四周，满脸难以置信。鹦鹉玩偶呆滞直视前方。屏幕下方字幕显示 BREAKING: Official Denial Issued。她一手扶桌保持平衡，声音转低，困惑地问道：\"Who authorized this? Why wasn’t I told?\" 姿态僵硬，头微仰，仿佛在寻找答案。环境嗡鸣持续。无笑容、无点头——纯粹的茫然。灯光依旧昏暗，聚焦于她身影。\n\n[SHOT 5/5, extreme_close_up]\n极端特写镜头聚焦主持人双眼——睁大，瞳孔放大，缓慢眨眼。她缓缓坐回椅中，麦克风指示灯熄灭。屏幕下方字幕显示 END OF BROADCAST — Thank you for listening。她声音轻弱、破碎，几乎耳语般说出：\"That’s. all for tonight. I don’t even know what to say.\" 嘴唇缓慢开合，精准同步每个词。无其他动作。录音室陷入寂静，仅余渐弱嗡鸣。情绪彻底从愤怒转为震惊困惑。画面固定，无镜头移动。 画面中所有出现的文字均以涂鸦字样式呈现，街头涂鸦喷漆字体、油漆滴淌、鲜艳撞色描边。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "text_font_style": "graffiti"
   },
   {
@@ -418,49 +418,49 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位中年男子，棕色短发，身穿深蓝色纽扣衬衫，站在昏暗的家庭办公室中央，明显愤怒——紧咬牙关，眉头紧锁，肩膀紧绷——以稳定有力的中年男性嗓音，直接对着镜头发表愤怒的电影评论。他身后：一张杂乱的书桌，上面放着笔记本电脑、咖啡杯和相框照片。他说出原话：\"This film's editing is an insult to cinema — every cut feels like a slap to the audience's intelligence. The director clearly doesn't care if we understand the plot or not.\" 无其他动作或声音来源。固定中近景，平视角度，标准镜头。情绪始终保持愤怒。无摄像机移动。讲话连续，唇形必须与引述台词完全匹配。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0066",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位愤怒的成年女性武术家，身着飘逸的深红色长袍，约三十余岁，眼神凌厉，双拳紧握，在雾气缭绕的东方玄幻古寺内以手持vlog镜头怒斥看不见的对手。空中漂浮着发光的气符，风中传来远处寺庙的钟声与微弱的诵经声。她的口型精准匹配其声音——女性，中文，愤怒——说出：“你竟敢偷走我的灵脉图！今日若不交出，我定让你魂飞魄散！” 环境音效层叠低频寺庙铜锣与回响的风铃声，衬托其言语。镜头保持平视中近景，标准镜头，无其他角色可见。视觉风格：玄幻。背景音乐：缓慢、紧张、器乐玄幻风格。物理效果：漂浮气符、风铃共振。情绪：全程稳定愤怒。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0067",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 朋克风格游戏视频，一位喜悦的韩语男性政客在霓虹灯笼罩的反乌托邦大厅中举行新闻发布会，多源音频包括人群低语和机械嗡鸣，机器人主播同步点头，无情绪变化，固定镜头构图。\n\n[SHOT 1/5, wide]\n广角镜头展现反乌托邦新闻大厅，霓虹灯牌在铬合金讲台上方闪烁，一位中年男性政客身穿带发光电路纹路的皮风衣，双手高举，咧嘴大笑，立于闪烁灯光下。身着赛博朋克装备的记者们前倾身体，充满期待；一旁悬浮着一位面部为铬合金、眼睛为LED的机器人主播，同步点头。政客眼中闪亮，宣布：\"오늘 우리는 새로운 시대를 열었습니다!\"，人群低语与机械嗡鸣层层叠加于他洪亮的声音之下。\n\n[SHOT 2/5, medium_close_up]\n中近景聚焦政客面部，笑容更盛，眼角因喜悦而皱起，他朝人群做出手势。身后全息横幅闪烁着庆祝标语。机器人主播的LED眼闪烁绿色表示赞许。他继续以稳定而欢快的语调说道：\"시민 여러분, 이 기술은 우리 모두를 자유롭게 만들 것입니다!\"，唇形完美匹配韩语语调，每个音节清晰开合，背景嗡鸣与人群窸窣声持续不断。\n\n[SHOT 3/5, medium]\n低角度镜头拍摄政客双手紧握铬合金讲台边缘，前倾身体，以洪亮喜悦的语气宣告：\"우리는 더 이상 억압받지 않을 것입니다!\"，他身上的发光电路纹路在霓虹光下微微脉动。机器人主播略微升高悬浮，点头更剧烈，LED眼保持稳定。身后人群低语汇成一片赞许浪潮，与贯穿场景的机械嗡鸣交织，烘托出电光火石般的紧张氛围。\n\n[SHOT 4/5, medium]\n从一名记者身后过肩视角拍摄，镜头聚焦政客指向身后巨大全息显示屏的动作。机器人主播悬浮于显示屏旁，LED灯随宣告同步脉动。人群齐声惊呼，他宣告：\"이 기술은 우리의 미래를 바꾸어 놓을 것입니다!\"，姿态威严，每个韩文字母发音清晰准确，背景机械嗡鸣与人群低语持续不间断。\n\n[SHOT 5/5, close_up]\n特写政客面部，洋溢纯粹喜悦，头顶礼花炮轰然绽放。机器人主播悬浮于侧，LED灯闪出金色光芒。他以温暖而胜利的语调说出最后一句：\"감사합니다! 함께 만들어 갑시다!\"，唇形精准匹配韩语节奏。人群欢呼声如雷般高涨，画面定格于他胜利的笑容，背景嗡鸣与机械节奏仍在庆典之下持续回响。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0068",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位年轻成年女性，肩长棕色头发，穿着宽松毛衣，坐在杂乱家庭办公室的书桌前，沐浴在午后自然光下，对画外突然响起的手机铃声做出反应——她猛地一惊，眼睛睁大，杯子脱手掉落（碎裂声），随即慌乱伸手去接电话。她说话时声音逐渐升高，充满紧迫感，双手颤抖：\"Oh my god — wait, what? No, you can’t be serious — I just left it there! I’ll be right back, don’t hang up — oh no, the cat’s knocking everything over — I’m coming, I’m coming!\" 她的口型与惊慌的英文语句完全同步。与此同时，一只毛茸茸的灰色虎斑猫跳上书桌，撞倒纸张（沙沙声 + 沉闷撞击声）。音频包含她惊慌的讲话、猫的动作声、手机铃声和远处车流嗡鸣。情绪弧线：惊讶 → 惊慌。镜头：固定中景，平视标准镜头。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0069",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 一部神秘东方奇幻风格的vlog，由一位女性主播在画外进行直播，情绪从惊讶逐渐转为喜悦，场景设定在黄昏庭院，地面有发光符文、空中漂浮灯笼、薄雾弥漫——单音源音频，固定镜头，玄幻视觉风格。\n\n[SHOT 1/4, close_up]\n低角度微距特写：古老石板地面上的发光符文微弱脉动，薄雾缠绕风化石柱。无人入镜。画外，女性声音突然倒吸一口气，充满惊讶：“哎呀！这灵符居然自己动了？！”，语调惊愕而急促，唇形同步配合符文能量骤然爆发。画面静止，声音余韵萦绕，暮色中唯此一音，符文随她惊呼而闪烁更亮。\n\n[SHOT 2/4, medium]\n平视中景：纸灯笼缓缓漂浮于庭院上空，雾气在石柱间渐浓。无人入镜。画外，同一位女性声音略带颤抖，语气渐升为敬畏：“等等.等等！它在发光！天呐，这可是千年未现的‘玄阳符’啊！”，语速急促，声音因难以置信而发颤。灯笼随她话语节奏微弱脉动，下方符文光芒增强——唯一可闻之声，是她情绪从震惊转向初醒的领悟。\n\n[SHOT 3/4, wide]\n高角度全景：整个庭院尽收眼底，符文已迸发耀眼能量，灯笼同步脉动。雾气盘旋却不遮蔽光芒。画外，女性声音语调转变，气息中满是惊叹：“快看！符文在重组！这能量.这可是能开启‘天机门’的钥匙啊！”，语调随兴奋升高，字字清晰有力。符文肉眼可见地扭曲重组，光亮持续增强——单音源音频，她的声音此刻充满惊奇与急切。\n\n[SHOT 4/4, medium]\n平视中景：符文已凝聚成一道闪烁的传送门，雾气散开，显露出发光拱门。无人入镜。画外，女性声音迸发出欣喜的笑声：“成功了！我们真的找到了！今晚直播破纪录啦！大家记得点赞关注！”，语调欢腾而胜利，声音明亮充满活力。传送门稳定脉动，灯笼泛出暖金色光芒——唯一声音，是她喜悦的宣告，标志着情绪从惊讶走向纯粹的狂喜。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0070",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一段手持式vlog风格镜头，拍摄于昏暗的1930年代广播电台录音室：木质办公桌、复古麦克风、模拟旋钮、墙上扬声器。一位身着剪裁合体1930年代西装的女新闻主播站在麦克风后，表情严肃，以愤怒、响亮、尖锐的播报语气发言：“这个政策完全忽视了民众的诉求！政府必须立刻回应！” 她身旁，一位穿背带裤戴眼镜、满头大汗的男制作人手持剪贴板，急切插话：“主任，收视率在暴跌！我们得换话题！” 一只戴着报童帽的卡通狐狸坐在桌上，用小指针比划着，添加讽刺评论：“哦，又一个‘立刻回应’？上次‘立刻回应’是三个月前！” 背景是持续的嗡嗡声与隐约的打字机敲击声，构成多声源音效。所有对话均精确唇形同步。画面无任何文字。情绪全程保持愤怒。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0071",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格的2D动画2D卡通风格，一位30多岁、穿着休闲家居服的快乐女性用英语进行一场欢快 playful 的争执，多音源音效包括滴答钟声、雨声和远处狗吠 —— 情绪全程保持愉悦。\n\n[SHOT 1/5, medium shot]\n一位30多岁、穿着休闲家居服的快乐成年女性，眼神灵动、笑容灿烂，坐在沙发上手握咖啡杯，身体前倾，眼睛闪亮，边笑边夸张地做手势，说着 \"You always forget the milk!\" 背景是雨痕斑驳的窗户和滴答作响的挂钟；她的口型与台词节奏精准同步，声音温暖又带调侃。环境中的雨声与钟声持续在她说话时作为背景音，构成多音源声景，但不压过她的声音。\n\n[SHOT 2/5, close-up]\n特写同一女性的脸部，依旧笑容灿烂，她俏皮地歪着头，轻笑着说出一句调侃的话：\"But honestly, I love that you try — even if you bring home almond milk again!\" 她眼角微微笑出皱纹，嘴唇清晰同步台词。她刚说完，背景中隐约传来一声狗吠，为多层音效增添细节，却不干扰她愉悦的语调。\n\n[SHOT 3/5, wide shot]\n广角镜头显示女性从沙发上起身，仍面带微笑，边走边朝厨房方向说话 —— 姿态放松，步伐轻快，手臂自然摆动。她说：\"Next time, get oat milk — it’s the new trendy thing!\" 她身后的窗户仍被雨水划过；钟声与环境音持续不变。她的声音清晰穿透环境音，口型精准，情绪始终如一 —— 温暖又带调侃。\n\n[SHOT 4/5, medium shot]\n中景镜头，女性站在厨房台前，正往杯中倒咖啡，仍轻声笑着，微微转向画外人物说：\"I’m just messing with you — you’re the best!\" 她的表情转为真挚的温柔，眼神温暖，口型与语句节奏完美匹配。背景雨声与钟声持续低鸣，强化温馨居家氛围，却不与她的声音竞争。\n\n[SHOT 5/5, close-up]\n特写女性面部，她温柔微笑，眼角因暖意而微皱，用轻柔而坚定的语气说出最后一句：\"Now go get the real milk — I’ll wait!\" 她的口型清晰自然，声音平稳而充满爱意。雨声与钟声仍在背景中可闻，完整构成多音源声景。镜头结束时她仍保持微笑，情绪始终愉悦无变 —— 一个定格的、俏皮又充满爱意的瞬间。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "cartoon_2d",
     "visual_substyle_zh": "2D卡通风格"
   },
@@ -469,14 +469,14 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位银发皱纹的老年女性，身穿碎花连衣裙，面带温暖笑容，正对着镜头用欢快而沙哑的中文讲话。她的口型精准匹配台词：“我最爱的花园里，每朵花都像在对我笑呢！” 无镜头移动，画面固定。仅能听到她的声音，无背景音效。她的手势轻柔，边说话边比划她最爱的花园。视觉风格写实，视频类型为vlog。情绪全程保持欢快，无情绪转变。无其他人物或屏幕文字出现。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0073",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格3D动画低多边形风，一名惊慌失措的男性体育解说员与一只卡通熊吉祥物在体育场解说席上，共同对比赛灾难做出反应；单声道音频仅聚焦解说员用中文逐渐升级的恐慌语气，无背景观众声或镜头移动。\n\n[SHOT 1/4, medium_close_up]\n中年男性体育解说员，戴耳机、穿西装，面色因恐慌泛红，双眼圆睁，双手微颤紧握桌面，坐姿笔直于体育场聚光灯下的解说席。身旁卡通熊吉祥物身穿球队球衣，双臂交叉，耳朵下垂，眼睛瞪大。背景为模糊的空座位。他猛然张口说出 \"不——不！他滑倒了！球飞出去了！裁判没吹！这怎么可能！我们完了！\"，声音颤抖，唇形精准匹配每个音节，指节因紧握桌沿而发白。\n\n[SHOT 2/4, medium_close_up]\n解说员前倾身体，紧抓桌面，面部涨红，太阳穴渗出汗珠。身旁吉祥物放下双臂，微微蹲下，爪子抱住头部。背景中零星出现模糊观众，但无任何人群噪音——只有他的声音。他高喊 \"裁判没吹！这不可能！我们输定了！\"，声调拔高，双眼左右乱扫，手指在桌面上急促敲击，领带略微歪斜。\n\n[SHOT 3/4, medium_close_up]\n解说员已站起身，一手按在桌上，另一手紧抓耳机，领带完全歪斜，额头汗珠清晰可见。吉祥物完全蹲伏，双手捂耳，双眼紧闭。背景观众逐渐淡出。他大吼 \"啊啊啊——球飞了！我们输定了！\"，嘴巴大张，颈部青筋暴起，身体随每个音节剧烈抽动，声音在高点嘶哑破裂，唇形为3D动画精确夸张呈现。\n\n[SHOT 4/4, medium_close_up]\n解说员瘫坐回椅中，双手掩面，喘息沉重，西装凌乱，耳机滑落单耳。吉祥物平躺在地，爪子盖住双眼。背景完全黑暗——无灯光、无观众。他低语 \"完了..我们完了.\"，声音渐弱，嘴唇几乎不动，双肩塌陷，双眼紧闭，脸颊汗珠仍闪烁——最终画面定格于他无声的绝望。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "low_poly",
     "visual_substyle_zh": "低多边形风"
   },
@@ -485,21 +485,21 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一个逼真的游戏内场景：一位30岁的女性导游身穿卡其色背心，手持木制登山杖，站在阳光斑驳的森林空地中央，兴奋地指向身后的隐藏瀑布。她睁大双眼、张开嘴巴，流露出真实的惊讶神情，用女性俄语声音说道：“Ой, вы только посмотрите — водопад прямо за этой скалой! Я и не знала, что он здесь!” 音频将她的讲话与持续的树叶沙沙声、远处鸟鸣以及舒缓缓慢的环境器乐背景音乐融合。无镜头移动——固定中景，平视角度，标准镜头。情绪稳定：全程保持惊讶。唇形必须与俄语对话完全同步，每个音节都需可见口型动作。无其他对话或屏幕文字出现。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0075",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格广告片段，展现一位愤怒的女性高管在紧张的公司会议中用中文发表激烈演讲，配有包含机器人助手评论的多源音频；情绪基调全程保持愤怒。\n\n[SHOT 1/5, medium shot]  \n中景镜头，一位中年女性高管身穿定制深蓝色西装，双拳紧握于会议桌，面颊因愤怒泛红，正怒吼着 \"你们的季度报告简直是灾难！成本失控、客户流失率翻倍，这还是我们引以为傲的旗舰产品？\" 她身后，数字白板闪烁着红色向下箭头。她右侧，一台流线型黑色机器人助手静止不动。阳光透过玻璃墙洒入，映出空气中漂浮的尘埃。屏幕中央显示文字“季度报告：灾难性亏损”。音频包含她持续愤怒的嗓音与微弱的空调嗡鸣。她的嘴唇精准同步每个音节，下颌紧绷，双目怒火燃烧。\n\n[SHOT 2/5, close-up]  \n特写镜头聚焦高管面部，双颊涨红，眉头紧锁，下颌咬紧，低吼着 \"我要求你们在48小时内拿出解决方案，否则整个项目组重组！\" 她的眼镜反射出身后白板上的红色图表。背景虚化，突出她暴怒的表情。屏幕底部显示文字“48小时解决方案”。她的声音依旧尖锐而坚定，嘴唇有力地精准开合。无其他人物入镜；机器人助手不在画面内。镜头保持稳定，捕捉她毫不动摇的怒意。\n\n[SHOT 3/5, medium shot]  \n中景镜头从高管背后过肩拍摄，她猛然转身，激烈地朝身后就座的团队（虚焦）挥臂示意，厉声喝道 \"这不是演习！市场不会等我们！\" 她姿态僵硬，右臂伸展如指挥。背景白板布满复杂图表。机器人助手仍置于桌上，头部微微倾斜。阳光在玻璃墙面上反射。她的声音充满紧迫感，每个字都咬得短促有力。无镜头移动；画面固定于她的背影与手势。团队的沉默反衬她声音的激烈。\n\n[SHOT 4/5, two-shot]  \n平视双人镜头，高管俯身压向会议桌，双手撑桌，脸距机器人光滑无特征的“脸”仅数寸。机器人抬头平静陈述 \"根据数据分析，市场波动是主因，非团队执行问题。建议调整定价策略。\" 高管立即回击 \"调整定价？你是在告诉我，我们该向市场低头？\" 他们身后的白板亮起文字“市场波动非主因”。她的声音尖刻，嘴唇同步流露轻蔑。机器人声音冷静、合成感明显。锐利阴影投射在两人身上。除对话互动外无其他动作。\n\n[SHOT 5/5, wide shot]  \n高角度全景镜头，展现整个会议室。高管独自立于会议桌首端，双臂交叉，沉默俯视。机器人助手仍在桌上。团队不在画面内。她说出最后一句 \"我给你们48小时。别让我失望。\" 声音低沉却暗藏威胁，嘴唇几乎不动。白板在背景中柔和发光。房间回荡着空调嗡鸣与远处键盘敲击声。她的姿态散发未消的怒气。镜头静止，捕捉她的孤立与最后通牒的沉重分量。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0076",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位年轻成年女性，留着齐肩深色头发，身穿休闲家居服，坐在黄昏时分暖光照明的杂乱家庭办公室书桌前，表情困惑——眉毛微扬，嘴唇微张，似在思索——她用女性中文声音低语：“为什么这段纪录片解说听起来这么奇怪？我明明记得上一集是另一个配音员.” 她的口型与台词困惑的语调完全同步。背景中持续播放着微弱的城市车流声与远处警笛声。屏幕底部显示文字：为什么这段纪录片解说听起来这么奇怪？ 左侧UI标签显示：上一集配音员：张明 和 当前配音员：未知。镜头为固定中近景，平视角度，标准镜头，无任何运镜。情绪状态全程保持困惑。 画面中所有出现的文字均以涂鸦字样式呈现，街头涂鸦喷漆字体、油漆滴淌、鲜艳撞色描边。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "text_font_style": "graffiti"
   },
   {
@@ -507,35 +507,35 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 一段写实风格的 Vlog 多镜头序列，聚焦一位老年男性在温馨家庭工作室中，随着听到自己过去的声音从复古收音机广播中传出，情绪从困惑逐渐转为惊讶；音频为单声道，镜头始终固定于平视角度，对话内容逐字保留英文。\n\n[SHOT 1/4, medium shot]  \n一位头发稀疏灰白、戴着眼镜、身穿开衫的老年男子坐在一张旧扶手椅上，身体前倾，一只手搭在复古收音机上。他眉头紧锁，专注倾听，嘴唇微张，面露困惑。暖光笼罩的房间静谧无声，身后书架上摆满书籍与黑胶唱片。他低声自语，随后开口说道：\"I’ve been listening to this station for forty years. but this? This is something else entirely.\" 他的声音轻柔，略带颤抖，充满难以置信，双眼紧盯着收音机，仿佛在质疑它的存在。画面中无其他声响或动作。\n\n[SHOT 2/4, close-up]  \n特写镜头聚焦同一位老年男子，他微微后仰，缓缓调整眼镜，眨了眨眼。表情从困惑转为恍然大悟，嘴巴半张，用一根手指轻敲收音机外壳。背景柔和虚化，焦点集中于他的面部。他先低语，随后提高音量说道：\"I thought I’d heard every old broadcast they had archived. But this. this is not just a recording.\" 声音逐渐稳定，但仍带着敬畏的颤抖，双眼眯起，仿佛在拼凑某个不可能的真相。收音机持续播放的背景嗡鸣声始终伴随他的言语。\n\n[SHOT 3/4, medium close-up]  \n老年男子突然挺直身体，双手紧握扶手，双眼圆睁，嘴巴大张，震惊不已。开衫因动作而皱起，眼镜反射着暖光。他凝视收音机，仿佛它刚刚喊出了他的名字。广播中的声音似乎在回应他的思绪。他倒吸一口气，脱口而出：\"This is. alive? How is this possible?\" 声音略带破裂，呼吸在句中停顿，眉毛高高扬起，满是纯粹的惊愕。画面中无其他动作——只有他颤抖的双手与收音机旋钮微弱的光晕。\n\n[SHOT 4/4, medium shot]  \n他缓缓放下双手，布满皱纹的脸上浮现出震惊的微笑。他靠回扶手椅，抬头望了一眼天花板，又转回注视收音机，轻轻摇头，流露出无声的惊叹。他的声音变得柔和，近乎虔诚，低声呢喃：\"I never thought I’d hear my own voice. from the past. talking back to me.\" 房间依旧静谧，暖光在脸上投下柔和的阴影。他的嘴唇与最后的话语同步，眼眶微微湿润，沉浸在这不可思议的瞬间——无其他声响，无其他动作，只有他与几十年前的声音，透过收音机再次对话。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0078",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位中年男性人类，具有新闻主播的仪态，身穿破旧皮夹克，防毒面具挂在脖子上，站在布满霓虹、湿漉漉的肮脏小巷中央，用广播腔调用中文发表演讲：“我本以为.这城市还能救。可你们，你们把希望碾碎了！（声音从颤抖转为怒吼）.” 他的口型在句中明显变化——起初表情颤抖、低垂（情绪来源：悲伤），随后突然转为怒目圆睁、暴怒（情绪目标：愤怒）并大喊。他身后，一只戴着尖刺项圈的拟人化朋克猫持续演奏失真、激烈、快节奏的朋克摇滚电吉他乐句。无镜头移动——固定中景，平视视角，标准镜头。情绪弧线：悲伤 → 愤怒。声音复杂度：多声源——人声 + 吉他。视觉风格：朋克。视频类型：影视。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0079",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 一段朋克风格的vlog片段，一名男性讲师在霓虹灯照亮的反乌托邦讲堂中，以惊讶的语调独白讲述量子物理竟根植于1980年代街机游戏，多源音频包括环境嗡鸣、警笛声和一只机械猫头鹰的存在；固定镜头，全程中景，情绪稳定在惊讶状态。\n\n[SHOT 1/5, medium shot]\n一名三十多岁的男性讲师，身穿带有霓虹电路刺绣的朋克风格皮夹克，僵直地站在聚光灯下，双眼圆睁、嘴巴微张，显露出震惊神情。他身后，全息投影仪闪烁着故障的方程式。一只眼睛发光的机械猫头鹰栖息在破损的投影仪上，缓慢眨眼。讲师深吸一口气，说道：\"Wait — you mean the quantum entanglement protocol was actually reverse-engineered from 1980s arcade games? That’s. unbelievable.\" 空气中弥漫着低频嗡鸣与远处警笛声。镜头固定，无移动。\n\n[SHOT 2/5, medium shot]\n讲师后退半步，双手微微抬起，仍难以置信地凝视着闪烁的全息影像。他霓虹灯照亮的夹克随着情绪波动微微脉动。机械猫头鹰歪着头，金属羽毛反射环境光。他惊呼：\"I thought we were talking about particle physics — not Pac-Man!\" 低频嗡鸣声略微增强。聚光灯仍锁定在他身上，在龟裂的水泥墙上投下锐利阴影。镜头固定，无移动。\n\n[SHOT 3/5, medium shot]\n讲师身体前倾，用力指向全息影像，声音拔高。表情混合震惊与逐渐浮现的顿悟。猫头鹰的眼睛随之更明亮地发光。他宣告：\"This changes everything — the entire foundation of quantum computing is built on pixelated ghosts!\" 一声金属吱呀声从画外传来，增添紧张感。他身后的全息影像剧烈闪烁。镜头固定，无移动。\n\n[SHOT 4/5, medium shot]\n讲师双手一摊，发出无奈的笑声，肩膀微微颤抖。他身上的霓虹电路图案随荒谬感加剧而闪烁紊乱。全息影像故障成像素化的幽灵图像。猫头鹰轻拍一次翅膀，金属羽毛沙沙作响。他说：\"I’m not even sure if I’m the professor or just a high-score chaser now!\" 一声高频尖啸刺破环境嗡鸣。镜头固定，无移动。\n\n[SHOT 5/5, medium shot]\n讲师靠在讲台上，面带难以置信的微笑，仍在喘息。全息影像逐渐褪为雪花噪点，仅剩聚光灯微弱余光。机械猫头鹰缓缓闭上眼睛。他凑近麦克风问道：\"So. who’s up for a game of Space Invaders to test this theory?\" 环境嗡鸣降至耳语般微弱。画面静止片刻后淡出。镜头固定，无移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0080",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在一个昏暗杂乱的空间站控制室内，一个银色流线型机器人人形角色站在画面中央，蓝色眼睛发光，姿态因恐慌而僵硬——随后转为喜悦的放松，用机械中文语音说道：\"警告！氧气储备低于10%！——等等..（声音突然上扬，语调转为轻快）救援队抵达了！我们得救了！\" 它身后，一名中年男性工程师穿着沾污的连体工装，对着耳机大喊，声音因如释重负而颤抖：\"Come on, respond! We’re running out of time! — Wait, what? Rescue? (voice cracks with relief) Thank god. thank god.\" 闪烁的控制面板、控制台有节奏的滴答声、以及生命维持系统故障发出的低沉嗡鸣，烘托出紧张氛围。情绪弧线：恐慌 → 喜悦。固定中景镜头，平视角度，标准镜头。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0081",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 3D动画3D迪士尼动画风格，历史风格，单主体音频配多源音效，展现一位老年男性新闻秘书在19世纪欧洲新闻厅发表演讲，情绪弧线：喜悦 → 悲伤，旁有卡通猫头鹰观察者，背景有钟表滴答声。\n\n[SHOT 1/4, medium]\n70多岁老年男性新闻秘书，秃顶、白鬓角，穿灰色晨礼服，手杖立于身侧，挺立于红木讲台后，笑容灿烂，眼神明亮，声音洪亮喜悦，自由手挥动致意。他说：\"Ladies and gentlemen, today marks a historic triumph — our nation’s first transcontinental railway is complete!\" 戴高帽、穿长外套的记者们轻声欢呼，笔尖沙沙疾书。栖于吊灯上的卡通猫头鹰缓缓眨眼，羽毛轻柔窸窣。煤气灯在头顶摇曳，木墙回响着房间的兴奋。背景钟表稳定滴答，节奏与他沙哑而威严的语调交融。\n\n[SHOT 2/4, close_up]\n特写演讲者面部，笑容渐敛；他低头瞥见一封折叠电报，声音微颤。他说：\"But. I must now share a somber truth. The final stretch claimed the lives of forty brave workers — buried under a landslide at the Sierra Pass.\" 眉头紧锁，眼神黯淡，手指攥紧讲台。记者们前倾身体，笔尖悬停。猫头鹰歪头，羽毛因关切而轻颤。钟表滴答声渐响，近乎不祥，与他沙哑颤抖的语调形成反差。暖黄煤气灯光在白鬓角投下更长阴影。\n\n[SHOT 3/4, medium]\n演讲者眼眶含泪，低头垂首，声音哽咽悲怆。他说：\"They gave their lives so others might ride in comfort. Let us honor them — not with cheers, but with silence and solemn gratitude.\" 记者们陷入寂静，一人拭泪。猫头鹰蓬松羽毛，垂目低视。钟表滴答声渐缓，几近停滞，呼应他沙哑破碎的语调。房间氛围骤变——墨香空气凝重，弥漫共感哀伤。他灰色晨礼服依旧挺括，但身形微弯，承受情感重压，手杖稳立身侧。\n\n[SHOT 4/4, wide]\n演讲者静立不动，头低垂，手轻放讲台，双唇紧闭，神情沉重哀伤。他说：\"Let us honor them — not with cheers, but with silence and solemn gratitude.\" 记者们凝视未动的记事本，笔尖静止。猫头鹰静栖，双目闭合。房间彻底寂静，唯余钟表微弱缓慢的滴答声。首幕的喜悦已消散，代之以沉重共感的悲伤。煤气灯下，他灰色晨礼服与白鬓角清晰可见，手杖未动。画面凝固静止，他沙哑嗓音已消，唯余钟表环境音。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "disney_3d",
     "visual_substyle_zh": "3D迪士尼动画风格"
   },
@@ -544,28 +544,28 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位中年俄罗斯女性身穿简约灰色毛衣，端坐在一间光线柔和的家庭办公室的木桌前，直视镜头，表情中性、语气平静地讲话。她的口型精准匹配她用俄语说出的声音：\"Здравствуйте, сегодня мы поговорим о важности регулярного чтения книг для развития критического мышления.\" 她身后是一个书架，上面整齐摆放着书籍和一盆小型盆栽。环境音包括轻微的冰箱嗡嗡声和远处的城市车流声。光线柔和均匀，暗示来自画外窗户的自然日光。镜头为固定中近景，平视角度，使用标准镜头，无任何摄像机移动。整体情绪始终保持中性。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0083",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 一部玄幻风格的影视场景，一位困惑的老年主播在雾气缭绕的古庙大殿中直播，殿内悬挂着发光的灵灯，石像被灵气激活，身旁伴随两位拟人化的狐妖，实时回应观众评论；音频包含三人多声源对话。\n\n[SHOT 1/5, medium]\n一位白须飘逸、身着长袍的老年主播盘腿坐在发光的冥想平台上，专注凝视悬浮水晶屏上滚动的观众评论。他身后略失焦处，站着一位九尾、头戴玉簪的女狐妖，和一位手持发光平板、朝镜头眨眼睛的男狐妖。灵灯在头顶缓缓飘动。主播喃喃自语，声音颤抖着充满困惑，说道：\"I’m telling you, the spirit foxes here aren’t just decorative—they actually respond to viewer donations! Just now, one of them sneezed and a gold coin appeared.\" 他的嘴唇与苍老声线同步开合，目光在屏幕与狐妖间来回游移。\n\n[SHOT 2/5, close-up]\n九尾女狐妖上前一步，双臂交叉，尾巴轻柔摆动。主播抬头，面露惊愕。男狐妖瞥了一眼平板，嘴角微扬。一阵细微的窸窣声伴随灵灯飘过。女狐妖语气平静略带无奈，说道：\"Master, you’re hallucinating again. That was just a dust mote reflecting the lantern light. And no, I didn’t sneeze. I’m not even breathing right now. You’re the one who needs to rest.\" 她琥珀色双眸微光闪烁，唇形精准配合发音，主播则眨着眼睛，满脸难以置信。\n\n[SHOT 3/5, medium]\n男狐妖朝镜头倾身，单眼眨动，同时轻点发光平板。主播转向他，眉头困惑上扬。他们身后，一尊石像双眼短暂泛起蓝光，无人察觉。男狐妖语调轻佻而具说服力，说道：\"Viewer ‘SpiritFoxLover42’ just asked if you can summon a dragon. Master, maybe just pretend? They’ll donate more if you say yes.\" 他单尾轻甩，唇形清晰吐字，主播表情从困惑转为迟疑。\n\n[SHOT 4/5, full]\n主播猛然起身，长袍翻飞，手指指向发光石像。狐妖们交换眼神。一盏灵灯剧烈闪烁，投下晃动的阴影。主播声音颤抖，说道：\"Wait—did you see that? The statue’s eyes just glowed! Or was that the lantern? No, I’m sure it was the statue. Or maybe the lantern reflected off the statue? I don’t know anymore.\" 他手指持续指向石像，唇形与苍老困惑的语调同步，狐妖们静默注视，尾巴纹丝不动。\n\n[SHOT 5/5, medium]\n主播颓然坐回，双手抱头，低声自语。狐妖立于其后，女狐轻拍他肩头以示安慰。灵灯微暗。主播声音更轻但仍显困惑，说道：\"I think I need to lie down. Or maybe just turn off the stream. Or maybe I should summon a dragon? No, that’s ridiculous. Right? Right?\" 双手仍覆面，唇形缓慢开合，双目紧闭，狐妖们交换会意眼神，尾巴在雾中轻柔摇曳。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0084",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位30多岁的女新闻主播，身穿深色西装外套，佩戴珍珠项链，神情肃穆地坐在一间灯光昏暗的电视演播室的抛光橡木桌前，眼眶微红，以悲伤而平稳的女声播报突发新闻。她身后的大LED屏幕显示着阴雨连绵、气氛凝重的城市景观。环境音包括微弱的演播室空调嗡鸣和远处的雷声。她吐字清晰、语速缓慢，口型精准匹配：“我们刚刚收到最新消息，东部沿海三省遭遇百年一遇的台风袭击，目前已确认超过两百人失踪，救援队伍正在全力搜救。” 无镜头移动——固定中近景，平视角度，标准镜头。情绪全程保持悲伤。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0085",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格2D动画MG动画风，描绘一个杂乱公寓内多主体、多声源的家庭争吵场景，包含一名语调困惑的男性说话者（中文口音）和一名沮丧的女性说话者，以及一只沉默的人形猫观察者；整体情绪始终保持困惑。\n\n[SHOT 1/4, medium shot]  \n一名中年男子衣衫不整，面色涨红，双手紧握于身侧，对着厨房门口附近一位四十多岁的女子大喊，女子双臂交叉，眼神紧缩。他疯狂挥舞手臂，声音因困惑而颤抖，说着 \"你到底有没有听我说话？每次都是这样，我讲到一半你就打断！\"，每个音节嘴唇都剧烈开合。他们身后，一只穿着针织毛衣的虎斑猫静坐窗台，凝视着一切。桌上堆满碗碟，地板上放着一个半开的行李箱。远处警笛声在公寓持续的环境嗡鸣中隐约响起。无镜头运动；画面固定于平视视角。\n\n[SHOT 2/4, medium shot]  \n女子向前踱步，停在距男子仅寸许处，眼神凶狠逼视。男子明显困惑地后退半步，她厉声说道 \"我打断你？是你从来不肯听完整！你根本不知道我每天多累！\"，声音尖锐紧绷。桌上一只咖啡杯倾倒，洒在报纸上——从男子一侧传来一声清脆的碰撞声。猫的尾巴在窗台上缓慢摆动。警笛声渐弱，被冰箱低沉的嗡鸣取代。两人仍同框，姿态僵硬。画面固定；无镜头运动。唇形精准匹配每个发音音节。\n\n[SHOT 3/4, close-up]  \n特写男子面部：双眼圆睁，眉头紧锁，嘴唇颤抖，神情茫然。他低声呢喃 \"我.我只是想把事情说清楚.你为什么总是这样？\"，声音破碎，仍充满困惑。身后女子转身背对，肩膀垂落。猫跳下窗台，走向洒落的咖啡，嗅闻地面。一段淡淡的忧伤钢琴旋律在持续争吵中悄然叠加。画面固定于平视视角。无镜头运动。他嘴唇刻意逐字开合，贴合对话节奏与情绪重量。\n\n[SHOT 4/4, wide shot]  \n广角镜头：男子独自站在沙发旁，低头喃喃重复 \"我.我只是想把事情说清楚.你为什么总是这样？\"，声音几不可闻，依旧困惑。女子已出画。猫坐在洒落的咖啡旁，舔舐爪子。钢琴旋律稍作增强后渐弱。冰箱嗡鸣持续。画面固定于平视视角。无镜头运动。他嘴唇起初无声，随后费力地形成字词，贴合情绪基调。除指定音源外，无新增声音。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "mg_animation",
     "visual_substyle_zh": "MG动画风"
   },
@@ -574,49 +574,49 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位30多岁、金发、眼神明亮、面带温暖笑容的成年女性，身穿鲜艳上衣，坐在复古扶手椅上，用欢快的德语配音：\"Was für ein wunderbarer Tag! Die Sonne scheint, und ich kann kaum glauben, wie glücklich ich bin.\" 她的口型与轻快语调完全同步。她身后略微失焦处，一名5岁卷发小女孩，眼神明亮，身穿红色毛衣，抱着一只毛绒熊，突然喊出：\"Mama, schau! Der Bär lacht auch!\" 音频以女性声音为主，小女孩的台词仅是一声短促爆发。场景：阳光洒落的温馨客厅，配有柔和窗帘。镜头：静态中景，平视角度，标准镜头。无镜头运动。情绪：全程欢快。视觉风格：写实。视频类型：影视。声音复杂度：单声源。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0088",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "手持vlog风格的中景镜头，平视角度，固定画面，场景设定在昏暗的19世纪博物馆走廊，墙上挂有油画，两侧是木质展柜。一位中年男性导游身着时代燕尾服、戴着眼镜，正对镜头站立，明显因恐慌而颤抖——双眼圆睁，双手发抖——用中年英国口音说道：\"Oh my God — it’s gone! The jade pendant, the one my mother left me. I just saw the display case smashed! (voice rising, breathless) .I should’ve locked it earlier. (voice drops, trembling) It’s all I had left of her. I’m so sorry, Mom.\" 话说到一半，他的表情转变：肩膀塌下，声音转为深沉的悲伤，口型与情绪弧线从恐慌过渡到哀伤完全匹配。无其他声音或可见人物——仅有他的声音与环境寂静。情绪弧线：恐慌 → 悲伤。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0089",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 科幻风格的多镜头 Vlog 序列，三位困惑的发言者——两位老年人类与一位人形机器人——在昏暗杂乱的控制室内辩论量子稳定器波动，背景有全息显示屏、环境机械嗡鸣与多源音频；所有对话以英语呈现，语调苍老，始终充满困惑，无情绪变化，镜头固定构图。\n\n[SHOT 1/4, medium]\n中景镜头：一位身穿破旧实验服、头发稀疏灰白、戴眼镜的老年男性，紧张地敲击闪烁的控制台并说话。他身后，全息图表不规则脉动。一位穿高领连体服的老年女性从右侧进入，手持平板，眉头紧锁。背景中，一位高大的人形机器人关节泛蓝光，静止不动。他指向控制台并说：\"I don’t understand why the quantum stabilizer is fluctuating — the calibration logs show no errors, but the output is completely erratic. Are we sure the AI hasn’t overridden the safety protocols?\" 对话下方伴随环境机械嗡鸣，无镜头移动。\n\n[SHOT 2/4, medium]\n中景镜头聚焦于穿高领连体服的老年女性，银发束于脑后，俯身专注查看平板。她身后，男性科学家踱步，双手交握。机器人仍静止，蓝色关节柔和脉动。她轻点平板屏幕并说：\"The AI hasn’t touched the stabilizer — I just ran a full diagnostic. But the energy readings from Sector 7 are. inconsistent. Like something’s interfering from outside the chamber.\" 控制台重复的蜂鸣警报声衬托她的话语。三人皆在画面内，构图固定，无动作动词。\n\n[SHOT 3/4, medium]\n中景镜头框住中央高大的人形机器人，关节泛蓝光，面容平静无表情。它头部微微转向两位人类。老年男女站得靠近，抬头仰望，神情紧张。机器人平稳说道：\"External interference is statistically improbable. However, the chroniton flux in the containment field has increased by 37%. Suggest recalibrating the phase array.\" 环境嗡鸣略微增强，加入低沉机械旋转声。无镜头移动；人物保持固定位置，对话配合稳定口型同步。\n\n[SHOT 4/4, medium]\n中景镜头展示三人：男性科学家与女性工程师交换困惑眼神，眉毛上扬，嘴巴微张。机器人静立于二人之间，关节蓝光稳定。男性科学家略转向机器人并说：\"Recalibrate the phase array? But the last time we did that, it caused a cascade failure in the power grid. Are you sure that’s the only option?\" 附近控制台传来轻微咔嗒声，与持续的环境嗡鸣和机械旋转声交织。发言者仅做细微头部/眼神移动；画面全程固定。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0090",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在一艘废弃的深空巡洋舰上，一个昏暗的高科技控制室内，两名身穿装甲外骨骼的人类在闪烁的全息警报和嘶嘶蒸汽中激烈争吵。一个悬浮的机器人无人机，其红色传感器脉动闪烁，发出持续的高音机械尖啸声。中年男性船长满脸怒容，太阳穴青筋暴起，用愤怒而短促的英语声音说道：\"This vessel was supposed to be the pinnacle of human engineering — now it’s a tomb drifting through the void because of one arrogant decision!\" 同时，头盔破裂的女工程师狂怒地大喊回应，手舞足蹈：\"Don’t you dare blame me! You overrode the safety protocols — this is your fault!\" 嘴型必须精确匹配每个单词。无镜头移动——固定中景，平视角度，标准镜头。情绪全程保持愤怒，无情绪变化。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0091",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头中文广播，采用中性机器人音色，包含男性主持人、女性嘉宾与拟人化机器人助手，场景为昏暗录音棚；单声道音频聚焦人声，无环境噪音，无镜头移动。\n\n[SHOT 1/5, medium]  \n中景镜头：中年男性广播主持人佩戴耳机，坐于木质桌前，面前是复古麦克风，正对麦克风说话，口型同步稳定。身后年轻女性嘉宾手持记事本，边听边轻微点头；金属质感、蓝光双眼的机器人助手静立不动。柔和均匀灯光照亮录音棚吸音板与玻璃控制室。他说：\"各位听众，欢迎收听今晚的《城市之声》，我是主持人李明。\" 表情保持中性，声音冷静且具机器人音色，符合广播单声道音频限制。\n\n[SHOT 2/5, close_up]  \n特写镜头：年轻女性嘉宾坐于主持人对面，表情平静沉稳，正回应发言。口型与语音同步，目光直视前方，记事本置于膝上。背景虚化中，男性主持人仍戴耳机，轻微点头；机器人助手静立其后，双眼微光闪烁。她说：\"谢谢李老师，很高兴能和大家聊聊城市更新中的社区参与。\" 语调中性，匹配指定机器人音色，除人声外无任何环境音。\n\n[SHOT 3/5, wide]  \n全景镜头：完整呈现录音棚内景——男性主持人与女性嘉宾坐于木桌前对话，两人均清晰开口，口型同步。机器人助手立于其后，蓝光双眼直视前方。玻璃窗外控制室可见但无活动。主持人问：\"社区参与在城市更新中扮演着怎样的角色？\" 紧接着嘉宾回应：\"它确保了居民的声音被听到，从而让更新项目更符合实际需求。\" 两人均以中性机器人音色发声，无情绪波动，无背景噪音。\n\n[SHOT 4/5, medium]  \n中景镜头：聚焦金属质感、蓝光双眼的机器人助手，位于主持人身后。头部静止，播放预录片段，口型同步匹配合成单调人声。背景中，主持人与嘉宾专注聆听，纹丝不动。昏暗灯光在吸音板上投下柔和阴影。它说：\"正在播放：城市之声，第27期，主题：社区参与与城市更新。\" 无其他声源，音频严格单声道。\n\n[SHOT 5/5, close_up]  \n特写镜头：中年男性主持人保持中性表情，直视镜头。口型精准同步，以稳定机器人音色结束广播。背景中，女性嘉宾与机器人助手静止不动，记事本与蓝光双眼未变。他说：\"感谢收听今晚的节目，我们下期再见。\" 无环境噪音，无镜头移动，无情绪变化——整段内容严格保持中性，聚焦语音传达。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0092",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 手持式vlog风格中近景，平视角度，固定画面：一位身穿1800年代马甲、戴眼镜的中年男性历史学家，手持一张泛黄的羊皮纸地图，面露困惑，用中年男性中文嗓音喃喃自语。他身后，一台黄铜留声机播放着轻柔缓慢的古典器乐，窗台上一只姜黄色猫咪轻声喵叫。他突然倒吸一口气，指向地图，绽放出灿烂笑容——语气从困惑犹豫转为喜悦顿悟。他说出原话：“这地图上的符号. 等等，难道是. 啊！原来如此！宝藏就在老橡树后面！” 嘴型必须匹配情绪弧线：困惑皱眉 → 突然睁大双眼 → 灿烂微笑。情绪弧线：困惑 → 喜悦。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0093",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格的2D动画油画风，展现一场充满喜悦的大学量子纠缠讲座，主角为一名男性教授与拟人化动物学生，对话为逐字英文；音频单源聚焦于讲话内容，无镜头移动，全程情绪稳定愉悦。\n\n[SHOT 1/4, medium]\n一位中年男性教授戴圆框眼镜、穿粗花呢夹克，站在讲台前，面带灿烂笑容开始讲课。阳光透过高窗洒入，照亮空气中漂浮的尘埃与一排排专注的学生。前排一只狐狸学生身体前倾，笔悬于笔记本上方，笑容满面。教授热情地做着手势，说道：\"Today, we explore the beauty of quantum entanglement — it’s not magic, it’s physics! And yes, it’s as exciting as it sounds.\" 他的口型与语音的愉悦语调完全同步，音频始终聚焦于他持续的讲课内容。\n\n[SHOT 2/4, close-up]\n特写镜头聚焦在背着书包的狐狸学生，她眼中闪烁着好奇的光芒，举手提问。教授转向她，鼓励地点点头，仍保持微笑。其他学生也好奇地望过来。她微微前倾，声音明亮而急切地问道：\"Professor, does this mean two particles can be friends across the universe?\" 她的口型清晰生动，与单次提问的语调完全匹配。教授的讲课声在背景中微弱持续，维持单源音频焦点。\n\n[SHOT 3/4, medium]\n一只长耳朵的兔子学生兴奋地跳起来，高高举手。教授笑着示意他发言，笑容依旧灿烂。狐狸学生转头对他咧嘴一笑，笔暂时停在纸上。兔子学生欢快地脱口而出：\"Can we do a demo with entangled bunnies?\" 他的口型活泼有力，与俏皮语调一致。教授持续讲课的声音仍在背景中可闻，锚定单源音频限制。\n\n[SHOT 4/4, wide]\n教授笑着举起一块黑板，上面画着两只由发光线条相连的兔子，充满童趣。学生们哄堂大笑。他双手张开做夸张手势，仍面带微笑，说道：\"Why not? Science is for everyone — even bunnies!\" 他的口型饱满生动，与愉悦语调完全契合。狐狸与兔子学生仍清晰可见于前排，明显洋溢着喜悦。画面渐暗，教授的声音仍持续可闻，维持单源音频焦点。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "oil_painting",
     "visual_substyle_zh": "油画风"
   },
@@ -625,7 +625,7 @@
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位中年男子穿着皱巴巴的衬衫，明显惊慌失措，夜晚坐在昏暗杂乱的公寓客厅沙发上，双眼圆睁，紧握手机，电视正播放突发新闻。他用男性英语声音说话，情绪从惊慌转为惊讶：\"Oh my god, they’re saying it’s happening NOW — the power grid’s collapsing! Wait. what? That’s not possible. it’s. it’s already over? They fixed it? How?!\" 窗边一名女子正对着耳机急促低语：\"Confirming the all-clear. yes, the backup generators kicked in. no, no further damage reported. thank god.\" 电视滚动新闻横幅：BREAKING: NATIONAL GRID FAILURE — EMERGENCY RESPONSE ACTIVATED，随后显示 ALL CLEAR: BACKUP SYSTEMS STABILIZED — NO FURTHER OUTAGES EXPECTED。环境音为低沉嗡鸣与窗帘窸窣声。情绪弧线：惊慌 → 惊讶。固定镜头，3D动画低多边形风，写实风格。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct",
+    "compiled_by": "proprietary",
     "visual_substyle": "low_poly",
     "visual_substyle_zh": "低多边形风"
   },
@@ -634,111 +634,111 @@
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义游戏风格多镜头新闻发布会，一名愤怒的男性发言人用英语发表紧急讲话，旁配机器人新闻主播播报警报；声音层次包含背景低语与相机快门声；无镜头移动；情绪全程保持愤怒。\n\n[SHOT 1/5, medium]\n一名中年男性政府官员，表情严肃，身着深色西装领带，站在聚光灯下的讲台前，双拳紧握，俯视记者。其右侧悬浮着一个卡通风格的机器人新闻主播，铬合金机身，蓝光双眼，胸前屏幕显示 EMERGENCY BULLETIN。记者们前倾身体，话筒伸出。他以尖锐愤怒的语调开始讲话，口型与广播音色同步：\"Ladies and gentlemen, the situation is dire. We are under attack — not by conventional forces, but by an invisible enemy.\" 背景低语与微弱相机快门声烘托紧张氛围。\n\n[SHOT 2/5, close-up]\n特写官员面部——太阳穴青筋暴起，下颌紧绷，双目怒火燃烧。其身后机器人主播屏幕闪烁显示 CIVILIAN CASUALTIES CONFIRMED。前排一名记者发出清晰惊呼。官员提高音量，口型精准有力：\"I will not stand for silence while lives are lost!\" 寒气中可见其呼吸，双颊泛红，眉头紧锁。机器人主播静止不动，屏幕发光，本镜头无语音输出。背景低语持续轻响于其声下。\n\n[SHOT 3/5, wide]\n广角镜头展现整个简报室——记者慌乱，相机频闪，话筒震颤，官员猛拍讲台。机器人主播屏幕现 EVACUATION ORDERS ISSUED。官员声音响彻全场，口型与愤怒语调同步：\"This is not a drill. This is real. And we are running out of time.\" 拍击引发单次环境音效——话筒震颤，纸张飘动。记者们动作凝固，震惊不已。机器人主播屏幕闪烁，本镜头无音频输出。\n\n[SHOT 4/5, medium]\n中景镜头显示官员猛然转身直面机器人主播，手指直指其胸前屏幕，屏幕现 NO COMMENT FROM OPPOSITION。其声音拔高，在厅内略有回响，口型随每一音节夸张同步：\"Where is the opposition? Hiding? Silent? I demand accountability!\" 机器人主播蓝光双眼直视前方，屏幕未变。背景记者仍冻结不动，话筒静止。除其声音与环境嗡鸣外，无其他声源。\n\n[SHOT 5/5, medium]\n最终镜头：官员独自立于讲台，呼吸沉重，双拳仍紧握。机器人主播屏幕显示 PRESS CONFERENCE ENDED。记者们静止不动，震惊无言。全场仅余数字显示屏微弱嗡鸣。他以低沉但坚定的语调说出最后一句，口型匹配广播音色：\"This ends now. We act — or we perish.\" 胸膛随呼吸起伏。无后续对话或动作；机器人主播静止，屏幕不变。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0096",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在一个静态的中景镜头中，以平视角度拍摄，一位留着尖刺发型、身穿皮夹克、脸颊带有发光义体植入物的年轻女性，静止站立在一条被雨水浸湿、霓虹闪烁的赛博朋克小巷中。她的表情明显困惑——眉头紧锁，头部微倾，嘴唇微张，正处于说话中途——她用女性中文声音说话，口型精准同步于：“等等，你刚才说的‘量子密钥’到底是指什么？我完全没听懂. 那个加密协议是用在哪个节点上的？” 背景持续传来低频工业贝斯、远处警笛声和间歇性的蒸汽嘶嘶声效。画面中不出现任何字幕。视觉风格：朋克。视频类型：vlog。情绪：全程保持稳定困惑。摄像机保持固定——禁止任何移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0098",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一个灯光昏暗、杂乱无章的新闻演播室，头顶的灯管闪烁不定。一位头发花白的老年男性新闻主播，身穿皱巴巴的西装，佝偻着身子坐在一张磨损的桌前，用沙哑、缓慢、悲伤的英语语调播报着沉重的新闻。他身后的大屏幕上播放着灾难现场的实时画面；窗外隐约传来警笛声。主播的口型与他所说出的每一个词完全同步：\"We have just received confirmation. the death toll has risen to over three hundred. There are no survivors in the northern sector. Our hearts go out to the families who are grieving tonight.\" 镜头：中近景，平视角度，标准镜头 —— 固定画面，无任何镜头移动。情绪：全程保持稳定悲伤。音效：背景叠加环境嗡鸣与警笛声，位于人声之下。视觉风格：写实。视频类型：游戏。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0099",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 一段科幻风格的 Vlog 多镜头序列，捕捉一对中年人类与他们发光的 AI 伙伴在霓虹浸染、雨痕斑驳的赛博朋克公寓内爆发的一场真实而悲伤的争吵，采用固定镜头构图，单声道音频仅聚焦于他们的对话。\n\n[SHOT 1/5, close_up]\n特写镜头聚焦于一位身穿磨损合成皮夹克的中年女性，双眼因哭泣泛红，站在闪烁的全息控制台旁。雨水在她身后的窗户上留下道道水痕。她声音颤抖，嘴唇微颤，泪水滑落，说着：\"You promised you’d come back. You said you’d fix this. But you just left me here — alone — with nothing but static and silence.\" 背景中隐约可见一位身穿破旧工装背心的中年男性，低头垂首，双手微颤。一个发出柔和蓝光的小型 AI 伙伴悬浮在她肩旁，光芒轻柔脉动。固定镜头，无移动。\n\n[SHOT 2/5, medium]\n身穿破旧工装背心的中年男性转身面向女性，表情痛苦，双肩下垂，目光回避直接接触。AI 伙伴缓缓靠近，试图插入两人之间。雨水继续在他们身后的窗户上流淌。他带着愧疚与悔意低声说话，声音紧绷，嘴唇缓慢开合，说着：\"I didn’t leave you. I was trying to save us. You think I wanted to walk away? You think I don’t feel this too?\" 女性仍在画面中，脸上仍挂着泪痕。固定镜头，无移动。\n\n[SHOT 3/5, medium]\n发光的 AI 伙伴悬浮在两人之间，蓝色光芒增强，试图调解。女性转过头去，用手背擦拭眼睛。男性微微伸出右手，却未触碰她。AI 的声音轻柔、平静，略带机械感，说着：\"Please. don’t do this. I can mediate. I can help you talk. Just. breathe.\" 雨水持续在他们身后的窗户上流淌。固定镜头，无移动。\n\n[SHOT 4/5, medium_close_up]\n女性转回头面向男性，声音已变轻，双眼仍红肿湿润。他的手仍伸着，微微颤抖。AI 伙伴的光芒略微暗淡，专注注视着他们。她带着疲惫与认命的语气说话，嘴唇几乎不动，说着：\"I just. I don’t know how to fix this anymore. I’m tired of pretending.\" 男性的脸仍低垂，目光固定在地板上。固定镜头，无移动。\n\n[SHOT 5/5, medium]\n男性缓缓放下伸出的手。女性凝视着他，泪水仍无声滑落。AI 伙伴缓缓下沉，光芒趋于稳定，静静观察他们，不再说话。窗外雨声持续。他带着沉静的悲伤开口，声音饱含情绪，嘴唇刻意缓慢开合，说着：\"I’m sorry. I don’t know how to fix it either. But I’m here. I’m not leaving again.\" 定格镜头，无移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0100",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一段手持拍摄的厨房内景vlog，光线昏暗：一位30多岁、短黑发、系着红色围裙的女性僵直站立，双拳紧握，皱眉直视镜头。她的声音响亮、尖锐、充满怒气——以德语女声说出：\"Ich kann nicht glauben, dass du das getan hast! Das war mein letzter Kaffee, und jetzt ist er weg! Was denkst du dir eigentlich?\" 她的口型必须与德语对白精准同步。背景中，冰箱持续嗡嗡作响，远处偶尔传来狗吠——两者均在画面外，可闻但不可见。台面杂乱，咖啡机冒着热气，雨水顺着窗玻璃流下。镜头为中近景，平视角度，标准镜头——画面概念上固定，无任何运镜。视觉风格：写实。情绪：全程保持愤怒。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0101",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格的室内体育演播室，多音源音频包含女性解说员与卡通吉祥物用中文进行现场篮球解说，全程保持中性情绪，背景伴有观众欢呼与裁判哨声。\n\n[SHOT 1/4, medium]\n一位30多岁的女性体育解说员，身穿职业西装外套、佩戴耳机，坐在桌前面对笔记本电脑，目光紧盯直播画面。她身旁的卡通吉祥物身穿球衣，正热情挥舞扩音器。明亮的演播室灯光照亮全场，背景大屏幕实时播放篮球比赛画面。她以平稳清晰的语调开始解说，口型精准同步于台词：\"比赛进入最后两分钟，比分胶着，双方都拼尽全力。\" 背后观众欢呼声逐渐增强，与持续的体育解说音频自然融合。\n\n[SHOT 2/4, close-up]\n特写镜头聚焦解说员面部——妆容专业、神情专注、耳机紧贴耳廓——她继续叙述。吉祥物在虚化背景中仍可见，持续挥舞扩音器。身后大屏幕显示球员腾空投篮的关键瞬间。她语气保持中性，说出：\"观众席上欢呼声此起彼伏，现场气氛紧张到极点。\" 同时，卡通吉祥物的声音以重复短促形式回响：\"加油！我们一定能赢！\" 裁判哨声穿插于环境音中，叠加在持续解说音频之下。\n\n[SHOT 3/4, wide]\n广角镜头展现整个演播室：解说员已起身，指向大屏幕上的比分特写。吉祥物在她身旁活力跳跃，高举扩音器。演播室灯光均匀照亮布景。观众欢呼声加剧，她清晰说出：\"双方都拼尽全力，比赛进入白热化阶段。\" 她姿态生动，口型精准同步每一音节。裁判哨声再次响起，与持续环境音融合。无镜头移动——画面固定，捕捉现场解说高潮时刻。\n\n[SHOT 4/4, medium]\n中景镜头切回解说员重新落座，姿态放松、神情满足，结束报道。身旁吉祥物仍持扩音器，但跳跃动作已放缓。身后大屏幕显示最终比分。她以平静清晰的语调说出结束语：\"比赛结束，主队以一分险胜，真是精彩绝伦！\" 口型依旧精准，语气中性。背景观众欢呼声渐弱，解说结束。未引入新对话或音源——音频仍为多音源，但锚定于两位发言人与环境背景。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0102",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位三十多岁的女性博主，身穿深色外套，独自站在黄昏时分的安静公园中，固定中近景平视镜头下可见她眼含泪水、嘴唇微颤。她用悲伤的女声对着镜头轻声说中文，口型精准同步于：“我今天真的很难过，不知道为什么，眼泪一直止不住。” 她身后是一张略微失焦的木质公园长椅；散落的秋叶与光秃的树木构成背景。持续的环境音效包括轻微的树叶沙沙声与远处鸟鸣。无镜头移动。情绪状态全程保持悲伤。视觉风格写实。视频类型为vlog。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0103",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 五镜头写实游戏引擎场景，展现一场欢乐的法国商务会议，四名角色（三人一卡通猫吉祥物）用法语发言，广播音色，情绪稳定愉悦；所有音频仅为人类语音，无环境音或音乐；每镜头固定机位。\n\n[SHOT 1/5, medium shot]  \n中景：一位中年法国女商人，身着剪裁合体西装，金发，红唇，佩戴金项链，坐于现代会议桌主位，阳光透过大窗洒入。她双手温暖地比划着，笑容灿烂，以广播音色发言：\"Bonjour à tous, je suis ravie de vous voir ici pour cette réunion stratégique !\" 她身后，一位年轻法国男子穿休闲西装外套，身体前倾，热情点头；一位白发老年法国女性佩戴珍珠胸针，轻拍手掌。一只卡通风格橙毛猫吉祥物身穿小西装，坐在椅臂上挥动爪子，尾巴轻抖。所有角色明显愉悦，无镜头移动。\n\n[SHOT 2/5, medium shot]  \n中景聚焦年轻法国男子，棕短发，戴眼镜，穿蓝色衬衫，兴奋前倾，双手在空中比划，以广播音色发言：\"Oui, c’est une excellente opportunité — je propose qu’on lance le projet dès la semaine prochaine !\" 他身旁的中年女商人点头微笑。背景中老年女性持续轻拍手掌。卡通猫吉祥物在椅上轻微弹跳，咧嘴笑。氛围充满活力与协作感，自然日光充满极简风格房间，无镜头移动。\n\n[SHOT 3/5, close-up]  \n特写：老年法国女性，灰发，珍珠胸针，红围巾，喜悦泪水在眼中闪烁，用力拍手并以广播音色发言：\"Je suis entièrement d’accord ! C’est un moment historique pour notre équipe !\" 背景虚化处，中年女商人与年轻男子相拥，笑容灿烂。卡通猫吉祥物已站上桌面，双爪夸张挥舞。情绪达到高潮，光线自然，无镜头移动。\n\n[SHOT 4/5, wide shot]  \n全景：整个会议室，所有角色起立欢呼。中年女商人举杯，笑容依旧灿烂。年轻男子握拳挥臂。老年女性持续鼓掌。卡通猫吉祥物跳上桌面，双爪高举，尾巴狂甩。吉祥物以广播音色发言：\"Miaou ! Félicitations à tous — c’est un grand jour pour l’entreprise !\" 氛围欢庆团结，极简家具在自然光下清晰可见，无镜头移动。\n\n[SHOT 5/5, medium shot]  \n中景：中年法国女商人仍坐于会议桌主位，温暖微笑，以最终点头结束会议，广播音色发言：\"Merci à tous — à la semaine prochaine, avec encore plus d’enthousiasme !\" 年轻男子与老年女性正在收拾包袋，仍面带微笑。卡通猫吉祥物安静坐于椅上，双爪交叠，神情满足。氛围温暖而圆满，自然日光持续，无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0104",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 手持式vlog镜头，拍摄于霓虹灯照亮的科幻实验室走廊内：两名身穿光滑反光紧身服的人类面向镜头，笑容灿烂。一位中年女性科学家身穿银色紧身服，戴着手套和头戴式耳机，用广播语气欢快地说日语：“この実験は成功です！未来の医療がここから始まります！” 一位男性工程师身穿蓝色紧身服，戴着护目镜和腕部设备，咧嘴一笑并竖起大拇指，同时说道：“最高のチームワーク！この成果は世界を変えるよ！” 他们身后，一个悬浮的球形机器人闪烁着蓝色光芒，发出轻柔的哔哔声。画外传来机器人声音，欢快地叙述。镜头静止，平视角度，中景，标准镜头。无屏幕文字。情绪：全程欢快。唇形与每位说话者的对话精准同步。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0105",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格的多镜头序列，场景为昏暗的广播电台录音室，画外传来一位老年男性的低沉海事广播声；声音层次包含持续的环境嗡鸣与重复的纸张翻动声；无可见说话者，镜头固定，全程情绪中性。\n\n[SHOT 1/4, close_up]\n特写镜头聚焦于一台复古广播控制台，柔和的琥珀色光晕照亮旋钮与开关；一盏红色录音指示灯稳定闪烁。无人入镜。画外一位老年广播员以沉稳、匀速的语调开始播报：\"Good evening, listeners. Tonight we revisit the forgotten archives of the 1950s maritime expeditions.\" 声音略带沙哑，符合年长者特征，情绪保持中性。广播下方持续有微弱环境嗡鸣，无其他声源。画面固定，无镜头运动。\n\n[SHOT 2/4, medium]\n中景镜头轻微偏移，展现一叠泛黄的记录簿置于磁带录音机旁，尘埃在昏暗光线下漂浮。画外老年广播员继续平稳播报：\"The first log begins at 22:00 hours, when the crew of the 'Northern Star' first encountered the ice field.\" 纸张翻动声间歇出现，与叙述节奏同步。声音保持中性、不疾不徐，因说话者不在画面内，无可见唇部动作或面部表情。镜头固定，无移动、无摇摄或俯仰。\n\n[SHOT 3/4, extreme_close_up]\n俯拍极端特写镜头，展示一只手翻动记录簿中脆弱的纸页，墨迹褪色、边缘磨损。画外老年广播员略微压低语调：\"They reported no wind, only the creaking of the hull against the ice. No one saw the whale until it surfaced.\" 环境嗡鸣持续低沉地衬托人声。无可见嘴部或面部，仅手与纸页入镜。镜头固定，无移动、无变焦或推拉。声音音色不变，中性而从容。\n\n[SHOT 4/4, medium]\n中景镜头切回录音室主麦克风，泡沫防风罩略歪，孤零零立于昏暗顶灯下。画外老年广播员收尾：\"The log ends there. No further transmission. The 'Northern Star' was never found.\" 声音稳定，无语调起伏，无情绪变化。无可见主体，无唇动，无手势。环境嗡鸣与微弱纸张窸窣声持续作为背景。镜头固定，无移动、无跟拍或变焦。最终画面随广播结束渐隐。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0106",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一位中年男性影评人身着深色西装领带，僵直地站在昏暗的电影工作室控制室内，眉头紧锁，手势凌厉，配合他用英语播报时愤怒的语调：\"This film’s pacing is an insult to the audience — it drags like a corpse through mud, and the dialogue? Unforgivably wooden.\" 他的口型精准有力，与持续播放的电影评论音频完全同步。背景中持续传来环境嗡鸣声与隐约的键盘敲击声。镜头为固定中景，平视角度，标准镜头——无任何摄像机运动。情绪状态全程保持愤怒。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0107",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头序列，捕捉大学讲堂中一名男教授从平静到愤怒的情绪弧线，展现其在学生对峙中逐步升级的演讲，包含多源音频与固定机位构图。\n\n[SHOT 1/5, medium]\n一位中年男教授身穿粗花呢夹克，灰发戴眼镜，站在讲台前，神情严肃，以沉稳语调向学生讲话。他身后屏幕上显示一个卡通风格的AI助手，界面呈平静的蓝色。自然日光洒满木质讲堂。他说：\"Today’s topic is the ethical boundaries of AI deployment in public infrastructure. Let us begin with foundational principles—no disruptions, please.\" 学生们整齐就座，笔记本摊开，笔尖悬停。氛围专注安静，唯闻其声。\n\n[SHOT 2/5, close_up]\n低角度特写教授面部，他话说到一半突然停顿，明显不悦。前排一名穿连帽衫的年轻女学生举手，笔记本搁在膝上，笔攥得发紧。AI助手界面轻微闪烁。天光渐暗，顶灯亮起。他说：\"I said no disruptions. Please wait for Q&A.\" 她打断道，声音尖锐：\"But your framework ignores real-world harm! How can you ignore that?\" 他下颌紧绷，双唇抿成一线，眼神锐利。\n\n[SHOT 3/5, medium_close_up]\n平视中近景，教授右手猛拍讲台，指节发白，面色涨红。女学生微微后缩，连帽衫拉得更紧。AI助手界面闪现红色后恢复蓝色。他怒吼：\"You dare question the integrity of this course? This is not a debate club!\" 声音因音量升高而嘶哑，额头青筋暴起。教室气氛紧绷，学生不安挪动，目光在两人间游移。\n\n[SHOT 4/5, full_shot]\n高角度全景镜头：教授僵立讲台，面红耳赤；女学生从座位起身，大声回击。AI屏幕熄灭为黑屏。顶灯忽明忽暗。他吼道：\"If you cannot respect academic discourse, leave this classroom now!\" 她反击：\"You’re the one disrespecting ethics by silencing dissent!\" 其他学生仍坐着，僵住不动，有人偷瞄门口。\n\n[SHOT 5/5, medium]\n中景镜头，教授独自站在讲台，呼吸急促，面色未褪，胸膛起伏。学生已离场，AI屏幕漆黑。顶灯投下冷光。他压低声音，却因愤怒而颤抖：\"This is why we need discipline. Without it, chaos reigns. I will not tolerate this disrespect.\" 双手紧抓讲台边缘，指节泛白。教室寂静，唯余他粗重的喘息。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0108",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 一个紧张、昏暗的公寓客厅，夜晚：一位30多岁的女性穿着皱巴巴的衬衫，明显因恐惧而颤抖，站在窗边紧握手机——她的声音从惊慌转为愤怒，大喊：“你居然敢骗我？！我以为你是我最信任的人——现在告诉我，那些文件到底去哪了？！” 她的口型与女性中文语音中逐渐升高的怒气完全同步。房间另一侧，一位40多岁的女性身穿正式西装外套，双臂交叉、表情严肃，冷静回应：“冷静点。你太情绪化了，这对你没好处。” 一只拟人化的拉布拉多犬在沙发上轻声呜咽。雨点持续敲打玻璃；远处房间传来微弱的电视新闻播报。情绪弧线：惊慌 → 愤怒。固定中景镜头，平视角度，标准镜头。无镜头移动。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0109",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实风格广告，展示一名10岁女孩在新闻发布会上发表情感充沛的演讲，情绪从悲伤转为愤怒，包含多源音频（环境低语与相机快门声），屏幕中文字强化教育公平主题。\n\n[SHOT 1/4, medium]\n中景镜头：一名10岁女孩身着正式校服——黑色双马尾、圆框眼镜、白衬衫配藏青色短裙——站在讲台后，低头垂首，双手颤抖紧握讲台边缘，脸颊可见泪痕。她声音轻柔颤抖，说道：\"我每天都要走三公里山路去上学，可校车却从来不经过我们村..为什么？就因为我们穷吗？\" 背后记者低声议论；屏幕下方新闻横幅显示“山区儿童校车问题引发社会关注”。一名穿深色西装的中年男记者身体前倾，持麦克风质疑地注视她。灯光聚焦讲台，观众席处于柔和阴影中。\n\n[SHOT 2/4, close_up]\n特写镜头：女孩缓缓抬头，红肿双眼直视前方，声音逐渐提高、语气增强。嘴唇随每个字清晰开合，她说道：\"你们这些大人，天天开会，却连一个孩子的路都修不好！\" 一名记者将麦克风贴近她嘴边。右上角浮现白色无衬线字体文字：“孩子的眼泪，是社会的镜子”。她表情由悲伤转为控诉，下颌紧绷。背景略微虚化，突出她情绪转折。环境音层包含逐渐升高的低语与相机快门声。\n\n[SHOT 3/4, wide]\n全景镜头：整个新闻发布厅。女孩挺直站立，双拳紧握讲台，放声高喊。身后大屏幕显示红色粗体字“教育公平，刻不容缓”。记者们震惊静默；一名戴红色领结的卡通熊吉祥物正奋笔疾书。女孩声音响彻全场，她宣告：\"我要让全世界知道，我们不是被遗忘的孩子！\" 环境音层包含重复的相机快门声与就座记者的低语。灯光依旧戏剧化，聚光灯打在讲台，观众席暗淡。\n\n[SHOT 4/4, extreme_close_up]\n极特写镜头：女孩面部——泪水已干，眼神燃烧着坚定。她右手猛然拍击讲台，声音清脆决绝。嘴唇用力咬字，她说道：\"改变，就从今天开始！\" 背后屏幕切换为“支持山区儿童，从改变开始”并附二维码。人群低语持续。她表情坚毅，下颌紧锁，眉头紧蹙。画面中无其他主体，仅聚焦她最终宣言。灯光集中，眼窝下投射锐利阴影。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0110",
     "category": "speech",
     "shot_count": "single_shot",
     "prompt": "[OVERALL] 在一间光线昏暗、安静的采访室内，一位眼神疲惫、姿态颓丧的中年男子，身穿深色毛衣，以沉重颤抖的男声带着悲伤情绪说道：“I just. I don't know how to say it. She was everything to me. And now. nothing feels real anymore.” 他对面，一位表情温柔的年轻女子，身穿浅色衬衫，轻声回应：“You don’t have to say it all at once. Just breathe. I’m here.” 画面为静态、平视中景双人镜头，以写实影视风格捕捉他们的口型同步对话。无背景音效——仅保留两人声音。无镜头移动。情绪全程稳定且悲伤。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   },
   {
     "id": "speech_0111",
     "category": "speech",
     "shot_count": "multi_shot",
     "prompt": "[OVERALL] 现实主义影视风格多镜头序列，展现一位快乐的男性演讲者在阳光洒满的客厅中进行直播旅行分享，环境音包含狗吠与城市背景噪音；无摄像机运动，全程固定构图。\n\n[SHOT 1/5, medium shot]  \n一位穿着休闲毛衣的中年男子，面带灿烂笑容，坐姿端正，将智能手机朝向镜头开始直播。阳光透过薄纱窗帘洒入，照亮他身后的尘埃微粒。他轻声笑出，眼神明亮，说道：\"Hey everyone! Welcome back to the channel — today we’re diving into my favorite travel hacks for Europe.\" 窗边传来小狗的轻吠，与钟表滴答声和远处城市嗡鸣交织。背景可见书架与盆栽。他的口型与清晰、欢快的英文男声同步，情绪稳定在喜悦状态。\n\n[SHOT 2/5, medium close-up]  \n镜头拉近，聚焦同一男子，他微微前倾，眼神闪烁，用空闲的手做手势。他全程专注面对镜头，忽略画外更响亮的狗吠。钟表轻柔的滴答声持续于他语声之下，他说道：\"I just got back from Lisbon and let me tell you, the pastel tiles alone are worth the trip!\" 毛衣与短发清晰可见，牛仔裤部分入镜。城市背景噪音持续。无摄像机运动——固定平视标准镜头。表情保持喜悦，语调温暖亲切。\n\n[SHOT 3/5, full shot]  \n更广视角显示主持人已起身，边走动边手持手机对准自己。他指向身后书架上的一张相框，说道：\"Look at this view — I took this from the top of the castle. You can see the whole city!\" 狗吠渐弱为呜咽，短暂被远处汽车喇叭声取代。自然光仍洒满房间。他穿着牛仔裤与休闲毛衣，姿态放松但充满活力。音频包含持续的直播人声与单次环境狗吠。固定镜头，无移动。情绪始终喜悦。\n\n[SHOT 4/5, close-up]  \n特写镜头聚焦其面部，他身体前倾，笑容转为真诚温暖。他短暂停顿，呼吸可见，随后说出下一句：\"Pro tip: Always carry a small notebook. You’ll jot down memories you’d otherwise forget.\" 城市背景噪音在他稳定清晰的英文语声后略微增强。此处无狗吠，但钟表滴答声仍在。口型精准，表情放松真诚。固定平视标准镜头。无摄像机运动。情绪不变——喜悦、亲切。\n\n[SHOT 5/5, medium shot]  \n镜头回到中景，他重新坐下，将手机放在边桌。他咧嘴大笑挥手告别，此时狗吠最后一次响起。他说道：\"Thanks for hanging out — don’t forget to like and subscribe. See you next week!\" 钟表轻柔滴答声伴随他欢快的结束语。书架与植物仍可见，阳光保持一致。固定镜头，无移动。毛衣、短发与牛仔裤清晰可见。音频融合直播人声与单次狗吠。全程情绪稳定在喜悦状态。",
-    "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+    "compiled_by": "proprietary"
   }
 ]

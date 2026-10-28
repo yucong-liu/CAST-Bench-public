@@ -1,6 +1,6 @@
 ﻿## 中文提示词 → hunyuan 格式改写脚本
 
-用本地 vLLM 起的 **Qwen3-VL-235B-A22B-Instruct** 服务，把
+用本地 vLLM 起的 **OpenAI 兼容 LLM** 服务，把
 `t2av-bench/prompts/zh/*.json`（9 个类别）里的结构化中文提示词，改写成
 [t2va_single_captions_300_5s_15s.csv](./prompt_trans/exp/t2va_single_captions_300_5s_15s.csv) /
 [t2va_multi_captions_300_5s_15s.csv](./prompt_trans/exp/t2va_multi_captions_300_5s_15s.csv)
@@ -14,10 +14,10 @@
 简言之在 8 卡机上：
 
 ```bash
-cd /path/to/Qwen3-VL-235B_prompt
-./scripts/start_qwen3vl.sh
+cd /path/to/llm_serving
+./scripts/start_llm_server.sh
 ./scripts/status.sh
-curl -s http://127.0.0.1:8080/v1/models   # 期望看到 Qwen3-VL-235B-A22B-Instruct
+curl -s http://127.0.0.1:8080/v1/models   # 期望看到你的模型名
 ```
 
 ### 2. 运行
@@ -41,7 +41,7 @@ python rewrite_zh_to_hunyuan.py --categories speech --shot-count single
 python rewrite_zh_to_hunyuan.py --overwrite
 ```
 
-- 默认走 `http://127.0.0.1:8080/v1`、`api_key=EMPTY`、`model=Qwen3-VL-235B-A22B-Instruct`；可用环境变量覆盖：`QWEN_BASE_URL / QWEN_API_KEY / QWEN_MODEL`。
+- 默认走 `http://127.0.0.1:8080/v1`、`api_key=EMPTY`、`model=<your-model>`；可用环境变量覆盖：`LLM_BASE_URL / LLM_API_KEY / LLM_MODEL`。
 - 并发 = 线程数，vLLM 侧自然排队。
 - **断点续跑**：脚本会读取已有 CSV，跳过已完成的 `id`；`--overwrite` 才会重跑。
 - 每完成 ~5% 阶段性 flush 一次，中途 Ctrl-C 也不会丢已完成结果。
@@ -94,5 +94,5 @@ num_frames, scene_shot_detail, seed
 
 ### 5. 与其它工程的关系
 
-- 本脚本**不启动 LLM 服务**，只当 vLLM 的客户端；服务由 [Qwen3-VL-235B_prompt](../../../Qwen3-VL-235B_prompt/README.md) 工程 `start_qwen3vl.sh` 拉起。
+- 本脚本**不启动 LLM 服务**，只当 vLLM 的客户端；服务由你自己的 LLM 服务工程拉起（任意 OpenAI 兼容端点）。
 - 与 [t2av-bench 主流程](../../SETUP.md) 使用**同一个 vLLM 进程**，无状态、互不影响。

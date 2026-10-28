@@ -38,7 +38,7 @@
        LLMClient ←─────────── factory.get_client() ──────────→ LLMClient
           │                                                   │
           ↓                                                   ↓
-       QwenClient (生产) / MockClient (开发)
+       LLMClient (生产) / MockClient (开发)
 ```
 
 ## 三个补丁在代码中的落点
@@ -58,19 +58,19 @@
 - 本阶段尚未实施，留给后续 `eval/` 层处理（spec 冻结后开工）
 - 本工程通过 `dimensions_hit` 字段提供候选列表，`eval/evaluators/` 决定保留/转 VQA/删除
 
-## 千问 LLM 部署点
+## LLM 部署点
 
-只有一个文件需要关心：`src/t2av_bench/llm/qwen_client.py`。
+只有一个文件需要关心：`src/t2av_bench/llm/llm_client.py`。
 
 部署步骤：
 1. 阿里云 DashScope 拿到 API key
 2. `export DASHSCOPE_API_KEY=sk-xxx`
 3. `cp config/default.yaml config/local.yaml` 并按需调整 model / temperature
-4. `python scripts/02_generate_specs.py --category speech --n 5 --provider qwen`
+4. `python scripts/02_generate_specs.py --category speech --n 5 --provider openai_compat`
 
-如果你想换成自托管千问（vLLM/OpenAI-compatible 推理服务）：
-- 修改 `config.llm.qwen.base_url` 为你的服务地址
-- `qwen_client.py` 不用动（OpenAI SDK 已经处理）
+如果你想换成自托管模型（vLLM / OpenAI-compatible 推理服务）：
+- 修改 `config.llm.openai_compat.base_url` 为你的服务地址
+- `llm_client.py` 不用动（OpenAI SDK 已经处理）
 
 ## 关键约定
 
