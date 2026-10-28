@@ -192,9 +192,7 @@ SUMMARY_METRICS: list[dict[str, Any]] = [
     },
     {
         "g1": "音频表现和语义对齐", "g2": "听觉语义对齐", "metric": "说话人ID对齐",
-        # 两个维度各 1-5 分，合计 2-10 分；归一化用 100*(x-2)/8，
-        # 使最差（2 分）对应 0 分，而不是白送 20 分下限。
-        "direction": "up", "range": (2.0, 10.0),
+        "direction": "up", "range": (0.0, 10.0),
         "src_single": "id_consistency/score_out/judge/judge_summary_single_shot.csv",
         "src_multi":  "id_consistency/score_out/judge/judge_summary_multi_shot.csv",
         "fmt": "long", "model_col": "model", "value_col": "total_avg",
