@@ -1,7 +1,7 @@
 # Third-Party Notices
 
 CAST-Bench builds on several open-source projects. Portions of their code are
-vendored under `evaluation/` (and, in one case, under `visualization/`).
+vendored under `evaluation/`.
 **Each component remains under its original license**, and those licenses take
 precedence over the repository's MIT license for the corresponding files.
 

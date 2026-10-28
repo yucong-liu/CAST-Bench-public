@@ -328,7 +328,7 @@ MODELS=my_new PHASES=A bash run_all_experts.sh
 
 Phase D 由 `aggregate_18_metrics.py` 自动跑, **无需手动调用** (除非你想改参数重新汇总).
 
-指标来源、归一化区间、方向和权重都定义在 [visualization/build_index.py](../visualization/build_index.py) 的 `SUMMARY_METRICS` 与 `METRIC_WEIGHT_*` 常量里, `aggregate_18_metrics.py` 动态 import 后直接调用其中的 `build_score_summary()`, 所以网页前端和这里的汇总是同一套规则.
+指标来源、归一化区间、方向和权重都定义在 [scoring.py](scoring.py) 的 `SUMMARY_METRICS` 与 `METRIC_WEIGHT_*` 常量里, `aggregate_18_metrics.py` 动态 import 后直接调用其中的 `build_score_summary()`.
 
 **single / multi 两档.** 每个评测点除全样本的 `compare_summary*.csv` 外, 还按 spec 的 `shot_count` (`single_shot` / `multi_shot`) 额外输出 `<原文件名>_single.csv` / `<原文件名>_multi.csv` (已按维度拆分的表, 后缀加在维度名后, 如 `compare_summary_PQ_single.csv`). 划分由公共 helper [`_common/spec_kind.py`](_common/spec_kind.py) 完成: 它扫描 `t2av-bench/specs/*.jsonl` 构造 `spec_id → shot_count_kind`; 视频统一命名为 `{spec_id}.mp4`, 所以只记录 `video_path` 的结果也能按文件名反查. specs 目录可用 `T2AV_SPECS_DIR` 覆盖, 自检: `python3 _common/spec_kind.py --show count`. 开源模型 LTX-2.3 / Ovi / daVinci-MagiHuman 只生成单镜头视频, 它们在 multi 表中的列为空属于预期.
 
@@ -393,7 +393,7 @@ overall = 0.5 · mean(重点组中有分数的 norm) + 0.5 · mean(其余组中�
 
 **参评模型与奖牌.** single 档包含 `models.tsv` 里的全部模型; multi 档排除不支持多镜头生成的 LTX-2.3 / Ovi / daVinci-MagiHuman. 两档各自按总分排序, 前 3 名记 gold / silver / bronze.
 
-**修改规则.** 来源 / 区间 / 方向改 `visualization/build_index.py` 的 `SUMMARY_METRICS`; 权重改同文件的 `METRIC_WEIGHT_HEAVY` (重点组集合)、`METRIC_WEIGHT_HEAVY_TOTAL` (重点组总权重) 和 `METRIC_WEIGHT_REST_TOTAL` (其余组总权重).
+**修改规则.** 来源 / 区间 / 方向改 `scoring.py` 的 `SUMMARY_METRICS`; 权重改同文件的 `METRIC_WEIGHT_HEAVY` (每个重点指标的权重)、`METRIC_WEIGHT_PRIORITY` (重点指标名单) 和 `METRIC_WEIGHT_REST_TOTAL` (其余指标的总权重).
 
 ### 4.3 产出 (evaluation/runs_summary/)
 
@@ -525,4 +525,3 @@ evaluation/
 - `../qwen3omni_deploy/` — Qwen3-Omni 推理依赖的安装脚本 (`setup_all.sh` 的 `qwen3_omni_service` 步骤调用)
 - `../Qwen3-VL-235B_prompt/` — Qwen3-VL 服务侧, 提供 `scripts/start_qwen3vl.sh`
 - `../t2av-bench/` — 数据侧, 提供 `specs/*.jsonl` 和 `questions/*.jsonl` 给评测用
-- `../visualization/` — 前端侧, 消费 evaluation 产物, 提供网页可视化 (18 项分数树形表)

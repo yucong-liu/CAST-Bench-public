@@ -1,4 +1,4 @@
-﻿# T2AV-Bench 环境搭建与运行指南（SETUP.md）
+# T2AV-Bench 环境搭建与运行指南（SETUP.md）
 
 > 本文档记录从 0 把 [`t2av-bench`](./README.md) 工程跑起来的完整步骤，重点是
 > **如何复用同机的 [`Qwen3-VL-235B_prompt`](../Qwen3-VL-235B_prompt/README.md) 工程
@@ -291,7 +291,6 @@ python3 scripts/run_all_persistent.py --top-n 10 --num-gpus 8 2>&1 | tee logs/ru
 - `daVinci-MagiHuman_test/`
 - `LTX-2.3_test/`
 - `Ovi_test/`
-- `visualization/`
 - `qwen3omni_deploy/`
 - `generation/`
 - `evaluation/`
@@ -319,7 +318,6 @@ grep -rl "/path/to" <target_dir> \
 | [`src/t2av_bench/spec/validator.py`](./src/t2av_bench/spec/validator.py) | 镜头数硬约束由 `5<=n<=10` 放宽为 `2<=n<=9` |
 | [`src/t2av_bench/spec/generator.py`](./src/t2av_bench/spec/generator.py) | 新增 `n_shots_seq` 参数；对每条 spec 在 system prompt 里注入 `shots[] MUST contain EXACTLY {N} items` 与叙事连贯段的动态 N |
 | [`scripts/02_generate_specs.py`](./scripts/02_generate_specs.py) | 新增 `--shot-dist` CLI（默认 `0.5:1:3:4.5:1`）与 `_build_n_shots_seq()`（largest-remainder 一次分档到 2/3/4/5/6-9，二次把 6-9 桶均匀展开到 6/7/8/9），并 round-robin 打散顺序 |
-| [`../visualization/build_index.py`](../visualization/build_index.py) | 维度统计弹层新增全局轴 `n_shots`（镜头数细分），single_shot 计 1，multi_shot 按 `len(shots)` 归档（旧数据 >=10 归 `10+` 桶）；档位按自然序 1→9→10+ 显示 |
 
 ### 生成阶段的约束链
 1. `02_generate_specs.py` 先按 `--multi-shot-ratio` 决定 single/multi 配额；
@@ -370,14 +368,4 @@ python scripts/05_build_coverage_matrix.py \
 >
 > `--concurrency 8` 建议按 vLLM 实际并发上限调整；LLM 侧本身有 batching，串行 (1) 也能跑，
 > 只是慢一些。生成阶段建议 8 卡 vLLM 起步；翻译脚本内部是单线程串行（vLLM 自己 batch）。
-
-### 可视化侧同步刷新
-
-生成完 specs / prompts 后，让可视化重建索引：
-
-```bash
-cd /path/to/workspace/visualization
-python build_index.py     # 会重新计算 stats，其中包含新增的 n_shots 轴
-# 前端刷新页面 → 顶部 "📊 维度统计" 弹层里会看到 "镜头数(细分)" 全局轴
-```
 
