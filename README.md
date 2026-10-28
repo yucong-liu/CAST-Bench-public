@@ -29,8 +29,7 @@ cast-bench/
 │   ├── vocab/        # label vocabularies
 │   ├── config/       # shared configuration
 │   └── docs/         # additional documentation
-├── evaluation/       # 17 evaluators + 18-metric aggregation
-├── visualization/    # scoring module (build_index.py) used by the aggregator
+├── evaluation/       # 17 evaluators + scoring.py (18-metric aggregation)
 ├── LICENSE
 └── THIRD_PARTY_NOTICES.md
 ```

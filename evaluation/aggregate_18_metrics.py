@@ -6,7 +6,7 @@ evaluation/aggregate_18_metrics.py
 
 18 项测评指标跨模型汇总脚本 (evaluation/ 侧)
 
-跟 visualization/ 前端**共用同一份分数映射规则** (从 visualization/build_index.py
+跟 visualization/ 前端**共用同一份分数映射规则** (从 evaluation/scoring.py
 动态 import SUMMARY_METRICS + build_score_summary), 保证 CSV 里的数字和前端
 渲染的树形分数表完全一致.
 
@@ -33,7 +33,7 @@ evaluation/aggregate_18_metrics.py
    # 只输出新模型行 (不推荐)
    python3 aggregate_18_metrics.py --models my_new_model --no-include-baseline
    # 自定义输出目录
-   python3 aggregate_18_metrics.py --output-dir /tmp/scores
+   python3 aggregate_18_metrics.py --output-dir /tmp/scores_2026Q3
 ================================================================
 """
 from __future__ import annotations
@@ -46,49 +46,41 @@ import os
 import sys
 from pathlib import Path
 from typing import Any
-_REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 # -----------------------------------------------------------------------------
 # 路径常量
 # -----------------------------------------------------------------------------
-EVAL_ROOT   = (_REPO_ROOT / "evaluation")
-VIZ_ROOT    = (_REPO_ROOT / "visualization")
-BUILD_INDEX = VIZ_ROOT / "build_index.py"
+_REPO       = Path(__file__).resolve().parents[1]
+WS          = Path(os.environ.get("CAST_BENCH_WS", str(_REPO)))
+EVAL_ROOT   = WS / "evaluation"
+SCORING     = EVAL_ROOT / "scoring.py"
 MODELS_TSV  = EVAL_ROOT / "models.tsv"
 
 # 基线模型 (若无 --no-include-baseline, 这些始终纳入汇总, 便于横向对比)
 # 与 visualization/build_index.py 里的 _SUMMARY_EXCLUDE_* 语义保持一致:
+#   - single 档不含 hunyuan_pretrain (多镜头预训练模型)
 #   - multi  档不含 LTX-2.3 / Ovi / daVinci-MagiHuman (非 generation/ 布局)
-_EXCLUDE_SINGLE = set()
+_EXCLUDE_SINGLE = {"hunyuan_pretrain"}
 _EXCLUDE_MULTI  = {"LTX-2.3", "Ovi", "daVinci-MagiHuman"}
 
 
 # -----------------------------------------------------------------------------
-# 动态 import visualization/build_index.py
+# 动态 import evaluation/scoring.py（总分计算的单一真源）
 # -----------------------------------------------------------------------------
-def _import_build_index():
-    """把 visualization/build_index.py 作为模块 import 进来."""
-    if not BUILD_INDEX.exists():
+def _import_scoring():
+    """把 evaluation/scoring.py 作为模块 import 进来."""
+    if not SCORING.exists():
         raise FileNotFoundError(
-            f"找不到 visualization/build_index.py: {BUILD_INDEX}\n"
-            f"该脚本依赖 visualization 工程里的 SUMMARY_METRICS 定义."
+            f"找不到 evaluation/scoring.py: {SCORING}\n"
+            f"该脚本依赖 scoring.py 里的 SUMMARY_METRICS / build_score_summary 定义."
         )
-    # 让 build_index.py 能找到它自己的 imports (sys.path)
-    if str(VIZ_ROOT) not in sys.path:
-        sys.path.insert(0, str(VIZ_ROOT))
-    spec = importlib.util.spec_from_file_location("viz_build_index", BUILD_INDEX)
+    spec = importlib.util.spec_from_file_location("cast_scoring", SCORING)
     if spec is None or spec.loader is None:
-        raise ImportError(f"importlib 无法加载 {BUILD_INDEX}")
+        raise ImportError(f"importlib 无法加载 {SCORING}")
     mod = importlib.util.module_from_spec(spec)
-    # 关键: 有些顶层代码在 import 时就会跑 (比如 print), 用 stderr 收集
-    _stderr_orig = sys.stderr
-    try:
-        sys.stderr = open(os.devnull, "w")  # 抑制 import 期间的 warnings
-        spec.loader.exec_module(mod)
-    finally:
-        sys.stderr.close()
-        sys.stderr = _stderr_orig
+    spec.loader.exec_module(mod)
+    mod.EVAL = EVAL_ROOT          # 统一用本脚本解析出的评测根目录
     return mod
 
 
@@ -309,9 +301,9 @@ def main():
             x.strip() for x in args.models.replace(",", " ").split() if x.strip()
         ]
 
-    # 3. 动态 import visualization/build_index.py
-    print(f"[info] importing {BUILD_INDEX} ...")
-    viz = _import_build_index()
+    # 3. 动态 import evaluation/scoring.py
+    print(f"[info] importing {SCORING} ...")
+    viz = _import_scoring()
 
     # 4. Monkey-patch: 把 SUMMARY_SINGLE_MODELS / SUMMARY_MULTI_MODELS
     #    替换为 (models.tsv 全量 ∪ --models 指定的模型), 应用 exclude 规则.
