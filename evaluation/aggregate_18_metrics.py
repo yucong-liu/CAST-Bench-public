@@ -6,7 +6,7 @@ evaluation/aggregate_18_metrics.py
 
 18 项测评指标跨模型汇总脚本 (evaluation/ 侧)
 
-跟 visualization/ 前端**共用同一份分数映射规则** (从 evaluation/scoring.py
+跟内网看板**共用同一份分数映射规则** (从 evaluation/scoring.py
 动态 import SUMMARY_METRICS + build_score_summary), 保证 CSV 里的数字和前端
 渲染的树形分数表完全一致.
 
@@ -58,7 +58,7 @@ SCORING     = EVAL_ROOT / "scoring.py"
 MODELS_TSV  = EVAL_ROOT / "models.tsv"
 
 # 基线模型 (若无 --no-include-baseline, 这些始终纳入汇总, 便于横向对比)
-# 与 visualization/build_index.py 里的 _SUMMARY_EXCLUDE_* 语义保持一致:
+# 与 scoring.py 里的 _SUMMARY_EXCLUDE_* 语义保持一致:
 #   - single 档不含 hunyuan_pretrain (多镜头预训练模型)
 #   - multi  档不含 LTX-2.3 / Ovi / daVinci-MagiHuman (非 generation/ 布局)
 _EXCLUDE_SINGLE = {"hunyuan_pretrain"}
@@ -197,7 +197,7 @@ def write_markdown(
 
     lines.append("# 18 指标跨模型汇总")
     lines.append("")
-    lines.append("> 数据来源: 各评测点 `runs/compare_summary_{single,multi}.csv` 的 `__ALL__` 行 (与 visualization 前端一致).")
+    lines.append("> 数据来源: 各评测点 `runs/compare_summary_{single,multi}.csv` 的 `__ALL__` 行 (与 scoring.py 一致).")
     lines.append(f"> 生成时间: {os.popen('date +%Y-%m-%dT%H:%M:%S').read().strip()}")
     lines.append("")
     if highlight_models:
@@ -292,7 +292,7 @@ def main():
     # 1. 加载 models.tsv 得到全量模型清单
     all_models = load_models_from_tsv(tsv_path)
     if not all_models:
-        print(f"[warn] {tsv_path} 里没读到任何模型, 只能用 build_index.py 内置清单")
+        print(f"[warn] {tsv_path} 里没读到任何模型, 只能用 scoring.py 的默认清单")
 
     # 2. 解析 --models 高亮清单
     highlight_models: list[str] = []
