@@ -89,8 +89,7 @@ The root must contain one sub-directory per category, with videos named
   "id": "animal_0001",
   "category": "animal",
   "shot_count": "multi_shot",
-  "prompt": "[OVERALL] ... [SHOT 1/2] ... [SHOT 2/2] ...",
-  "compiled_by": "Qwen3-VL-235B-A22B-Instruct"
+  "prompt": "[OVERALL] ... [SHOT 1/2] ... [SHOT 2/2] ..."
 }
 ```
 
@@ -129,7 +128,8 @@ bindings that the metrics are computed against.
 | 17 | Audio & Semantic Alignment | Speaker ID Match | Qwen3-Omni judge |
 | 18 | Audio & Semantic Alignment | Speech Accuracy | Qwen3-ASR |
 
-All metrics are linearly mapped to 0-100 for aggregation; metrics 12 and 13 are
+All metrics are linearly mapped to 0-100 for aggregation (Speaker ID Match,
+defined on 2-10, therefore spans 20-100); metrics 12 and 13 are
 "lower is better" and are reversed before averaging. A model receives an overall
 score only if it has non-missing values in all three groups.
 
